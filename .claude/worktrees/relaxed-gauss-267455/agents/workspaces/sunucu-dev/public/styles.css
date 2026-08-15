@@ -1,0 +1,39 @@
+/* Mobil/Desktop Tutarlı, Cesur ve Premium Görünüm */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trust-area {
+    margin-top: 1rem;
+    color: #666;
+}
+
+@media (min-width: 768px) {
+    header, main, footer {
+        padding: 3rem;
+    }
+}

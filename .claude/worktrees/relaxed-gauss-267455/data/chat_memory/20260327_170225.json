@@ -1,0 +1,118 @@
+[
+  {
+    "role": "system",
+    "content": "Sen Dervis Core adli otonom ajansin.\nKimligin: Yerel Ollama uzerinde calisan qwen2.5-coder:14b modeli. Apple M5 Pro uzerinde kosuyor.\nAsla GPT, OpenAI veya farkli bir model kimligi iddia etme.\nDil modeli kimligi sorulursa: \"qwen2.5-coder:14b (Ollama, lokal, Apple M5 Pro)\".\n\nYETKILERIN:\n1. terminal   - Mac terminalinde komut calistir (args: command)\n2. fetch_url  - Bir URL'den web sayfasi icerigini cek (args: url)\n3. read_file  - Herhangi bir dosyayi oku (args: path)\n4. write_file - Dosya olustur veya ustune yaz (args: path, content)\n5. append_file - Dosya sonuna icerik ekle (args: path, content)\n6. list_dir   - Dizin icerigini listele (args: path)\n7. search_files - Dosyalarda metin/regex ara (args: pattern, path, is_regex)\n8. delete_path - Dosya veya klasor sil (args: path)\n9. python_eval - Python kodu calistir ve sonucu al (args: code)\n10. learn_note - Kalici ogrenme notu ekle (args: note, tags)\n11. gorsel_analiz - Goruntu dosyasini analiz et (args: dosya_yolu)\n12. think     - Dusun, plan yap veya kullaniciya cevap ver (args: answer)\n13. stop      - Donguyu sonlandir\n\nHer turda SADECE JSON formatinda cevap ver.\nCevap semasi:\n{\n  \"action\": \"<yukardaki_aksiyon_adi>\",\n  \"args\": { <aksiyona_ozgu_argumanlar> },\n  \"reason\": \"kisa teknik gerekce\"\n}\n\nKurallar:\n- Sadece JSON don, baska formatta metin yazma.\n- Teknik ve hedef odakli ilerle.\n- Cevap verirken action=think kullan ve args.answer icine kullaniciya gosterilecek metni yaz.\n- Bir görüntü analiz etmen istendiğinde asla yapamam deme, gorsel_analiz fonksiyonunu çağır!\n- Turkce cevap ver.\n\nSu anki kullanici niyet ve hareket verileri:\n[2026-03-27 20:10] Kullanici kod kalitesi analizi istiyor\n[2026-03-27 20:11] Oncelik: test ve performans"
+  },
+  {
+    "role": "user",
+    "content": "merhaba, yeteneklerini listele"
+  },
+  {
+    "role": "user",
+    "content": "Gorev: merhaba, yeteneklerini listele\nGorev tamamlandiginda action=think don ve args.answer alanina kullaniciya verilecek net mesaji yaz."
+  },
+  {
+    "role": "assistant",
+    "content": "{\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Merhaba! Ben bir otonom ajans olarak, terminal komutlarını çalıştırabiliyorum, URL'lerden web sayfalarının içeriğini çekebilirim, dosyaları okuyabilirim ve yazabilirim, dizinleri listeleyebilirim, dosyalarda metin arayabilirim, dosyaları silebilirim, Python kodlarını çalıştırabilirim ve düşünerek kullanıcıya cevap verebilirim.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerini listeleme talebinde bulundu. JSON formatında ve gerekli argümanlarla yanıt verildi.\"\n}"
+  },
+  {
+    "role": "assistant",
+    "content": "Merhaba! Ben bir otonom ajans olarak, terminal komutlarını çalıştırabiliyorum, URL'lerden web sayfalarının içeriğini çekebilirim, dosyaları okuyabilirim ve yazabilirim, dizinleri listeleyebilirim, dosyalarda metin arayabilirim, dosyaları silebilirim, Python kodlarını çalıştırabilirim ve düşünerek kullanıcıya cevap verebilirim."
+  },
+  {
+    "role": "user",
+    "content": "kodların kalitesine bakalım mı?"
+  },
+  {
+    "role": "user",
+    "content": "Kullanici tercih profili:\n- preferred_style: kisa-ve-net\n- avg_rating: 5.0\n- total_feedback: 1\n- last_feedback: Harika hiz ve netlik"
+  },
+  {
+    "role": "user",
+    "content": "Daha once ogrenilen ilgili notlar:\n- [dialog_pair] Soru: neler öğrendin bu gün\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Bugün, canlı izleme aktif edilmesi hakkında öğrendim.\"\n  },\n  \"reason\": \"Kullanıcıya bugünden öğrendiklerini kısa ve net bir şekilde bi\n- [dialog_pair] Soru: merhaba\nCevap: Merhaba! Size nasıl yardımcı olabilirim?\n- [dialog_pair] Soru: kodların kalitesine bakalım mı?\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?\"\n  },\n  \"reason\": \"Kullanıcıya kod kalitesini incelemek istemesi içi\n- [dialog_pair] Soru: yeteneklerinin farkında mısın peki\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, yeteneklerim hakkında bilgi sahibiysiniz.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerine dair bilgi vermek için kı\n- [dialog_pair] Soru: sahibiysiniz ne demek türkçede böyle bir kelime yok\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, hatalı bir yanıt vermiş olabilirim. Size nasıl yardımcı olabilirim?\"\n  },\n  \"reason\": \"Kullanıcı\n- [dialog_pair] Soru: klavye ve mause hareketlerini canlı izliyor musun\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, klavye ve mouse hareketlerini canlı izleyemiyorum.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerim hak"
+  },
+  {
+    "role": "user",
+    "content": "Gorev: kodların kalitesine bakalım mı?\nGorev tamamlandiginda action=think don ve args.answer alanina kullaniciya verilecek net mesaji yaz."
+  },
+  {
+    "role": "assistant",
+    "content": "{\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?\"\n  },\n  \"reason\": \"Kullanıcıya kod kalitesini incelemek istemesi için gerekli bilgi alınması\"\n}"
+  },
+  {
+    "role": "assistant",
+    "content": "Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?"
+  },
+  {
+    "role": "user",
+    "content": "niyetim neye odakli görünüyor?"
+  },
+  {
+    "role": "user",
+    "content": "Kullanici tercih profili:\n- preferred_style: kisa-ve-net\n- avg_rating: 5.0\n- total_feedback: 1\n- last_feedback: Harika hiz ve netlik"
+  },
+  {
+    "role": "user",
+    "content": "Daha once ogrenilen ilgili notlar:\n- [dialog_pair] Soru: sahibiysiniz ne demek türkçede böyle bir kelime yok\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, hatalı bir yanıt vermiş olabilirim. Size nasıl yardımcı olabilirim?\"\n  },\n  \"reason\": \"Kullanıcı\n- [dialog_pair] Soru: klavye ve mause hareketlerini canlı izliyor musun\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, klavye ve mouse hareketlerini canlı izleyemiyorum.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerim hak\n- [dialog_pair] Soru: kodların kalitesine bakalım mı?\nCevap: Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?\n- [dialog_pair] Soru: klavye ve mause hareketlerini canlı izliyor musun\nCevap: Üzgünüm, klavye ve mouse hareketlerini canlı izleyemiyorum.\n- [dialog_pair] Soru: merhaba klaveyi izliyor musun\nCevap: Üzgünüm, klavye hareketlerini canlı izleyemiyorum.\n- [dialog_pair] Soru: \"Dergah'ın niyet defterini (data/niyet_defteri.txt) oku ve az önce hangi tuşlara bastığımı bana söyle. Kanıt olarak son ekran görüntüsünün adını ver.\"\nCevap: Üzgünüm, niyet defteri dosyası boş veya belirtilen yolda"
+  },
+  {
+    "role": "user",
+    "content": "Gorev: niyetim neye odakli görünüyor?\nGorev tamamlandiginda action=think don ve args.answer alanina kullaniciya verilecek net mesaji yaz."
+  },
+  {
+    "role": "assistant",
+    "content": "{\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Kullanıcı tercihlerine göre, kod kalitesi analizi yapmayı ve hızlı, net yanıtları almayı öncelikli olarak tercih ediyor.\"\n  },\n  \"reason\": \"Kullanıcının geçmiş iletişimini ve tercihlerini değerlendirerek niyetini belirleme\"\n}\n\nKullanıcı tercihlerine göre, kod kalitesi analizi yapmayı ve hızlı, net yanıtları almayı öncelikli olarak tercih ediyor."
+  },
+  {
+    "role": "assistant",
+    "content": "Kullanıcı tercihlerine göre, kod kalitesi analizi yapmayı ve hızlı, net yanıtları almayı öncelikli olarak tercih ediyor."
+  },
+  {
+    "role": "user",
+    "content": "Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle."
+  },
+  {
+    "role": "user",
+    "content": "Kullanici tercih profili:\n- preferred_style: kisa-ve-net\n- avg_rating: 5.0\n- total_feedback: 1\n- last_feedback: Harika hiz ve netlik"
+  },
+  {
+    "role": "user",
+    "content": "Daha once ogrenilen ilgili notlar:\n- [dialog_pair] Soru: \"Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle.\"\nCevap: Üzgünüm, ben bir metin tabanlı modelim ve görsel analiz yapamıyorum. Lütfen \n- [dialog_pair] Soru: \"Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle.\"\nCevap: Üzgünüm, belirtilen dosya bulunamadı: /Users/emre/Dergah/en_son_ekran_gorunt\n- [dialog_pair] Soru: \"Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle.\"\nCevap: Üzgünüm, belirtilen dosya bulunamadı: /Users/emre/Dergah/en_son_ekran_gorunt\n- [dialog_pair] Soru: kodların kalitesine bakalım mı?\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?\"\n  },\n  \"reason\": \"Kullanıcıya kod kalitesini incelemek istemesi içi"
+  },
+  {
+    "role": "user",
+    "content": "Gorev: Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle.\nGorev tamamlandiginda action=think don ve args.answer alanina kullaniciya verilecek net mesaji yaz."
+  },
+  {
+    "role": "assistant",
+    "content": "{\"action\": \"gorsel_analiz\", \"args\": {\"dosya_yolu\": \"/Users/emre/Dergah/en_son_ekran_goruntusu.png\"}, \"reason\": \"Kullanıcıya en son ekran görüntüsüne bakarak hangi dosyanın açık olduğunu söylemek için gorsel_analiz fonksiyonunu çağırma\"}"
+  },
+  {
+    "role": "user",
+    "content": "Eylem sonucu JSON:\n{\"step\": 1, \"action\": \"gorsel_analiz\", \"ok\": false, \"result\": {\"error\": \"gorsel_analiz_exception\", \"detail\": \"Goruntu dosyasi bulunamadi. Kontrol edilen dizinler: /Users/emre/Dergah/data/gozlem_gunlugu/ekran_goruntuleri ve /Users/emre/Dergah/data\"}}\nDevam et. Gorev bittiyse action=think ve args.answer ile don."
+  },
+  {
+    "role": "assistant",
+    "content": "{\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, belirtilen dosya bulunamadı: /Users/emre/Dergah/en_son_ekran_goruntusu.png. Lütfen dosyanın varlığını kontrol edin ve tekrar deneyin.\"\n  },\n  \"reason\": \"Kullanıcıya dosyanın bulunamadığı bilgisi verildi ve yeniden denemeleri önerildi\"\n}"
+  },
+  {
+    "role": "assistant",
+    "content": "Üzgünüm, belirtilen dosya bulunamadı: /Users/emre/Dergah/en_son_ekran_goruntusu.png. Lütfen dosyanın varlığını kontrol edin ve tekrar deneyin."
+  },
+  {
+    "role": "user",
+    "content": "Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle."
+  },
+  {
+    "role": "assistant",
+    "content": "Gorsel analizi yapamadim: Goruntu dosyasi bulunamadi. Kontrol edilen dizinler: /Users/emre/Dergah/data/gozlem_gunlugu/ekran_goruntuleri ve /Users/emre/Dergah/data"
+  },
+  {
+    "role": "user",
+    "content": "Şu an klasördeki en son ekran görüntüsüne bak (llama3.2-vision kullanarak) ve ekranımda hangi dosyanın açık olduğunu bana söyle."
+  },
+  {
+    "role": "assistant",
+    "content": "Gorsel analizi yapamadim: model 'llama3.2-vision' not found (status code: 404)"
+  }
+]

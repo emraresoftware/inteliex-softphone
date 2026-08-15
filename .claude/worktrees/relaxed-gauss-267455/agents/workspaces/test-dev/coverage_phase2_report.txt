@@ -1,0 +1,4 @@
+services/storage/observability coverage faz-2 uygulandi
+fileAdapter, requestLogStore ve databaseService injection hazir
+npm test -- --runInBand ok
+coverage detay olcum sonraki iterasyonda threshold hedefiyle devam edecek

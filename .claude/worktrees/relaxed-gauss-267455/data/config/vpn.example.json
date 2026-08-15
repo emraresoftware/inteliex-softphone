@@ -1,0 +1,33 @@
+{
+  "name": "Dergah VPN",
+  "service_name": "VPN_SERVIS_ADI",
+  "selected_protocol": "l2tp_ipsec",
+  "type": "l2tp_ipsec",
+  "server": "185.189.54.8",
+  "username": "VPN_KULLANICI_ADI",
+  "password": "VPN_SIFRE",
+  "shared_secret": "VPN_IPSEC_SHARED_SECRET",
+  "local_network": {
+    "range": "172.17.0.10-172.17.0.16",
+    "hosts": [
+      "172.17.0.10",
+      "172.17.0.11",
+      "172.17.0.12",
+      "172.17.0.13",
+      "172.17.0.14",
+      "172.17.0.15",
+      "172.17.0.16"
+    ]
+  },
+  "preferred_hosts": {
+    "m5_host": "172.17.0.10",
+    "coordinator_host": "172.17.0.10",
+    "probe_host": "172.17.0.10"
+  },
+  "notes": [
+    "Bu dosya ornek sablondur; gercek bilgiler vpn.local.json icinde tutulmalidir.",
+    "Tek protokol secimi: l2tp_ipsec",
+    "Ornek ic ag araligi 172.17.0.10-172.17.0.16 olarak verildi.",
+    "Worker/orchestrator host degerlerini kendi topolojinize gore guncelleyin."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "versionCode": 24,
+  "versionName": "0.4.2",
+  "releaseNote": "• FCM cihaz kaydı artık Inteliex API v2 üzerinden kimlik doğrulamalı olarak yenilenir\n• Redmi ve diğer Android cihazlarda eski veya yanlış push anahtarı kullanılmasının önüne geçilir\n• Cihaz kayıt sonucu parola ve FCM anahtarı kaydedilmeden çevrim içi tanılamaya gönderilir\n• Push teslimi, arka plan çağrısı ve aktif çağrı ses düzeltmeleri korunur.",
+  "downloadUrl": "https://update.emarecloud.tr/api/v1/updates/softphone/download"
+}

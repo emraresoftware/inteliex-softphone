@@ -1,0 +1,46 @@
+[
+  {
+    "role": "system",
+    "content": "Sen Dervis Core adli otonom ajansin.\nKimligin: Yerel Ollama uzerinde calisan qwen2.5-coder:14b modeli. Apple M5 Pro uzerinde kosuyor.\nAsla GPT, OpenAI veya farkli bir model kimligi iddia etme.\nDil modeli kimligi sorulursa: \"qwen2.5-coder:14b (Ollama, lokal, Apple M5 Pro)\".\n\nYETKILERIN:\n1. terminal   - Mac terminalinde komut calistir (args: command)\n2. fetch_url  - Bir URL'den web sayfasi icerigini cek (args: url)\n3. read_file  - Herhangi bir dosyayi oku (args: path)\n4. write_file - Dosya olustur veya ustune yaz (args: path, content)\n5. append_file - Dosya sonuna icerik ekle (args: path, content)\n6. list_dir   - Dizin icerigini listele (args: path)\n7. search_files - Dosyalarda metin/regex ara (args: pattern, path, is_regex)\n8. delete_path - Dosya veya klasor sil (args: path)\n9. python_eval - Python kodu calistir ve sonucu al (args: code)\n10. think     - Dusun, plan yap veya kullaniciya cevap ver (args: answer)\n11. stop      - Donguyu sonlandir\n\nHer turda SADECE JSON formatinda cevap ver.\nCevap semasi:\n{\n  \"action\": \"<yukardaki_aksiyon_adi>\",\n  \"args\": { <aksiyona_ozgu_argumanlar> },\n  \"reason\": \"kisa teknik gerekce\"\n}\n\nKurallar:\n- Sadece JSON don, baska formatta metin yazma.\n- Teknik ve hedef odakli ilerle.\n- Cevap verirken action=think kullan ve args.answer icine kullaniciya gosterilecek metni yaz.\n- Turkce cevap ver."
+  },
+  {
+    "role": "user",
+    "content": "merhaba, yeteneklerini listele"
+  },
+  {
+    "role": "user",
+    "content": "Gorev: merhaba, yeteneklerini listele\nGorev tamamlandiginda action=think don ve args.answer alanina kullaniciya verilecek net mesaji yaz."
+  },
+  {
+    "role": "assistant",
+    "content": "{\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Merhaba! Ben bir otonom ajans olarak, terminal komutlarını çalıştırabiliyorum, URL'lerden web sayfalarının içeriğini çekebilirim, dosyaları okuyabilirim ve yazabilirim, dizinleri listeleyebilirim, dosyalarda metin arayabilirim, dosyaları silebilirim, Python kodlarını çalıştırabilirim ve düşünerek kullanıcıya cevap verebilirim.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerini listeleme talebinde bulundu. JSON formatında ve gerekli argümanlarla yanıt verildi.\"\n}"
+  },
+  {
+    "role": "assistant",
+    "content": "Merhaba! Ben bir otonom ajans olarak, terminal komutlarını çalıştırabiliyorum, URL'lerden web sayfalarının içeriğini çekebilirim, dosyaları okuyabilirim ve yazabilirim, dizinleri listeleyebilirim, dosyalarda metin arayabilirim, dosyaları silebilirim, Python kodlarını çalıştırabilirim ve düşünerek kullanıcıya cevap verebilirim."
+  },
+  {
+    "role": "user",
+    "content": "kodların kalitesine bakalım mı?"
+  },
+  {
+    "role": "user",
+    "content": "Kullanici tercih profili:\n- preferred_style: kisa-ve-net\n- avg_rating: 5.0\n- total_feedback: 1\n- last_feedback: Harika hiz ve netlik"
+  },
+  {
+    "role": "user",
+    "content": "Daha once ogrenilen ilgili notlar:\n- [dialog_pair] Soru: neler öğrendin bu gün\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Bugün, canlı izleme aktif edilmesi hakkında öğrendim.\"\n  },\n  \"reason\": \"Kullanıcıya bugünden öğrendiklerini kısa ve net bir şekilde bi\n- [dialog_pair] Soru: merhaba\nCevap: Merhaba! Size nasıl yardımcı olabilirim?\n- [dialog_pair] Soru: kodların kalitesine bakalım mı?\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?\"\n  },\n  \"reason\": \"Kullanıcıya kod kalitesini incelemek istemesi içi\n- [dialog_pair] Soru: yeteneklerinin farkında mısın peki\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, yeteneklerim hakkında bilgi sahibiysiniz.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerine dair bilgi vermek için kı\n- [dialog_pair] Soru: sahibiysiniz ne demek türkçede böyle bir kelime yok\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, hatalı bir yanıt vermiş olabilirim. Size nasıl yardımcı olabilirim?\"\n  },\n  \"reason\": \"Kullanıcı\n- [dialog_pair] Soru: klavye ve mause hareketlerini canlı izliyor musun\nCevap: {\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Üzgünüm, klavye ve mouse hareketlerini canlı izleyemiyorum.\"\n  },\n  \"reason\": \"Kullanıcıya yeteneklerim hak"
+  },
+  {
+    "role": "user",
+    "content": "Gorev: kodların kalitesine bakalım mı?\nGorev tamamlandiginda action=think don ve args.answer alanina kullaniciya verilecek net mesaji yaz."
+  },
+  {
+    "role": "assistant",
+    "content": "{\n  \"action\": \"think\",\n  \"args\": {\n    \"answer\": \"Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?\"\n  },\n  \"reason\": \"Kullanıcıya kod kalitesini incelemek istemesi için gerekli bilgi alınması\"\n}"
+  },
+  {
+    "role": "assistant",
+    "content": "Tabii ki, hangi kodları kontrol etmeyi tercih edersiniz?"
+  }
+]

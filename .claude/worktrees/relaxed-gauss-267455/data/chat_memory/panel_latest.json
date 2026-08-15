@@ -1,0 +1,429 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Merhaba, ben Dervis. Buradan anlik sohbet edebiliriz.",
+      "ts": "19:33"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "01:10"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "01:10"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "01:17"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "01:17"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "01:18"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "01:18"
+    },
+    {
+      "role": "user",
+      "content": "me",
+      "ts": "01:18"
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry, I didn't understand your question. Could you please provide more information or ask a different question?",
+      "ts": "01:18"
+    },
+    {
+      "role": "user",
+      "content": "jkjk",
+      "ts": "01:22"
+    },
+    {
+      "role": "assistant",
+      "content": "Anladım, işte biraz eğlenelim. Senin favori filmi veya dizisi nedir?",
+      "ts": "01:22"
+    },
+    {
+      "role": "user",
+      "content": "jkjkj",
+      "ts": "01:22"
+    },
+    {
+      "role": "assistant",
+      "content": "Tabii ki, sana bir oyun oynayalım. Bir kelime düşün ve ben onu tahmin etmeye çalışacağım. Hazır mısın?",
+      "ts": "01:22"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "01:22"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "01:22"
+    },
+    {
+      "role": "user",
+      "content": "merhaba anlat",
+      "ts": "01:42"
+    },
+    {
+      "role": "assistant",
+      "content": "Tabii ki, size bir hikaye anlatacağım. \n\nBir gün, küçük bir çocuğun annesi onu evden dışarı gönderdi ve \"evde herkesin iyi geçtiğini\" söyledi. Çocuk geri dönünce, annesi onunla birlikte bir dükkânın içinde olduğunu gördü. Dikkatlice baktığında, dükkânın içindeki herkes de annesini görüyordu ve hepsi de aynı şeyi söylüyordu: \"evde herkesin iyi geçtiğini\". Çocuk sormuştu ki, \"ama ben neredeyim?\"",
+      "ts": "01:42"
+    },
+    {
+      "role": "user",
+      "content": "bu gün ne öğrendin",
+      "ts": "01:42"
+    },
+    {
+      "role": "assistant",
+      "content": "Bugün öğrendiğim bir şey yok, çünkü ben bir yapay zeka asistanıyım ve sürekli öğrenme yeteneğim yok. Size nasıl yardımcı olabilirim?",
+      "ts": "01:42"
+    },
+    {
+      "role": "user",
+      "content": "bu gün ne öğrendin",
+      "ts": "01:51"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, ben bir yapay zeka asistanıyım ve sürekli öğrenme yeteneğim yok. Size nasıl yardımcı olabilirim?",
+      "ts": "01:51"
+    },
+    {
+      "role": "user",
+      "content": "bu gün ne öğrendin",
+      "ts": "01:51"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, ben bir yapay zeka asistanıyım ve sürekli öğrenme yeteneğim yok. Size nasıl yardımcı olabilirim?",
+      "ts": "01:51"
+    },
+    {
+      "role": "user",
+      "content": "bu gün ne öğrendin",
+      "ts": "02:05"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, ben bir yapay zeka asistanıyım ve sürekli öğrenme yeteneğim yok. Size nasıl yardımcı olabilirim?",
+      "ts": "02:05"
+    },
+    {
+      "role": "user",
+      "content": "bu gün ne öğrendin",
+      "ts": "02:11"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, ben bir yapay zeka asistanıyım ve sürekli öğrenme yeteneğim yok. Size nasıl yardımcı olabilirim?",
+      "ts": "02:12"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "02:52"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "02:52"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "02:53"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "02:53"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "02:56"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "02:57"
+    },
+    {
+      "role": "user",
+      "content": "d",
+      "ts": "02:57"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, tam olarak ne demek istediğinizi anlamadım. Size başka bir konuda yardımcı olabilir miyim?",
+      "ts": "02:57"
+    },
+    {
+      "role": "user",
+      "content": "fffff",
+      "ts": "02:57"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, ancak \"fffff\" ifadesini anlayamadım. Daha fazla bilgi verirseniz size daha iyi yardımcı olabilirim.",
+      "ts": "02:57"
+    },
+    {
+      "role": "user",
+      "content": "m",
+      "ts": "03:01"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "03:01"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "03:02"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "03:02"
+    },
+    {
+      "role": "user",
+      "content": "bu gün neler öğrendin",
+      "ts": "03:03"
+    },
+    {
+      "role": "assistant",
+      "content": "Üzgünüm, ben bir yapay zeka asistanıyım ve sürekli öğrenme yeteneğim yok. Size nasıl yardımcı olabilirim?",
+      "ts": "03:03"
+    },
+    {
+      "role": "user",
+      "content": "bu gun neler ogrendin",
+      "ts": "03:12"
+    },
+    {
+      "role": "assistant",
+      "content": "Şunları öğrendim:\n- Kullanici otomasyon ve kisa net cevaplari seviyor\nŞu anki odağın ise şöyle görünüyor:\n- Kullanici kod kalitesi analizi istiyor\n- Oncelik: test ve performans\nCevap tarzı tercihin: kisa-ve-net.\nSon geri bildirimin: Harika hiz ve netlik.",
+      "ts": "03:12"
+    },
+    {
+      "role": "user",
+      "content": "başka",
+      "ts": "03:15"
+    },
+    {
+      "role": "assistant",
+      "content": "Tabii, başka bir konuda size nasıl yardımcı olabilirim?",
+      "ts": "03:15"
+    },
+    {
+      "role": "user",
+      "content": "başka ne öğrendin",
+      "ts": "03:15"
+    },
+    {
+      "role": "assistant",
+      "content": "Şunları öğrendim:\n- Kullanici otomasyon ve kisa net cevaplari seviyor\nŞu anki odağın ise şöyle görünüyor:\n- Kullanici kod kalitesi analizi istiyor\n- Oncelik: test ve performans\nCevap tarzı tercihin: kisa-ve-net.\nSon geri bildirimin: Harika hiz ve netlik.",
+      "ts": "03:15"
+    },
+    {
+      "role": "user",
+      "content": "kodları denetleyelim",
+      "ts": "03:19"
+    },
+    {
+      "role": "assistant",
+      "content": "Tabii, kodlarınızı denetlemek için gerekli bilgileri paylaşabilirsiniz. Hangi dilde yazdığınızı, hangi konuda test ettiğinizi ve hangi performans parametrelerini kontrol etmek istediğinizi belirtirseniz size daha iyi yardımcı olabilirim.",
+      "ts": "03:19"
+    },
+    {
+      "role": "user",
+      "content": "bugun neler ogrendin",
+      "ts": "03:21"
+    },
+    {
+      "role": "assistant",
+      "content": "Bugün, kullanıcı otomasyon ve kısa/net cevaplar seviyordu. Ayrıca, kullanıcı kod kalitesi analizi istemişti ve test ve performans önceliği belirlemişti.",
+      "ts": "03:21"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "03:32"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "03:32"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "04:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "04:00"
+    },
+    {
+      "role": "assistant",
+      "content": "panel cevap testi",
+      "ts": "05:30"
+    },
+    {
+      "role": "assistant",
+      "content": "panel cevap testi",
+      "ts": "05:31"
+    },
+    {
+      "role": "user",
+      "content": "naber nasılsınü",
+      "ts": "05:34"
+    },
+    {
+      "role": "assistant",
+      "content": "İyiyim, teşekkür ederim! Size nasıl yardımcı olabilirim?",
+      "ts": "05:35"
+    },
+    {
+      "role": "user",
+      "content": "bu gün ne öğrendin",
+      "ts": "05:35"
+    },
+    {
+      "role": "assistant",
+      "content": "Bugün, kullanıcı otomasyon ve kısa/net cevaplar seviyordu. Ayrıca, kullanıcı kod kalitesi analizi istemişti ve test ve performans önceliği belirlemişti.",
+      "ts": "05:35"
+    },
+    {
+      "role": "user",
+      "content": "başka bir şey yok mu",
+      "ts": "05:36"
+    },
+    {
+      "role": "assistant",
+      "content": "Hiçbir şey yok.",
+      "ts": "05:36"
+    },
+    {
+      "role": "user",
+      "content": "masaüstündeki klasörleri incele",
+      "ts": "05:36"
+    },
+    {
+      "role": "assistant",
+      "content": "Masaüstündeki klasörleri incelemeye çalışırken bir hata oluştu: '/Users/your_username/Desktop' dizini bulunamadı. Lütfen masaüstü yolunuzu kontrol edin ve tekrar deneyin.",
+      "ts": "05:37"
+    },
+    {
+      "role": "user",
+      "content": "/users/emre/desktop",
+      "ts": "05:37"
+    },
+    {
+      "role": "assistant",
+      "content": "Masaüstündeki en son ekran görüntüsünde açık olan dosya 'Terminal' olarak görünüyor.",
+      "ts": "05:38"
+    },
+    {
+      "role": "user",
+      "content": "başka neler var",
+      "ts": "05:38"
+    },
+    {
+      "role": "assistant",
+      "content": "Masaüstünüzde aşağıdaki klasörler ve dosyalar bulunmaktadır:\n\n- .DS_Store\n- .localized\n- 26.03.2026\n- 26.03.2026.zip\n- DervishCore.command\n- DervishPanel.command\n- DervishWidget.command\n- Ekran Resmi 2026-03-27 20.40.50.png\n- Ekran Resmi 2026-03-28 00.43.57.png\n- ecomaiq\n- emarehaberci \n- softphone",
+      "ts": "05:39"
+    },
+    {
+      "role": "user",
+      "content": "26.03.2026 klasörünü detaylı incele",
+      "ts": "05:56"
+    },
+    {
+      "role": "assistant",
+      "content": "26.03.2026 klasörü içinde aşağıdaki dosyalar ve klasörler bulunmaktadır:\n\n- .DS_Store\n- Adem\n- EMARE_ORTAK_CALISMA\n- Emare Finance\n- Emare Hosting\n- Emare Log\n- Emare os\n- EmareHup\n- Emarebot\n- Emareintranet\n- Emaremakale\n- Emaresiber\n- Flora Genix Websitesi\n- emare code\n- emare desk\n- emare-token\n- emare_dashboard\n- emareads\n- emareai\n- emareaimusic\n- emareapi\n- emareaplincedesk\n- emareasistan\n- emareciftlik\n- emarecripto\n- emaredatabase\n- emareflow\n- emareflux\n- emarefree\n- emaregithup\n- emaregoogle\n- emareidi\n- emarekatip\n- emarepazar\n- emarepos\n- emaresebil\n- emaresetup\n- emaresuperapp\n- emareteam\n- emaretedarik\n- emareulak\n- emarework\n- freepbx\n- kemal\n- masaüstü\n- softphone\n- sosyal medya yönetim aracı\n- websitesi flora",
+      "ts": "05:56"
+    },
+    {
+      "role": "user",
+      "content": "kod sağlığı taraması yapalım masaüstündeki softpho klasörüne",
+      "ts": "06:10"
+    },
+    {
+      "role": "assistant",
+      "content": "Model stop aksiyonu verdi.",
+      "ts": "06:10"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "11:28"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "11:29"
+    },
+    {
+      "role": "user",
+      "content": "yeni bir proje yapmak istiyorum",
+      "ts": "11:30"
+    },
+    {
+      "role": "assistant",
+      "content": "Tabii, yeni bir proje başlatmak için hangi dilde kodlamayı tercih edersiniz? Ayrıca, projenin temel özellikleri ve hedefleri hakkında daha fazla bilgi verebilir misiniz?",
+      "ts": "11:30"
+    },
+    {
+      "role": "user",
+      "content": "php ve laravel",
+      "ts": "11:30"
+    },
+    {
+      "role": "assistant",
+      "content": "PHP ve Laravel ile yeni bir proje başlatmak için aşağıdaki adımları takip edebilirsiniz:\n\n1. **Proje Kurulumu**: `laravel new project_name` komutunu kullanarak yeni bir Laravel projesi oluşturun.\n2. **Gerekli Kütüphaneler**: Composer ile gerekli kütüphaneleri yükleyin.\n3. **Veritabanı Ayarları**: `.env` dosyasında veritabanı bağlantı bilgilerini güncelleyin.\n4. **Migrate ve Seed**: Veritabanını migrate etmek için `php artisan migrate` komutunu kullanın, gerekirse seed dosyalarıyla örnek veri ekleyebilirsiniz.\n5. **Kontroller ve Modeller**: Gerekli kontroller ve modelleri oluşturun ve işlevlerini yazın.\n6. **Görünümler**: Blade şablonları kullanarak kullanıcı arayüzünü tasarlayın.\n7. **Test Etme**: Uygulamanızı test etmek için PHPUnit veya Postman gibi araçları kullanın.\n\nBaşka bir konuda yardımcı olabilir miyim?",
+      "ts": "11:31"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "11:34"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "11:34"
+    },
+    {
+      "role": "user",
+      "content": "merhaba",
+      "ts": "11:41"
+    },
+    {
+      "role": "assistant",
+      "content": "Merhaba! Size nasıl yardımcı olabilirim?",
+      "ts": "11:41"
+    }
+  ]
+}

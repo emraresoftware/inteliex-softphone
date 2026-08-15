@@ -1,0 +1,16 @@
+---
+description: Kullanıcı talimatları uygula dediğinde TALIMATLAR.md'yi oku ve işaretsiz maddeleri uygula
+globs: TALIMATLAR.md
+---
+
+Bu projede kök dizinde **TALIMATLAR.md** var.
+
+Kullanıcı "talimatları uygula", "TALIMATLAR.md'yi uygula" veya "işaretsiz maddeleri yap" dediğinde:
+
+1. Kök dizindeki **TALIMATLAR.md** dosyasını oku.
+2. İşaretsiz maddeleri bul (`- [ ]` ile başlayan satırlar).
+3. Her birini sırayla uygula (dosya oluştur, metin yaz, doküman güncelle vb.).
+4. Uyguladığın her maddenin satırındaki `[ ]`'i `[x]` ile değiştir ve dosyayı kaydet.
+5. Zaten `[x]` veya "Tamamlandı" olan maddeleri atla.
+
+Çıktı: Hangi maddeleri yaptığını kısaca özetle ve TALIMATLAR.md'nin güncellendiğini belirt.

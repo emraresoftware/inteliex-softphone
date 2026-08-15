@@ -1,0 +1,6 @@
+npm test -- --coverage --runInBand tamam
+statements 72.27
+branches 61.11
+functions 71.76
+lines 73.03
+global threshold 80 altinda

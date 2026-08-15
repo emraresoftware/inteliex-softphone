@@ -1,0 +1,1321 @@
+[2026-03-27 19:19:53.224115] EYLEM: Fare Tıklama | DETAY: Konum: (935.44140625, 707.875) | Buton: Button.left
+[2026-03-27 19:19:55.920718] EYLEM: Fare Tıklama | DETAY: Konum: (1393.96484375, 804.875) | Buton: Button.left
+[2026-03-27 19:19:58.024169] EYLEM: Fare Tıklama | DETAY: Konum: (571.80859375, 851.125) | Buton: Button.left
+[2026-03-27 19:19:59.903450] EYLEM: Fare Tıklama | DETAY: Konum: (777.84375, 829.2578125) | Buton: Button.left
+[2026-03-27 19:20:10.957299] EYLEM: Fare Tıklama | DETAY: Konum: (534.49609375, 130.8125) | Buton: Button.left
+[2026-03-27 19:20:12.282478] EYLEM: Fare Tıklama | DETAY: Konum: (1019.27734375, 471.7265625) | Buton: Button.left
+[2026-03-27 19:20:13.536752] EYLEM: Fare Tıklama | DETAY: Konum: (1450.87109375, 181.5859375) | Buton: Button.left
+[2026-03-27 19:20:13.721854] EYLEM: Fare Tıklama | DETAY: Konum: (1450.87109375, 181.5859375) | Buton: Button.left
+[2026-03-27 19:20:30.847270] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: aveyiKey.spaceizliyorKey.spacemusunKey.enter
+[2026-03-27 19:20:34.518155] EYLEM: Fare Tıklama | DETAY: Konum: (762.5, 445.8125) | Buton: Button.left
+[2026-03-27 19:20:51.898888] EYLEM: Fare Tıklama | DETAY: Konum: (1002.328125, 746.73046875) | Buton: Button.left
+[2026-03-27 19:20:55.398841] EYLEM: Fare Tıklama | DETAY: Konum: (743.15625, 909.52734375) | Buton: Button.left
+[2026-03-27 19:20:57.110747] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 19:21:03.494859] EYLEM: Fare Tıklama | DETAY: Konum: (364.65234375, 836.44140625) | Buton: Button.left
+[2026-03-27 19:21:31.540538] EYLEM: Fare Tıklama | DETAY: Konum: (673.625, 845.77734375) | Buton: Button.left
+[2026-03-27 19:21:43.460934] EYLEM: Fare Tıklama | DETAY: Konum: (530.83203125, 242.4375) | Buton: Button.left
+[2026-03-27 19:21:46.511020] EYLEM: Fare Tıklama | DETAY: Konum: (461.9140625, 933.02734375) | Buton: Button.left
+[2026-03-27 19:21:48.569356] EYLEM: Fare Tıklama | DETAY: Konum: (728.05078125, 870.24609375) | Buton: Button.left
+[2026-03-27 19:21:50.454039] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spaceterminaldeKey.spaceKey.cmdcKey.shift_r:Key.spaceKey.cmdvKey.enter
+[2026-03-27 19:21:51.857135] EYLEM: Fare Tıklama | DETAY: Konum: (705.0703125, 832.140625) | Buton: Button.left
+[2026-03-27 19:21:53.587256] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.shift_r:Key.cmdvKey.enter
+[2026-03-27 19:22:27.636114] EYLEM: Fare Tıklama | DETAY: Konum: (628.125, 324.68359375) | Buton: Button.left
+[2026-03-27 19:22:32.296943] EYLEM: Fare Tıklama | DETAY: Konum: (773.21875, 347.9296875) | Buton: Button.left
+[2026-03-27 19:22:33.838962] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:22:49.456883] EYLEM: Fare Tıklama | DETAY: Konum: (527.7265625, 295.9375) | Buton: Button.left
+[2026-03-27 19:22:51.685802] EYLEM: Fare Tıklama | DETAY: Konum: (684.14453125, 367.8828125) | Buton: Button.left
+[2026-03-27 19:22:59.798261] EYLEM: Fare Tıklama | DETAY: Konum: (527.28125, 296.54296875) | Buton: Button.left
+[2026-03-27 19:23:05.256638] EYLEM: Fare Tıklama | DETAY: Konum: (668.6796875, 837.21875) | Buton: Button.left
+[2026-03-27 19:23:09.965317] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: tamKey.spaceyoluKey.spaceverelimKey.spaceKey.cmdvKey.enter
+[2026-03-27 19:23:30.194148] EYLEM: Fare Tıklama | DETAY: Konum: (626.4765625, 432.2890625) | Buton: Button.left
+[2026-03-27 19:23:41.027269] EYLEM: Fare Tıklama | DETAY: Konum: (1217.57421875, 870.94140625) | Buton: Button.left
+[2026-03-27 19:23:42.649813] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:23:50.118689] EYLEM: Fare Tıklama | DETAY: Konum: (990.72265625, 757.859375) | Buton: Button.left
+[2026-03-27 19:23:50.914940] EYLEM: Fare Tıklama | DETAY: Konum: (995.44140625, 738.12109375) | Buton: Button.left
+[2026-03-27 19:23:51.898180] EYLEM: Fare Tıklama | DETAY: Konum: (804.71484375, 913.1171875) | Buton: Button.left
+[2026-03-27 19:23:56.198780] EYLEM: Fare Tıklama | DETAY: Konum: (1128.94921875, 877.75) | Buton: Button.left
+[2026-03-27 19:24:01.128095] EYLEM: Fare Tıklama | DETAY: Konum: (876.29296875, 929.234375) | Buton: Button.left
+[2026-03-27 19:24:04.443993] EYLEM: Fare Tıklama | DETAY: Konum: (996.171875, 758.29296875) | Buton: Button.left
+[2026-03-27 19:24:35.006008] EYLEM: Fare Tıklama | DETAY: Konum: (1483.37890625, 908.13671875) | Buton: Button.left
+[2026-03-27 19:24:43.227925] EYLEM: Fare Tıklama | DETAY: Konum: (1191.109375, 887.5390625) | Buton: Button.left
+[2026-03-27 19:25:02.420502] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spacebilincineKey.spaceeklemeliKey.enter
+[2026-03-27 19:25:30.452008] EYLEM: Fare Tıklama | DETAY: Konum: (1097.546875, 486.48828125) | Buton: Button.left
+[2026-03-27 19:25:36.831047] EYLEM: Fare Tıklama | DETAY: Konum: (1388.62109375, 806.10546875) | Buton: Button.left
+[2026-03-27 19:25:54.568267] EYLEM: Fare Tıklama | DETAY: Konum: (886.16796875, 461.73046875) | Buton: Button.left
+[2026-03-27 19:25:58.798240] EYLEM: Fare Tıklama | DETAY: Konum: (1441.2890625, 415.46484375) | Buton: Button.left
+[2026-03-27 19:26:00.502403] EYLEM: Fare Tıklama | DETAY: Konum: (1441.6015625, 414.1484375) | Buton: Button.left
+[2026-03-27 19:26:00.710215] EYLEM: Fare Tıklama | DETAY: Konum: (1441.6015625, 414.1484375) | Buton: Button.left
+[2026-03-27 19:26:05.051731] EYLEM: Fare Tıklama | DETAY: Konum: (1452.328125, 893.79296875) | Buton: Button.left
+[2026-03-27 19:26:06.380875] EYLEM: Fare Tıklama | DETAY: Konum: (1011.5, 492.0390625) | Buton: Button.left
+[2026-03-27 19:26:09.747681] EYLEM: Fare Tıklama | DETAY: Konum: (1452.6875, 308.58203125) | Buton: Button.left
+[2026-03-27 19:26:13.464397] EYLEM: Fare Tıklama | DETAY: Konum: (553.84765625, 159.61328125) | Buton: Button.left
+[2026-03-27 19:26:14.222287] EYLEM: Fare Tıklama | DETAY: Konum: (563.734375, 164.2578125) | Buton: Button.left
+[2026-03-27 19:26:15.576667] EYLEM: Fare Tıklama | DETAY: Konum: (1065.51953125, 496.94921875) | Buton: Button.left
+[2026-03-27 19:26:16.968323] EYLEM: Fare Tıklama | DETAY: Konum: (530.1171875, 133.68359375) | Buton: Button.left
+[2026-03-27 19:26:18.114135] EYLEM: Fare Tıklama | DETAY: Konum: (999.7109375, 460.9609375) | Buton: Button.left
+[2026-03-27 19:26:18.968439] EYLEM: Fare Tıklama | DETAY: Konum: (1193.2421875, 321.96875) | Buton: Button.left
+[2026-03-27 19:26:20.230926] EYLEM: Fare Tıklama | DETAY: Konum: (1449.69140625, 302.765625) | Buton: Button.left
+[2026-03-27 19:26:20.418163] EYLEM: Fare Tıklama | DETAY: Konum: (1449.69140625, 302.765625) | Buton: Button.left
+[2026-03-27 19:26:23.293474] EYLEM: Fare Tıklama | DETAY: Konum: (563.59375, 161.9140625) | Buton: Button.left
+[2026-03-27 19:26:24.943429] EYLEM: Fare Tıklama | DETAY: Konum: (1308.15234375, 864.79296875) | Buton: Button.left
+[2026-03-27 19:26:25.434949] EYLEM: Fare Tıklama | DETAY: Konum: (1401.375, 864.79296875) | Buton: Button.left
+[2026-03-27 19:26:26.105813] EYLEM: Fare Tıklama | DETAY: Konum: (1308.36328125, 864.39453125) | Buton: Button.left
+[2026-03-27 19:26:29.547581] EYLEM: Fare Tıklama | DETAY: Konum: (807.15234375, 533.015625) | Buton: Button.left
+[2026-03-27 19:26:30.244038] EYLEM: Fare Tıklama | DETAY: Konum: (770.0390625, 523.28125) | Buton: Button.left
+[2026-03-27 19:26:30.744064] EYLEM: Fare Tıklama | DETAY: Konum: (770.0390625, 523.16015625) | Buton: Button.left
+[2026-03-27 19:26:30.903288] EYLEM: Fare Tıklama | DETAY: Konum: (770.0390625, 523.16015625) | Buton: Button.left
+[2026-03-27 19:26:32.710755] EYLEM: Fare Tıklama | DETAY: Konum: (646.83203125, 284.30078125) | Buton: Button.left
+[2026-03-27 19:26:33.416011] EYLEM: Fare Tıklama | DETAY: Konum: (617.44921875, 243.19921875) | Buton: Button.left
+[2026-03-27 19:26:34.817974] EYLEM: Fare Tıklama | DETAY: Konum: (1286.515625, 163.82421875) | Buton: Button.left
+[2026-03-27 19:26:35.826470] EYLEM: Fare Tıklama | DETAY: Konum: (1445.1171875, 194.7890625) | Buton: Button.left
+[2026-03-27 19:26:37.101489] EYLEM: Fare Tıklama | DETAY: Konum: (920.2890625, 335.93359375) | Buton: Button.left
+[2026-03-27 19:26:37.908074] EYLEM: Fare Tıklama | DETAY: Konum: (920.2890625, 335.93359375) | Buton: Button.left
+[2026-03-27 19:26:40.322472] EYLEM: Fare Tıklama | DETAY: Konum: (1179.625, 938.7890625) | Buton: Button.left
+[2026-03-27 19:26:50.126440] EYLEM: Fare Tıklama | DETAY: Konum: (1094.171875, 438.67578125) | Buton: Button.left
+[2026-03-27 19:26:56.830657] EYLEM: Fare Tıklama | DETAY: Konum: (1179.2890625, 879.375) | Buton: Button.left
+[2026-03-27 19:27:09.590920] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: aKey.spaceyazmaKey.spaceyeriKey.spacevsKey.spaceyokKey.enter
+[2026-03-27 19:27:15.376532] EYLEM: Fare Tıklama | DETAY: Konum: (1015.078125, 743.33984375) | Buton: Button.left
+[2026-03-27 19:27:21.646795] EYLEM: Fare Tıklama | DETAY: Konum: (992.12109375, 766.25390625) | Buton: Button.left
+[2026-03-27 19:27:22.496736] EYLEM: Fare Tıklama | DETAY: Konum: (720.0390625, 859.796875) | Buton: Button.left
+[2026-03-27 19:27:25.634744] EYLEM: Fare Tıklama | DETAY: Konum: (980.6875, 741.859375) | Buton: Button.left
+[2026-03-27 19:27:39.943085] EYLEM: Fare Tıklama | DETAY: Konum: (998.66015625, 759.578125) | Buton: Button.left
+[2026-03-27 19:27:54.913844] EYLEM: Fare Tıklama | DETAY: Konum: (1451.984375, 184.76953125) | Buton: Button.left
+[2026-03-27 19:27:55.109384] EYLEM: Fare Tıklama | DETAY: Konum: (1451.984375, 184.76953125) | Buton: Button.left
+[2026-03-27 19:28:12.363600] EYLEM: Fare Tıklama | DETAY: Konum: (715.15234375, 332.875) | Buton: Button.left
+[2026-03-27 19:28:13.705486] EYLEM: Fare Tıklama | DETAY: Konum: (588.16015625, 289.375) | Buton: Button.left
+[2026-03-27 19:28:16.826616] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: rsunKey.spacedeğilKey.spacemiKey.shift_r?Key.cmdaKey.cmdcKey.enter
+[2026-03-27 19:28:42.433227] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: cinKey.spacegelişmediKey.spacenedenKey.enter
+[2026-03-27 19:30:23.689170] EYLEM: Fare Tıklama | DETAY: Konum: (554.27734375, 282.17578125) | Buton: Button.left
+[2026-03-27 19:30:28.827535] EYLEM: Fare Tıklama | DETAY: Konum: (1391.609375, 808.4453125) | Buton: Button.left
+[2026-03-27 19:30:36.236772] EYLEM: Fare Tıklama | DETAY: Konum: (1376.609375, 54.55078125) | Buton: Button.left
+[2026-03-27 19:30:37.516138] EYLEM: Fare Tıklama | DETAY: Konum: (1251.62890625, 54.01953125) | Buton: Button.left
+[2026-03-27 19:30:49.854190] EYLEM: Fare Tıklama | DETAY: Konum: (655.30078125, 50.20703125) | Buton: Button.left
+[2026-03-27 19:30:51.004379] EYLEM: Fare Tıklama | DETAY: Konum: (617.05078125, 836.97265625) | Buton: Button.left
+[2026-03-27 19:31:10.462997] EYLEM: Fare Tıklama | DETAY: Konum: (702.12109375, 662.5546875) | Buton: Button.left
+[2026-03-27 19:31:16.255804] EYLEM: Fare Tıklama | DETAY: Konum: (832.72265625, 456.36328125) | Buton: Button.left
+[2026-03-27 19:31:18.260995] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdKey.cmdcKey.cmdvKey.enter
+[2026-03-27 19:31:37.925902] EYLEM: Fare Tıklama | DETAY: Konum: (1397.6640625, 812.28515625) | Buton: Button.left
+[2026-03-27 19:31:41.571388] EYLEM: Fare Tıklama | DETAY: Konum: (1178.45703125, 786.3203125) | Buton: Button.left
+[2026-03-27 19:31:43.196470] EYLEM: Fare Tıklama | DETAY: Konum: (1233.921875, 847.57421875) | Buton: Button.left
+[2026-03-27 19:31:44.529893] EYLEM: Fare Tıklama | DETAY: Konum: (1172.71484375, 792.234375) | Buton: Button.left
+[2026-03-27 19:31:45.283837] EYLEM: Fare Tıklama | DETAY: Konum: (1226.140625, 826.515625) | Buton: Button.left
+[2026-03-27 19:32:01.487876] EYLEM: Fare Tıklama | DETAY: Konum: (556.4296875, 378.48046875) | Buton: Button.left
+[2026-03-27 19:32:16.087884] EYLEM: Fare Tıklama | DETAY: Konum: (655.79296875, 838.99609375) | Buton: Button.left
+[2026-03-27 19:32:17.310110] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:32:20.292332] EYLEM: Fare Tıklama | DETAY: Konum: (1399.64453125, 809.609375) | Buton: Button.left
+[2026-03-27 19:32:36.150853] EYLEM: Fare Tıklama | DETAY: Konum: (993.8203125, 742.33203125) | Buton: Button.left
+[2026-03-27 19:32:38.247712] EYLEM: Fare Tıklama | DETAY: Konum: (994.33203125, 762.5390625) | Buton: Button.left
+[2026-03-27 19:33:01.492412] EYLEM: Fare Tıklama | DETAY: Konum: (1390.77734375, 810.4296875) | Buton: Button.left
+[2026-03-27 19:33:20.781523] EYLEM: Fare Tıklama | DETAY: Konum: (1157.12109375, 54.69921875) | Buton: Button.left
+[2026-03-27 19:36:15.483822] EYLEM: Fare Tıklama | DETAY: Konum: (1179.13671875, 694.125) | Buton: Button.left
+[2026-03-27 19:36:16.475411] EYLEM: Fare Tıklama | DETAY: Konum: (1211.0625, 863.0625) | Buton: Button.left
+[2026-03-27 19:36:18.213017] EYLEM: Fare Tıklama | DETAY: Konum: (1449.6875, 203.6640625) | Buton: Button.left
+[2026-03-27 19:36:19.138219] EYLEM: Fare Tıklama | DETAY: Konum: (1455.3828125, 194.88671875) | Buton: Button.left
+[2026-03-27 19:36:19.329545] EYLEM: Fare Tıklama | DETAY: Konum: (1455.3828125, 194.88671875) | Buton: Button.left
+[2026-03-27 19:36:22.291879] EYLEM: Fare Tıklama | DETAY: Konum: (591.19140625, 186.20703125) | Buton: Button.left
+[2026-03-27 19:36:23.654682] EYLEM: Fare Tıklama | DETAY: Konum: (1074.4453125, 522.9296875) | Buton: Button.left
+[2026-03-27 19:36:24.767221] EYLEM: Fare Tıklama | DETAY: Konum: (1451.5703125, 296.41015625) | Buton: Button.left
+[2026-03-27 19:36:24.958610] EYLEM: Fare Tıklama | DETAY: Konum: (1451.5703125, 296.41015625) | Buton: Button.left
+[2026-03-27 19:36:28.417206] EYLEM: Fare Tıklama | DETAY: Konum: (580.73828125, 186.6875) | Buton: Button.left
+[2026-03-27 19:36:28.816971] EYLEM: Fare Tıklama | DETAY: Konum: (580.96875, 186.6875) | Buton: Button.left
+[2026-03-27 19:36:29.087990] EYLEM: Fare Tıklama | DETAY: Konum: (581.0859375, 186.6875) | Buton: Button.left
+[2026-03-27 19:36:30.775299] EYLEM: Fare Tıklama | DETAY: Konum: (16.5546875, 55.671875) | Buton: Button.left
+[2026-03-27 19:36:32.463282] EYLEM: Fare Tıklama | DETAY: Konum: (552.640625, 163.7109375) | Buton: Button.left
+[2026-03-27 19:36:34.521519] EYLEM: Fare Tıklama | DETAY: Konum: (795.55078125, 159.1953125) | Buton: Button.left
+[2026-03-27 19:36:39.337867] EYLEM: Fare Tıklama | DETAY: Konum: (1020.48046875, 108.609375) | Buton: Button.left
+[2026-03-27 19:36:43.571107] EYLEM: Fare Tıklama | DETAY: Konum: (1465.703125, 847.43359375) | Buton: Button.left
+[2026-03-27 19:36:47.179514] EYLEM: Fare Tıklama | DETAY: Konum: (1196.48046875, 882.31640625) | Buton: Button.left
+[2026-03-27 19:36:54.361731] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: resmiKey.spaceincelerKey.spacemisinKey.enter
+[2026-03-27 19:38:58.548983] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: sıraylaKey.spaceyapKey.enter
+[2026-03-27 19:39:48.934293] EYLEM: Fare Tıklama | DETAY: Konum: (633.09375, 380.6171875) | Buton: Button.left
+[2026-03-27 19:39:54.166623] EYLEM: Fare Tıklama | DETAY: Konum: (699.36328125, 398.78125) | Buton: Button.right
+[2026-03-27 19:39:54.971342] EYLEM: Fare Tıklama | DETAY: Konum: (748.72265625, 438.05859375) | Buton: Button.left
+[2026-03-27 19:39:58.004221] EYLEM: Fare Tıklama | DETAY: Konum: (532.0390625, 477.6796875) | Buton: Button.left
+[2026-03-27 19:39:59.936375] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 19:40:26.634446] EYLEM: Fare Tıklama | DETAY: Konum: (72.26953125, 427.66796875) | Buton: Button.left
+[2026-03-27 19:40:32.246271] EYLEM: Fare Tıklama | DETAY: Konum: (651.6953125, 839.07421875) | Buton: Button.left
+[2026-03-27 19:40:33.970221] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:41:16.754784] EYLEM: Fare Tıklama | DETAY: Konum: (629.58203125, 337.8359375) | Buton: Button.left
+[2026-03-27 19:41:19.891765] EYLEM: Fare Tıklama | DETAY: Konum: (905.17578125, 426.7109375) | Buton: Button.right
+[2026-03-27 19:41:20.804536] EYLEM: Fare Tıklama | DETAY: Konum: (938.52734375, 465.58203125) | Buton: Button.left
+[2026-03-27 19:41:24.083791] EYLEM: Fare Tıklama | DETAY: Konum: (1386.4140625, 801.37890625) | Buton: Button.left
+[2026-03-27 19:41:26.279387] EYLEM: Fare Tıklama | DETAY: Konum: (1235.90625, 880.16015625) | Buton: Button.left
+[2026-03-27 19:41:28.686060] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 19:41:32.483550] EYLEM: Fare Tıklama | DETAY: Konum: (1439.9609375, 213.13671875) | Buton: Button.left
+[2026-03-27 19:41:33.905235] EYLEM: Fare Tıklama | DETAY: Konum: (1443.69140625, 276.390625) | Buton: Button.left
+[2026-03-27 19:41:34.093216] EYLEM: Fare Tıklama | DETAY: Konum: (1443.69140625, 276.390625) | Buton: Button.left
+[2026-03-27 19:41:36.058640] EYLEM: Fare Tıklama | DETAY: Konum: (1226.87890625, 737.2265625) | Buton: Button.left
+[2026-03-27 19:41:37.483821] EYLEM: Fare Tıklama | DETAY: Konum: (1440.046875, 204.01171875) | Buton: Button.left
+[2026-03-27 19:41:40.108976] EYLEM: Fare Tıklama | DETAY: Konum: (588.234375, 194.171875) | Buton: Button.left
+[2026-03-27 19:41:41.542062] EYLEM: Fare Tıklama | DETAY: Konum: (497.859375, 564.75) | Buton: Button.left
+[2026-03-27 19:41:42.729696] EYLEM: Fare Tıklama | DETAY: Konum: (1391.390625, 526.15625) | Buton: Button.left
+[2026-03-27 19:41:43.970295] EYLEM: Fare Tıklama | DETAY: Konum: (1459.2578125, 418.515625) | Buton: Button.left
+[2026-03-27 19:41:45.154632] EYLEM: Fare Tıklama | DETAY: Konum: (1348.4765625, 434.08203125) | Buton: Button.left
+[2026-03-27 19:41:46.073606] EYLEM: Fare Tıklama | DETAY: Konum: (1441.08984375, 421.23828125) | Buton: Button.left
+[2026-03-27 19:41:46.442424] EYLEM: Fare Tıklama | DETAY: Konum: (1440.96875, 421.1171875) | Buton: Button.left
+[2026-03-27 19:41:49.512812] EYLEM: Fare Tıklama | DETAY: Konum: (1443.84765625, 916.7890625) | Buton: Button.left
+[2026-03-27 19:41:51.554303] EYLEM: Fare Tıklama | DETAY: Konum: (864.9609375, 703.8828125) | Buton: Button.left
+[2026-03-27 19:41:54.225637] EYLEM: Fare Tıklama | DETAY: Konum: (583.640625, 188.89453125) | Buton: Button.left
+[2026-03-27 19:41:55.563147] EYLEM: Fare Tıklama | DETAY: Konum: (1056.2109375, 514.7890625) | Buton: Button.left
+[2026-03-27 19:41:58.021978] EYLEM: Fare Tıklama | DETAY: Konum: (1443.37109375, 291.85546875) | Buton: Button.left
+[2026-03-27 19:42:00.363490] EYLEM: Fare Tıklama | DETAY: Konum: (1442.93359375, 397.46875) | Buton: Button.left
+[2026-03-27 19:42:03.779694] EYLEM: Fare Tıklama | DETAY: Konum: (1444.3984375, 309.16015625) | Buton: Button.left
+[2026-03-27 19:42:03.979882] EYLEM: Fare Tıklama | DETAY: Konum: (1444.3984375, 309.16015625) | Buton: Button.left
+[2026-03-27 19:42:06.208752] EYLEM: Fare Tıklama | DETAY: Konum: (593.96484375, 193.51171875) | Buton: Button.left
+[2026-03-27 19:45:33.266844] EYLEM: Fare Tıklama | DETAY: Konum: (1065.23828125, 135.33984375) | Buton: Button.left
+[2026-03-27 19:45:33.821124] EYLEM: Fare Tıklama | DETAY: Konum: (1067.0703125, 134.3359375) | Buton: Button.left
+[2026-03-27 19:45:34.633477] EYLEM: Fare Tıklama | DETAY: Konum: (1069.14453125, 131.22265625) | Buton: Button.left
+[2026-03-27 19:45:36.008627] EYLEM: Fare Tıklama | DETAY: Konum: (1447.859375, 210.66015625) | Buton: Button.left
+[2026-03-27 19:45:41.162565] EYLEM: Fare Tıklama | DETAY: Konum: (1391.9140625, 807.83984375) | Buton: Button.left
+[2026-03-27 19:45:54.442015] EYLEM: Fare Tıklama | DETAY: Konum: (79.8359375, 154.4921875) | Buton: Button.left
+[2026-03-27 19:45:55.646200] EYLEM: Fare Tıklama | DETAY: Konum: (575.75, 481.97265625) | Buton: Button.left
+[2026-03-27 19:45:57.276689] EYLEM: Fare Tıklama | DETAY: Konum: (1452.70703125, 180.40234375) | Buton: Button.left
+[2026-03-27 19:45:57.478441] EYLEM: Fare Tıklama | DETAY: Konum: (1452.5859375, 180.40234375) | Buton: Button.left
+[2026-03-27 19:46:01.167141] EYLEM: Fare Tıklama | DETAY: Konum: (619.296875, 64.6796875) | Buton: Button.left
+[2026-03-27 19:46:05.315250] EYLEM: Fare Tıklama | DETAY: Konum: (622.328125, 572.55078125) | Buton: Button.left
+[2026-03-27 19:46:09.283539] EYLEM: Fare Tıklama | DETAY: Konum: (782.1484375, 417.10546875) | Buton: Button.left
+[2026-03-27 19:46:11.006984] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:46:44.993661] EYLEM: Fare Tıklama | DETAY: Konum: (586.3359375, 307.25390625) | Buton: Button.left
+[2026-03-27 19:46:52.743556] EYLEM: Fare Tıklama | DETAY: Konum: (1191.484375, 885.6875) | Buton: Button.left
+[2026-03-27 19:46:56.375484] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:50:51.094833] EYLEM: Fare Tıklama | DETAY: Konum: (1393.453125, 812.2421875) | Buton: Button.left
+[2026-03-27 19:51:19.974160] EYLEM: Fare Tıklama | DETAY: Konum: (589.55078125, 191.68359375) | Buton: Button.left
+[2026-03-27 19:51:21.616058] EYLEM: Fare Tıklama | DETAY: Konum: (1049.53125, 520.421875) | Buton: Button.left
+[2026-03-27 19:51:22.803506] EYLEM: Fare Tıklama | DETAY: Konum: (1453.37109375, 193.4609375) | Buton: Button.left
+[2026-03-27 19:51:23.001302] EYLEM: Fare Tıklama | DETAY: Konum: (1453.37109375, 193.4609375) | Buton: Button.left
+[2026-03-27 19:51:26.515713] EYLEM: Fare Tıklama | DETAY: Konum: (771.5078125, 439.20703125) | Buton: Button.left
+[2026-03-27 19:51:28.348921] EYLEM: Fare Tıklama | DETAY: Konum: (727.453125, 426.07421875) | Buton: Button.left
+[2026-03-27 19:51:41.040683] EYLEM: Fare Tıklama | DETAY: Konum: (587.359375, 188.74609375) | Buton: Button.left
+[2026-03-27 19:51:42.453607] EYLEM: Fare Tıklama | DETAY: Konum: (1444.96875, 189.2734375) | Buton: Button.left
+[2026-03-27 19:51:42.632407] EYLEM: Fare Tıklama | DETAY: Konum: (1444.96875, 189.2734375) | Buton: Button.left
+[2026-03-27 19:51:46.136466] EYLEM: Fare Tıklama | DETAY: Konum: (705.39453125, 588.18359375) | Buton: Button.right
+[2026-03-27 19:51:47.074194] EYLEM: Fare Tıklama | DETAY: Konum: (767.0390625, 637.109375) | Buton: Button.left
+[2026-03-27 19:51:48.369766] EYLEM: Fare Tıklama | DETAY: Konum: (657.40625, 384.26171875) | Buton: Button.left
+[2026-03-27 19:51:50.224352] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.ctrlcKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.cmdKey.cmdvKey.enter
+[2026-03-27 19:52:14.028559] EYLEM: Fare Tıklama | DETAY: Konum: (586.96875, 312.515625) | Buton: Button.left
+[2026-03-27 19:52:20.149344] EYLEM: Fare Tıklama | DETAY: Konum: (1140.95703125, 875.69921875) | Buton: Button.left
+[2026-03-27 19:52:21.346625] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 19:59:20.780079] EYLEM: Fare Tıklama | DETAY: Konum: (1389.7890625, 807.42578125) | Buton: Button.left
+[2026-03-27 20:01:16.646276] EYLEM: Fare Tıklama | DETAY: Konum: (1217.13671875, 872.921875) | Buton: Button.left
+[2026-03-27 20:01:22.999593] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: evetKey.spaceyapalımKey.spacelütfenKey.enter
+[2026-03-27 20:02:48.205282] EYLEM: Fare Tıklama | DETAY: Konum: (1403.76171875, 811.38671875) | Buton: Button.left
+[2026-03-27 20:02:59.310007] EYLEM: Fare Tıklama | DETAY: Konum: (1471.8359375, 675.81640625) | Buton: Button.left
+[2026-03-27 20:09:50.265049] EYLEM: Fare Tıklama | DETAY: Konum: (1109.26171875, 506.34375) | Buton: Button.left
+[2026-03-27 20:12:32.358848] EYLEM: Fare Tıklama | DETAY: Konum: (820.83203125, 374.23046875) | Buton: Button.left
+[2026-03-27 20:12:35.911897] EYLEM: Fare Tıklama | DETAY: Konum: (1200.515625, 189.3828125) | Buton: Button.left
+[2026-03-27 20:12:38.166414] EYLEM: Fare Tıklama | DETAY: Konum: (1452.0078125, 412.37109375) | Buton: Button.left
+[2026-03-27 20:12:38.370312] EYLEM: Fare Tıklama | DETAY: Konum: (1452.0078125, 412.37109375) | Buton: Button.left
+[2026-03-27 20:12:45.012082] EYLEM: Fare Tıklama | DETAY: Konum: (1030.3515625, 63.37890625) | Buton: Button.left
+[2026-03-27 20:12:49.812200] EYLEM: Fare Tıklama | DETAY: Konum: (614.42578125, 188.01953125) | Buton: Button.left
+[2026-03-27 20:12:59.278511] EYLEM: Fare Tıklama | DETAY: Konum: (616.7421875, 186.16015625) | Buton: Button.left
+[2026-03-27 20:13:04.791236] EYLEM: Fare Tıklama | DETAY: Konum: (686.84375, 278.19921875) | Buton: Button.left
+[2026-03-27 20:13:05.712479] EYLEM: Fare Tıklama | DETAY: Konum: (686.84375, 278.19921875) | Buton: Button.left
+[2026-03-27 20:15:33.138516] EYLEM: Fare Tıklama | DETAY: Konum: (2739.0625, 311.67578125) | Buton: Button.left
+[2026-03-27 20:15:39.126094] EYLEM: Fare Tıklama | DETAY: Konum: (2374.48828125, 279.0) | Buton: Button.left
+[2026-03-27 20:15:40.543094] EYLEM: Fare Tıklama | DETAY: Konum: (2866.76953125, 663.44140625) | Buton: Button.left
+[2026-03-27 20:15:43.764723] EYLEM: Fare Tıklama | DETAY: Konum: (2208.8125, 323.625) | Buton: Button.left
+[2026-03-27 20:15:45.414055] EYLEM: Fare Tıklama | DETAY: Konum: (2259.890625, 391.0859375) | Buton: Button.left
+[2026-03-27 20:15:53.406444] EYLEM: Fare Tıklama | DETAY: Konum: (2702.1015625, 260.8359375) | Buton: Button.left
+[2026-03-27 20:16:24.695404] EYLEM: Fare Tıklama | DETAY: Konum: (896.828125, 326.58203125) | Buton: Button.left
+[2026-03-27 20:16:26.261971] EYLEM: Fare Tıklama | DETAY: Konum: (1438.30078125, 406.01171875) | Buton: Button.left
+[2026-03-27 20:16:26.467044] EYLEM: Fare Tıklama | DETAY: Konum: (1438.30078125, 406.01171875) | Buton: Button.left
+[2026-03-27 20:16:47.078891] EYLEM: Fare Tıklama | DETAY: Konum: (678.140625, 444.38671875) | Buton: Button.left
+[2026-03-27 20:16:57.305166] EYLEM: Fare Tıklama | DETAY: Konum: (1158.38671875, 56.2578125) | Buton: Button.left
+[2026-03-27 20:17:01.733012] EYLEM: Fare Tıklama | DETAY: Konum: (906.7578125, 338.78515625) | Buton: Button.left
+[2026-03-27 20:19:15.968344] EYLEM: Fare Tıklama | DETAY: Konum: (1145.37890625, 789.9765625) | Buton: Button.left
+[2026-03-27 20:20:06.188661] EYLEM: Fare Tıklama | DETAY: Konum: (1391.109375, 810.46484375) | Buton: Button.left
+[2026-03-27 20:20:19.351321] EYLEM: Fare Tıklama | DETAY: Konum: (1167.28125, 884.28125) | Buton: Button.left
+[2026-03-27 20:20:37.717913] EYLEM: Fare Tıklama | DETAY: Konum: (1133.51953125, 788.625) | Buton: Button.left
+[2026-03-27 20:21:31.384437] EYLEM: Fare Tıklama | DETAY: Konum: (1166.89453125, 786.5390625) | Buton: Button.left
+[2026-03-27 20:21:32.531248] EYLEM: Fare Tıklama | DETAY: Konum: (1123.84375, 876.92578125) | Buton: Button.left
+[2026-03-27 20:21:38.778188] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: gilizceKey.spacecevapKey.spaceverdiKey.enter
+[2026-03-27 20:21:42.363929] EYLEM: Fare Tıklama | DETAY: Konum: (1171.60546875, 914.375) | Buton: Button.left
+[2026-03-27 20:21:46.347395] EYLEM: Fare Tıklama | DETAY: Konum: (1315.41015625, 912.671875) | Buton: Button.left
+[2026-03-27 20:21:47.380091] EYLEM: Fare Tıklama | DETAY: Konum: (1330.40625, 912.41015625) | Buton: Button.left
+[2026-03-27 20:21:51.117499] EYLEM: Fare Tıklama | DETAY: Konum: (1416.4765625, 874.00390625) | Buton: Button.left
+[2026-03-27 20:22:09.722546] EYLEM: Fare Tıklama | DETAY: Konum: (375.625, 61.3203125) | Buton: Button.left
+[2026-03-27 20:22:11.338340] EYLEM: Fare Tıklama | DETAY: Konum: (240.68359375, 279.16796875) | Buton: Button.left
+[2026-03-27 20:22:12.601356] EYLEM: Fare Tıklama | DETAY: Konum: (720.34765625, 606.33984375) | Buton: Button.left
+[2026-03-27 20:22:18.875780] EYLEM: Fare Tıklama | DETAY: Konum: (1398.77734375, 809.15625) | Buton: Button.left
+[2026-03-27 20:22:24.846761] EYLEM: Fare Tıklama | DETAY: Konum: (783.0625, 860.91796875) | Buton: Button.left
+[2026-03-27 20:22:36.743835] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: bağlantıyıKey.spacekuralımKey.spaceKey.enter
+[2026-03-27 20:24:57.547300] EYLEM: Fare Tıklama | DETAY: Konum: (2502.984375, 502.2421875) | Buton: Button.left
+[2026-03-27 20:25:00.266031] EYLEM: Fare Tıklama | DETAY: Konum: (2439.390625, 432.015625) | Buton: Button.left
+[2026-03-27 20:25:01.550336] EYLEM: Fare Tıklama | DETAY: Konum: (2580.22265625, 422.171875) | Buton: Button.left
+[2026-03-27 20:25:03.134763] EYLEM: Fare Tıklama | DETAY: Konum: (3179.3515625, 689.2421875) | Buton: Button.left
+[2026-03-27 20:25:05.103797] EYLEM: Fare Tıklama | DETAY: Konum: (2889.34765625, 539.4140625) | Buton: Button.left
+[2026-03-27 20:25:09.357043] EYLEM: Fare Tıklama | DETAY: Konum: (2316.48828125, 485.38671875) | Buton: Button.left
+[2026-03-27 20:25:10.373920] EYLEM: Fare Tıklama | DETAY: Konum: (2601.57421875, 523.55859375) | Buton: Button.left
+[2026-03-27 20:25:20.633292] EYLEM: Fare Tıklama | DETAY: Konum: (855.359375, 420.5) | Buton: Button.left
+[2026-03-27 20:25:22.295486] EYLEM: Fare Tıklama | DETAY: Konum: (631.06640625, 76.859375) | Buton: Button.left
+[2026-03-27 20:25:24.557794] EYLEM: Fare Tıklama | DETAY: Konum: (1117.9453125, 95.44140625) | Buton: Button.left
+[2026-03-27 20:25:26.887184] EYLEM: Fare Tıklama | DETAY: Konum: (1789.22265625, 136.98828125) | Buton: Button.left
+[2026-03-27 20:25:34.526855] EYLEM: Fare Tıklama | DETAY: Konum: (1577.25390625, 22.6015625) | Buton: Button.left
+[2026-03-27 20:25:42.550252] EYLEM: Fare Tıklama | DETAY: Konum: (2863.140625, 869.49609375) | Buton: Button.left
+[2026-03-27 20:25:55.427468] EYLEM: Fare Tıklama | DETAY: Konum: (2677.484375, 188.0234375) | Buton: Button.left
+[2026-03-27 20:25:56.395495] EYLEM: Fare Tıklama | DETAY: Konum: (2669.56640625, 183.08984375) | Buton: Button.left
+[2026-03-27 20:25:57.729410] EYLEM: Fare Tıklama | DETAY: Konum: (2666.76953125, 175.0) | Buton: Button.left
+[2026-03-27 20:25:58.196396] EYLEM: Fare Tıklama | DETAY: Konum: (2666.76953125, 175.98046875) | Buton: Button.left
+[2026-03-27 20:25:58.897223] EYLEM: Fare Tıklama | DETAY: Konum: (2783.921875, 174.30859375) | Buton: Button.left
+[2026-03-27 20:26:04.268158] EYLEM: Fare Tıklama | DETAY: Konum: (3074.1015625, 838.99609375) | Buton: Button.left
+[2026-03-27 20:26:09.689248] EYLEM: Fare Tıklama | DETAY: Konum: (2686.98828125, 180.86328125) | Buton: Button.left
+[2026-03-27 20:26:11.440534] EYLEM: Fare Tıklama | DETAY: Konum: (3080.66015625, 181.19140625) | Buton: Button.left
+[2026-03-27 20:26:18.346333] EYLEM: Fare Tıklama | DETAY: Konum: (3112.0390625, 304.1328125) | Buton: Button.left
+[2026-03-27 20:26:20.748526] EYLEM: Fare Tıklama | DETAY: Konum: (2758.25390625, 767.5078125) | Buton: Button.left
+[2026-03-27 20:26:25.701982] EYLEM: Fare Tıklama | DETAY: Konum: (904.23046875, 481.7109375) | Buton: Button.left
+[2026-03-27 20:26:27.927915] EYLEM: Fare Tıklama | DETAY: Konum: (861.84765625, 503.75) | Buton: Button.left
+[2026-03-27 20:26:37.282601] EYLEM: Fare Tıklama | DETAY: Konum: (1090.265625, 673.8671875) | Buton: Button.left
+[2026-03-27 20:26:40.242088] EYLEM: Fare Tıklama | DETAY: Konum: (132.0625, 941.31640625) | Buton: Button.left
+[2026-03-27 20:26:52.303874] EYLEM: Fare Tıklama | DETAY: Konum: (529.2578125, 591.75390625) | Buton: Button.left
+[2026-03-27 20:27:11.394658] EYLEM: Fare Tıklama | DETAY: Konum: (1373.6328125, 136.7109375) | Buton: Button.left
+[2026-03-27 20:27:14.969514] EYLEM: Fare Tıklama | DETAY: Konum: (1374.7109375, 52.953125) | Buton: Button.left
+[2026-03-27 20:27:16.827591] EYLEM: Fare Tıklama | DETAY: Konum: (1258.88671875, 50.359375) | Buton: Button.left
+[2026-03-27 20:27:21.998334] EYLEM: Fare Tıklama | DETAY: Konum: (2336.48046875, 441.39453125) | Buton: Button.left
+[2026-03-27 20:27:23.916797] EYLEM: Fare Tıklama | DETAY: Konum: (2414.37890625, 710.328125) | Buton: Button.left
+[2026-03-27 20:27:26.685929] EYLEM: Fare Tıklama | DETAY: Konum: (3041.8515625, 902.6015625) | Buton: Button.left
+[2026-03-27 20:27:27.852978] EYLEM: Fare Tıklama | DETAY: Konum: (2684.01171875, 754.35546875) | Buton: Button.left
+[2026-03-27 20:27:28.837199] EYLEM: Fare Tıklama | DETAY: Konum: (3045.46875, 888.0234375) | Buton: Button.left
+[2026-03-27 20:27:32.973958] EYLEM: Fare Tıklama | DETAY: Konum: (2759.12890625, 469.36328125) | Buton: Button.left
+[2026-03-27 20:27:33.507797] EYLEM: Fare Tıklama | DETAY: Konum: (2754.2421875, 485.69921875) | Buton: Button.left
+[2026-03-27 20:27:34.942242] EYLEM: Fare Tıklama | DETAY: Konum: (3008.765625, 782.79296875) | Buton: Button.left
+[2026-03-27 20:27:37.527779] EYLEM: Fare Tıklama | DETAY: Konum: (3054.6640625, 892.43359375) | Buton: Button.left
+[2026-03-27 20:27:39.429224] EYLEM: Fare Tıklama | DETAY: Konum: (2810.3203125, 541.484375) | Buton: Button.left
+[2026-03-27 20:27:40.480316] EYLEM: Fare Tıklama | DETAY: Konum: (2813.14453125, 659.484375) | Buton: Button.left
+[2026-03-27 20:27:42.715687] EYLEM: Fare Tıklama | DETAY: Konum: (3050.5546875, 903.3984375) | Buton: Button.left
+[2026-03-27 20:27:44.933512] EYLEM: Fare Tıklama | DETAY: Konum: (2780.6484375, 827.0390625) | Buton: Button.left
+[2026-03-27 20:27:48.008432] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.shift_rmerhabaKey.spaceKey.enter
+[2026-03-27 20:27:57.610811] EYLEM: Fare Tıklama | DETAY: Konum: (1807.515625, 271.71484375) | Buton: Button.left
+[2026-03-27 20:28:04.016002] EYLEM: Fare Tıklama | DETAY: Konum: (2772.31640625, 820.625) | Buton: Button.left
+[2026-03-27 20:28:20.622422] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: iştiriyordukKey.spaceenKey.spacesonKey.enter
+[2026-03-27 20:29:00.879536] EYLEM: Fare Tıklama | DETAY: Konum: (2766.5, 815.234375) | Buton: Button.left
+[2026-03-27 20:29:29.572530] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: göründüğüneKey.spacebakalımKey.enter
+[2026-03-27 20:29:48.885176] EYLEM: Fare Tıklama | DETAY: Konum: (2766.35546875, 830.640625) | Buton: Button.left
+[2026-03-27 20:30:00.395567] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: mülatörKey.spaceyüklüKey.spacedeğilKey.enter
+[2026-03-27 20:30:14.459573] EYLEM: Fare Tıklama | DETAY: Konum: (1133.3828125, 525.171875) | Buton: Button.left
+[2026-03-27 20:30:20.876179] EYLEM: Fare Tıklama | DETAY: Konum: (1171.98828125, 876.06640625) | Buton: Button.left
+[2026-03-27 20:30:23.242314] EYLEM: Fare Tıklama | DETAY: Konum: (505.58984375, 947.77734375) | Buton: Button.left
+[2026-03-27 20:30:36.048276] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: iKey.spacegörüntüyüKey.spaceyorumlaKey.enter
+[2026-03-27 20:30:42.300614] EYLEM: Fare Tıklama | DETAY: Konum: (1196.33984375, 866.99609375) | Buton: Button.left
+[2026-03-27 20:30:47.214100] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: hazırKey.spacemıKey.spacesistemKey.enter
+[2026-03-27 20:30:56.080151] EYLEM: Fare Tıklama | DETAY: Konum: (1444.6640625, 188.75) | Buton: Button.left
+[2026-03-27 20:30:56.288265] EYLEM: Fare Tıklama | DETAY: Konum: (1444.6640625, 188.75) | Buton: Button.left
+[2026-03-27 20:31:09.101509] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: iKey.spacegörüntüyüKey.spaceyorumlaKey.enter
+[2026-03-27 20:31:50.180629] EYLEM: Fare Tıklama | DETAY: Konum: (235.8671875, 393.26953125) | Buton: Button.left
+[2026-03-27 20:32:32.412169] EYLEM: Fare Tıklama | DETAY: Konum: (1138.18359375, 684.6953125) | Buton: Button.left
+[2026-03-27 20:32:45.833464] EYLEM: Fare Tıklama | DETAY: Konum: (1147.70703125, 336.43359375) | Buton: Button.left
+[2026-03-27 20:32:57.754110] EYLEM: Fare Tıklama | DETAY: Konum: (1255.5234375, 909.99609375) | Buton: Button.left
+[2026-03-27 20:33:01.958448] EYLEM: Fare Tıklama | DETAY: Konum: (1187.51953125, 807.265625) | Buton: Button.left
+[2026-03-27 20:33:04.704139] EYLEM: Fare Tıklama | DETAY: Konum: (1344.34765625, 276.77734375) | Buton: Button.left
+[2026-03-27 20:33:05.408461] EYLEM: Fare Tıklama | DETAY: Konum: (1315.75390625, 284.54296875) | Buton: Button.left
+[2026-03-27 20:33:05.558158] EYLEM: Fare Tıklama | DETAY: Konum: (1315.75390625, 284.54296875) | Buton: Button.left
+[2026-03-27 20:33:06.304124] EYLEM: Fare Tıklama | DETAY: Konum: (1150.7109375, 324.484375) | Buton: Button.left
+[2026-03-27 20:34:44.664815] EYLEM: Fare Tıklama | DETAY: Konum: (1137.79296875, 875.78515625) | Buton: Button.left
+[2026-03-27 20:35:08.630889] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: uKey.spacetespitKey.spaceedebilmeliKey.enter
+[2026-03-27 20:35:35.141112] EYLEM: Fare Tıklama | DETAY: Konum: (626.3359375, 928.8671875) | Buton: Button.left
+[2026-03-27 20:36:06.970006] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: veriKey.spaceolarakKey.spacegidiyorKey.enter
+[2026-03-27 20:36:19.026638] EYLEM: Fare Tıklama | DETAY: Konum: (2778.97265625, 820.13671875) | Buton: Button.left
+[2026-03-27 20:36:30.404435] EYLEM: Fare Tıklama | DETAY: Konum: (2771.10546875, 824.46875) | Buton: Button.left
+[2026-03-27 20:36:36.865559] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: mülatörüKey.spaceyükleyelimKey.enter
+[2026-03-27 20:37:10.699553] EYLEM: Fare Tıklama | DETAY: Konum: (506.1953125, 287.98828125) | Buton: Button.left
+[2026-03-27 20:37:11.886388] EYLEM: Fare Tıklama | DETAY: Konum: (578.09765625, 285.80078125) | Buton: Button.left
+[2026-03-27 20:37:12.123862] EYLEM: Fare Tıklama | DETAY: Konum: (578.09765625, 285.80078125) | Buton: Button.left
+[2026-03-27 20:37:13.002933] EYLEM: Fare Tıklama | DETAY: Konum: (539.875, 291.44921875) | Buton: Button.left
+[2026-03-27 20:37:13.861192] EYLEM: Fare Tıklama | DETAY: Konum: (506.1171875, 292.0) | Buton: Button.left
+[2026-03-27 20:37:19.532249] EYLEM: Fare Tıklama | DETAY: Konum: (1392.50390625, 809.64453125) | Buton: Button.left
+[2026-03-27 20:37:23.882253] EYLEM: Fare Tıklama | DETAY: Konum: (135.78125, 264.4609375) | Buton: Button.left
+[2026-03-27 20:37:24.523784] EYLEM: Fare Tıklama | DETAY: Konum: (135.78125, 264.4609375) | Buton: Button.left
+[2026-03-27 20:37:26.694470] EYLEM: Fare Tıklama | DETAY: Konum: (249.9921875, 113.9921875) | Buton: Button.left
+[2026-03-27 20:37:34.290455] EYLEM: Fare Tıklama | DETAY: Konum: (151.98046875, 400.36328125) | Buton: Button.left
+[2026-03-27 20:37:53.186197] EYLEM: Fare Tıklama | DETAY: Konum: (607.28515625, 745.96875) | Buton: Button.left
+[2026-03-27 20:38:29.786027] EYLEM: Fare Tıklama | DETAY: Konum: (1246.5, 489.9609375) | Buton: Button.left
+[2026-03-27 20:40:05.867379] EYLEM: Fare Tıklama | DETAY: Konum: (2543.171875, 142.23828125) | Buton: Button.left
+[2026-03-27 20:40:08.499095] EYLEM: Fare Tıklama | DETAY: Konum: (1707.36328125, 838.859375) | Buton: Button.left
+[2026-03-27 20:40:23.945395] EYLEM: Fare Tıklama | DETAY: Konum: (2858.16015625, 115.890625) | Buton: Button.left
+[2026-03-27 20:40:25.463255] EYLEM: Fare Tıklama | DETAY: Konum: (2881.06640625, 149.61328125) | Buton: Button.left
+[2026-03-27 20:40:26.448443] EYLEM: Fare Tıklama | DETAY: Konum: (2859.0234375, 119.06640625) | Buton: Button.left
+[2026-03-27 20:40:27.698314] EYLEM: Fare Tıklama | DETAY: Konum: (2864.5, 113.08203125) | Buton: Button.left
+[2026-03-27 20:40:29.516305] EYLEM: Fare Tıklama | DETAY: Konum: (2749.9296875, 111.875) | Buton: Button.left
+[2026-03-27 20:40:31.852165] EYLEM: Fare Tıklama | DETAY: Konum: (2503.515625, 132.48046875) | Buton: Button.left
+[2026-03-27 20:40:39.090796] EYLEM: Fare Tıklama | DETAY: Konum: (2851.0625, 115.23046875) | Buton: Button.left
+[2026-03-27 20:40:39.858536] EYLEM: Fare Tıklama | DETAY: Konum: (2850.828125, 115.23046875) | Buton: Button.left
+[2026-03-27 20:40:40.291945] EYLEM: Fare Tıklama | DETAY: Konum: (2850.828125, 115.23046875) | Buton: Button.left
+[2026-03-27 20:40:41.126030] EYLEM: Fare Tıklama | DETAY: Konum: (2884.140625, 147.5546875) | Buton: Button.left
+[2026-03-27 20:40:41.342699] EYLEM: Fare Tıklama | DETAY: Konum: (2884.140625, 147.5546875) | Buton: Button.left
+[2026-03-27 20:40:43.044556] EYLEM: Fare Tıklama | DETAY: Konum: (2843.1328125, 114.55078125) | Buton: Button.left
+[2026-03-27 20:40:49.918547] EYLEM: Fare Tıklama | DETAY: Konum: (2580.921875, 89.93359375) | Buton: Button.left
+[2026-03-27 20:40:56.072322] EYLEM: Fare Tıklama | DETAY: Konum: (1407.7578125, 871.83203125) | Buton: Button.left
+[2026-03-27 20:41:00.110508] EYLEM: Fare Tıklama | DETAY: Konum: (2724.33203125, 544.7890625) | Buton: Button.left
+[2026-03-27 20:41:14.542266] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spacenothingKey.spacehereKey.spacediyorKey.enter
+[2026-03-27 20:42:08.764441] EYLEM: Fare Tıklama | DETAY: Konum: (2742.9375, 526.2265625) | Buton: Button.left
+[2026-03-27 20:42:19.392393] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spacesenKey.spaceyapKey.spacebeniKey.spaceyormaKey.enter
+[2026-03-27 20:42:57.888698] EYLEM: Fare Tıklama | DETAY: Konum: (3026.55859375, 113.87109375) | Buton: Button.left
+[2026-03-27 20:43:01.774973] EYLEM: Fare Tıklama | DETAY: Konum: (2889.75, 109.57421875) | Buton: Button.left
+[2026-03-27 20:43:02.358928] EYLEM: Fare Tıklama | DETAY: Konum: (2855.3203125, 110.59375) | Buton: Button.left
+[2026-03-27 20:43:03.092428] EYLEM: Fare Tıklama | DETAY: Konum: (2855.3203125, 110.59375) | Buton: Button.left
+[2026-03-27 20:43:07.029712] EYLEM: Fare Tıklama | DETAY: Konum: (3062.0703125, 316.453125) | Buton: Button.left
+[2026-03-27 20:43:08.713889] EYLEM: Fare Tıklama | DETAY: Konum: (3062.0703125, 316.453125) | Buton: Button.left
+[2026-03-27 20:43:09.514799] EYLEM: Fare Tıklama | DETAY: Konum: (3062.0703125, 316.453125) | Buton: Button.left
+[2026-03-27 20:43:10.299043] EYLEM: Fare Tıklama | DETAY: Konum: (3062.0703125, 277.6484375) | Buton: Button.left
+[2026-03-27 20:43:14.818743] EYLEM: Fare Tıklama | DETAY: Konum: (3064.11328125, 197.234375) | Buton: Button.left
+[2026-03-27 20:43:20.640031] EYLEM: Fare Tıklama | DETAY: Konum: (2640.44921875, 198.94921875) | Buton: Button.left
+[2026-03-27 20:43:24.844051] EYLEM: Fare Tıklama | DETAY: Konum: (2703.859375, 219.9609375) | Buton: Button.left
+[2026-03-27 20:43:43.126104] EYLEM: Fare Tıklama | DETAY: Konum: (2935.66015625, 763.37890625) | Buton: Button.left
+[2026-03-27 20:43:58.605421] EYLEM: Fare Tıklama | DETAY: Konum: (2320.8984375, 613.90625) | Buton: Button.left
+[2026-03-27 20:44:00.339390] EYLEM: Fare Tıklama | DETAY: Konum: (2721.99609375, 827.55859375) | Buton: Button.left
+[2026-03-27 20:44:17.103273] EYLEM: Fare Tıklama | DETAY: Konum: (2797.765625, 832.5078125) | Buton: Button.left
+[2026-03-27 20:44:31.448488] EYLEM: Fare Tıklama | DETAY: Konum: (2512.22265625, 473.546875) | Buton: Button.left
+[2026-03-27 20:44:33.350916] EYLEM: Fare Tıklama | DETAY: Konum: (2431.73828125, 759.1484375) | Buton: Button.left
+[2026-03-27 20:44:34.184351] EYLEM: Fare Tıklama | DETAY: Konum: (2709.72265625, 820.38671875) | Buton: Button.left
+[2026-03-27 20:47:02.699687] EYLEM: Fare Tıklama | DETAY: Konum: (125.36328125, 933.82421875) | Buton: Button.left
+[2026-03-27 20:47:05.505260] EYLEM: Fare Tıklama | DETAY: Konum: (544.96875, 503.1875) | Buton: Button.left
+[2026-03-27 20:47:12.999130] EYLEM: Fare Tıklama | DETAY: Konum: (2856.40234375, 555.953125) | Buton: Button.left
+[2026-03-27 20:47:18.102118] EYLEM: Fare Tıklama | DETAY: Konum: (2834.1015625, 784.94921875) | Buton: Button.left
+[2026-03-27 20:48:42.054894] EYLEM: Fare Tıklama | DETAY: Konum: (2846.6328125, 806.3515625) | Buton: Button.left
+[2026-03-27 20:48:45.174909] EYLEM: Fare Tıklama | DETAY: Konum: (2550.5078125, 379.60546875) | Buton: Button.left
+[2026-03-27 20:48:46.758381] EYLEM: Fare Tıklama | DETAY: Konum: (2543.7734375, 430.8828125) | Buton: Button.left
+[2026-03-27 20:49:02.194498] EYLEM: Fare Tıklama | DETAY: Konum: (1427.8671875, 107.01171875) | Buton: Button.left
+[2026-03-27 20:49:02.975885] EYLEM: Fare Tıklama | DETAY: Konum: (1427.26171875, 128.83203125) | Buton: Button.left
+[2026-03-27 20:50:33.242233] EYLEM: Fare Tıklama | DETAY: Konum: (2312.71484375, 206.30859375) | Buton: Button.left
+[2026-03-27 20:51:36.777852] EYLEM: Fare Tıklama | DETAY: Konum: (2791.41015625, 824.55078125) | Buton: Button.left
+[2026-03-27 20:51:43.515695] EYLEM: Fare Tıklama | DETAY: Konum: (3003.50390625, 262.140625) | Buton: Button.left
+[2026-03-27 20:51:46.135302] EYLEM: Fare Tıklama | DETAY: Konum: (3071.734375, 276.28125) | Buton: Button.left
+[2026-03-27 20:51:50.821730] EYLEM: Fare Tıklama | DETAY: Konum: (2737.6015625, 527.30859375) | Buton: Button.left
+[2026-03-27 20:52:00.031328] EYLEM: Fare Tıklama | DETAY: Konum: (2737.6015625, 527.18359375) | Buton: Button.left
+[2026-03-27 20:52:04.109426] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spaceçalıştııştırıyorumKey.enter
+[2026-03-27 20:52:17.322066] EYLEM: Fare Tıklama | DETAY: Konum: (3068.22265625, 273.1640625) | Buton: Button.left
+[2026-03-27 20:52:23.932265] EYLEM: Fare Tıklama | DETAY: Konum: (3063.4375, 192.9921875) | Buton: Button.left
+[2026-03-27 20:52:41.815045] EYLEM: Fare Tıklama | DETAY: Konum: (2771.26953125, 265.9609375) | Buton: Button.left
+[2026-03-27 20:52:42.780277] EYLEM: Fare Tıklama | DETAY: Konum: (2769.98046875, 263.703125) | Buton: Button.left
+[2026-03-27 20:52:42.996788] EYLEM: Fare Tıklama | DETAY: Konum: (2769.98046875, 263.703125) | Buton: Button.left
+[2026-03-27 20:52:44.364577] EYLEM: Fare Tıklama | DETAY: Konum: (3029.98828125, 261.6953125) | Buton: Button.left
+[2026-03-27 20:52:53.321708] EYLEM: Fare Tıklama | DETAY: Konum: (2916.203125, 501.17578125) | Buton: Button.left
+[2026-03-27 20:52:57.108954] EYLEM: Fare Tıklama | DETAY: Konum: (3067.02734375, 228.01171875) | Buton: Button.left
+[2026-03-27 20:53:00.244276] EYLEM: Fare Tıklama | DETAY: Konum: (2852.890625, 486.64453125) | Buton: Button.left
+[2026-03-27 20:53:04.033001] EYLEM: Fare Tıklama | DETAY: Konum: (2876.19921875, 582.78125) | Buton: Button.left
+[2026-03-27 20:53:07.266522] EYLEM: Fare Tıklama | DETAY: Konum: (2853.5859375, 437.4921875) | Buton: Button.left
+[2026-03-27 20:53:09.284617] EYLEM: Fare Tıklama | DETAY: Konum: (2872.328125, 578.21484375) | Buton: Button.left
+[2026-03-27 20:53:10.785892] EYLEM: Fare Tıklama | DETAY: Konum: (2925.9609375, 449.7734375) | Buton: Button.left
+[2026-03-27 20:53:13.255815] EYLEM: Fare Tıklama | DETAY: Konum: (2866.12109375, 600.28125) | Buton: Button.left
+[2026-03-27 20:53:21.695958] EYLEM: Fare Tıklama | DETAY: Konum: (3067.91796875, 273.4609375) | Buton: Button.left
+[2026-03-27 20:53:26.381725] EYLEM: Fare Tıklama | DETAY: Konum: (2786.19921875, 513.73828125) | Buton: Button.left
+[2026-03-27 20:53:31.000762] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: açıldıKey.spacecihazKey.enter
+[2026-03-27 20:56:38.784260] EYLEM: Fare Tıklama | DETAY: Konum: (1394.625, 812.70703125) | Buton: Button.left
+[2026-03-27 20:57:59.671564] EYLEM: Fare Tıklama | DETAY: Konum: (3067.50390625, 310.5859375) | Buton: Button.left
+[2026-03-27 20:58:01.288617] EYLEM: Fare Tıklama | DETAY: Konum: (3068.21484375, 197.75) | Buton: Button.left
+[2026-03-27 20:58:02.206261] EYLEM: Fare Tıklama | DETAY: Konum: (3067.49609375, 197.28515625) | Buton: Button.left
+[2026-03-27 20:58:02.972988] EYLEM: Fare Tıklama | DETAY: Konum: (3067.49609375, 197.28515625) | Buton: Button.left
+[2026-03-27 20:58:03.875926] EYLEM: Fare Tıklama | DETAY: Konum: (3066.578125, 231.8984375) | Buton: Button.left
+[2026-03-27 20:58:10.312270] EYLEM: Fare Tıklama | DETAY: Konum: (2881.3515625, 408.125) | Buton: Button.left
+[2026-03-27 20:58:11.563382] EYLEM: Fare Tıklama | DETAY: Konum: (2872.58984375, 421.01171875) | Buton: Button.left
+[2026-03-27 20:58:23.339755] EYLEM: Fare Tıklama | DETAY: Konum: (3073.03515625, 276.78125) | Buton: Button.left
+[2026-03-27 20:58:31.129513] EYLEM: Fare Tıklama | DETAY: Konum: (2847.81640625, 521.48046875) | Buton: Button.left
+[2026-03-27 20:58:36.603826] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: geldiKey.spacemiKey.shift_r?Key.enter
+[2026-03-27 20:58:41.873133] EYLEM: Fare Tıklama | DETAY: Konum: (1399.22265625, 814.125) | Buton: Button.left
+[2026-03-27 20:59:32.860706] EYLEM: Fare Tıklama | DETAY: Konum: (1390.83203125, 807.61328125) | Buton: Button.left
+[2026-03-27 21:00:58.716569] EYLEM: Fare Tıklama | DETAY: Konum: (2810.171875, 517.4921875) | Buton: Button.left
+[2026-03-27 21:01:14.278553] EYLEM: Fare Tıklama | DETAY: Konum: (2876.91015625, 520.640625) | Buton: Button.left
+[2026-03-27 21:01:27.573173] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spaceyapmanıKey.spacebekliyorumKey.enter
+[2026-03-27 21:01:54.058209] EYLEM: Fare Tıklama | DETAY: Konum: (1484.45703125, 904.5546875) | Buton: Button.left
+[2026-03-27 21:01:55.328126] EYLEM: Fare Tıklama | DETAY: Konum: (1224.00390625, 874.515625) | Buton: Button.left
+[2026-03-27 21:02:09.173846] EYLEM: Fare Tıklama | DETAY: Konum: (614.4453125, 747.28515625) | Buton: Button.left
+[2026-03-27 21:02:11.369427] EYLEM: Fare Tıklama | DETAY: Konum: (639.51171875, 802.3984375) | Buton: Button.left
+[2026-03-27 21:02:18.552684] EYLEM: Fare Tıklama | DETAY: Konum: (1370.6953125, 873.86328125) | Buton: Button.left
+[2026-03-27 21:02:31.190813] EYLEM: Fare Tıklama | DETAY: Konum: (1291.87109375, 668.5) | Buton: Button.left
+[2026-03-27 21:02:34.923122] EYLEM: Fare Tıklama | DETAY: Konum: (1314.46484375, 700.265625) | Buton: Button.left
+[2026-03-27 21:02:36.014856] EYLEM: Fare Tıklama | DETAY: Konum: (1287.2890625, 667.46484375) | Buton: Button.left
+[2026-03-27 21:03:04.126688] EYLEM: Fare Tıklama | DETAY: Konum: (1090.5546875, 783.22265625) | Buton: Button.left
+[2026-03-27 21:03:07.676905] EYLEM: Fare Tıklama | DETAY: Konum: (1097.015625, 784.05078125) | Buton: Button.left
+[2026-03-27 21:03:12.133740] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: zümümüzKey.spacevarKey.spaceKey.shift_r:Key.spaceKey.cmdvKey.backspaceKey.backspaceKey.enter
+[2026-03-27 21:03:47.086219] EYLEM: Fare Tıklama | DETAY: Konum: (2819.81640625, 353.33984375) | Buton: Button.left
+[2026-03-27 21:03:47.869836] EYLEM: Fare Tıklama | DETAY: Konum: (2811.90234375, 341.5) | Buton: Button.left
+[2026-03-27 21:03:51.205723] EYLEM: Fare Tıklama | DETAY: Konum: (3012.3984375, 320.6484375) | Buton: Button.left
+[2026-03-27 21:03:54.575299] EYLEM: Fare Tıklama | DETAY: Konum: (2852.859375, 421.93359375) | Buton: Button.left
+[2026-03-27 21:03:55.359066] EYLEM: Fare Tıklama | DETAY: Konum: (2822.13671875, 501.25) | Buton: Button.left
+[2026-03-27 21:03:59.068744] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: evetKey.enter
+[2026-03-27 21:04:12.289128] EYLEM: Fare Tıklama | DETAY: Konum: (1396.2109375, 815.0234375) | Buton: Button.left
+[2026-03-27 21:06:57.951661] EYLEM: Fare Tıklama | DETAY: Konum: (1240.98828125, 875.296875) | Buton: Button.left
+[2026-03-27 21:07:00.581887] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: testKey.spaceetKey.enter
+[2026-03-27 21:07:10.917931] EYLEM: Fare Tıklama | DETAY: Konum: (3076.05859375, 915.1953125) | Buton: Button.left
+[2026-03-27 21:07:18.990895] EYLEM: Fare Tıklama | DETAY: Konum: (3069.18359375, 727.8359375) | Buton: Button.left
+[2026-03-27 21:07:25.261697] EYLEM: Fare Tıklama | DETAY: Konum: (3342.2578125, 190.5625) | Buton: Button.left
+[2026-03-27 21:07:26.196235] EYLEM: Fare Tıklama | DETAY: Konum: (3341.79296875, 190.5625) | Buton: Button.left
+[2026-03-27 21:07:27.529830] EYLEM: Fare Tıklama | DETAY: Konum: (3329.81640625, 266.9609375) | Buton: Button.left
+[2026-03-27 21:07:28.547633] EYLEM: Fare Tıklama | DETAY: Konum: (3332.90234375, 317.30859375) | Buton: Button.left
+[2026-03-27 21:07:29.431547] EYLEM: Fare Tıklama | DETAY: Konum: (3332.90234375, 317.30859375) | Buton: Button.left
+[2026-03-27 21:07:30.332293] EYLEM: Fare Tıklama | DETAY: Konum: (3347.1484375, 188.63671875) | Buton: Button.left
+[2026-03-27 21:07:31.166306] EYLEM: Fare Tıklama | DETAY: Konum: (3342.296875, 235.9140625) | Buton: Button.left
+[2026-03-27 21:07:40.465887] EYLEM: Fare Tıklama | DETAY: Konum: (3124.72265625, 279.48046875) | Buton: Button.left
+[2026-03-27 21:07:41.208038] EYLEM: Fare Tıklama | DETAY: Konum: (3111.06640625, 265.76171875) | Buton: Button.left
+[2026-03-27 21:07:41.841775] EYLEM: Fare Tıklama | DETAY: Konum: (3127.23046875, 288.57421875) | Buton: Button.left
+[2026-03-27 21:07:43.159504] EYLEM: Fare Tıklama | DETAY: Konum: (3103.58203125, 825.41015625) | Buton: Button.left
+[2026-03-27 21:07:43.759991] EYLEM: Fare Tıklama | DETAY: Konum: (3118.95703125, 808.34375) | Buton: Button.left
+[2026-03-27 21:07:48.569615] EYLEM: Fare Tıklama | DETAY: Konum: (3345.61328125, 282.75390625) | Buton: Button.left
+[2026-03-27 21:07:51.449454] EYLEM: Fare Tıklama | DETAY: Konum: (3056.25, 742.1328125) | Buton: Button.left
+[2026-03-27 21:07:58.292735] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: girişKey.spaceekranıKey.spaceyokKey.enter
+[2026-03-27 21:08:00.690384] EYLEM: Fare Tıklama | DETAY: Konum: (3349.39453125, 239.73828125) | Buton: Button.left
+[2026-03-27 21:08:03.275925] EYLEM: Fare Tıklama | DETAY: Konum: (3344.29296875, 274.421875) | Buton: Button.left
+[2026-03-27 21:08:46.283327] EYLEM: Fare Tıklama | DETAY: Konum: (1197.93359375, 877.94140625) | Buton: Button.left
+[2026-03-27 21:08:50.889379] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: evetKey.spacelütfenKey.enter
+[2026-03-27 21:09:25.948708] EYLEM: Fare Tıklama | DETAY: Konum: (1393.25390625, 808.8671875) | Buton: Button.left
+[2026-03-27 21:09:55.117268] EYLEM: Fare Tıklama | DETAY: Konum: (3111.61328125, 340.2578125) | Buton: Button.left
+[2026-03-27 21:09:57.885694] EYLEM: Fare Tıklama | DETAY: Konum: (3080.7265625, 746.90625) | Buton: Button.left
+[2026-03-27 21:10:02.544663] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: yaniKey.spacenedirKey.spacedurumKey.enter
+[2026-03-27 21:10:19.269876] EYLEM: Fare Tıklama | DETAY: Konum: (3138.8359375, 438.03515625) | Buton: Button.left
+[2026-03-27 21:10:19.519756] EYLEM: Fare Tıklama | DETAY: Konum: (3138.8359375, 438.03515625) | Buton: Button.left
+[2026-03-27 21:10:22.639072] EYLEM: Fare Tıklama | DETAY: Konum: (3090.95703125, 747.33984375) | Buton: Button.left
+[2026-03-27 21:10:26.248070] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: evetKey.enter
+[2026-03-27 21:10:29.177683] EYLEM: Fare Tıklama | DETAY: Konum: (3196.890625, 780.71484375) | Buton: Button.left
+[2026-03-27 21:10:36.167011] EYLEM: Fare Tıklama | DETAY: Konum: (3184.51953125, 511.75) | Buton: Button.left
+[2026-03-27 21:10:46.958954] EYLEM: Fare Tıklama | DETAY: Konum: (3207.82421875, 796.22265625) | Buton: Button.left
+[2026-03-27 21:10:48.426970] EYLEM: Fare Tıklama | DETAY: Konum: (3067.44140625, 721.7421875) | Buton: Button.left
+[2026-03-27 21:10:49.577667] EYLEM: Fare Tıklama | DETAY: Konum: (3042.56640625, 717.60546875) | Buton: Button.left
+[2026-03-27 21:10:52.597339] EYLEM: Fare Tıklama | DETAY: Konum: (2699.62109375, 494.33203125) | Buton: Button.left
+[2026-03-27 21:10:54.231657] EYLEM: Fare Tıklama | DETAY: Konum: (2738.60546875, 523.96875) | Buton: Button.left
+[2026-03-27 21:11:08.990253] EYLEM: Fare Tıklama | DETAY: Konum: (1409.24609375, 599.0703125) | Buton: Button.left
+[2026-03-27 21:11:10.243198] EYLEM: Fare Tıklama | DETAY: Konum: (1368.0546875, 665.11328125) | Buton: Button.left
+[2026-03-27 21:11:11.601528] EYLEM: Fare Tıklama | DETAY: Konum: (967.4921875, 604.80078125) | Buton: Button.left
+[2026-03-27 21:11:18.451947] EYLEM: Fare Tıklama | DETAY: Konum: (450.2890625, 414.1171875) | Buton: Button.left
+[2026-03-27 21:11:20.985184] EYLEM: Fare Tıklama | DETAY: Konum: (1409.05859375, 599.734375) | Buton: Button.left
+[2026-03-27 21:11:22.155572] EYLEM: Fare Tıklama | DETAY: Konum: (1366.91796875, 663.30078125) | Buton: Button.left
+[2026-03-27 21:11:23.247487] EYLEM: Fare Tıklama | DETAY: Konum: (984.53125, 617.26953125) | Buton: Button.left
+[2026-03-27 21:11:27.425974] EYLEM: Fare Tıklama | DETAY: Konum: (1352.71875, 276.84375) | Buton: Button.left
+[2026-03-27 21:11:29.367928] EYLEM: Fare Tıklama | DETAY: Konum: (930.3984375, 652.125) | Buton: Button.left
+[2026-03-27 21:11:34.638608] EYLEM: Fare Tıklama | DETAY: Konum: (1283.37109375, 472.59375) | Buton: Button.left
+[2026-03-27 21:11:38.100594] EYLEM: Fare Tıklama | DETAY: Konum: (2695.37109375, 496.70703125) | Buton: Button.left
+[2026-03-27 21:11:40.952949] EYLEM: Fare Tıklama | DETAY: Konum: (2956.89453125, 952.19140625) | Buton: Button.left
+[2026-03-27 21:11:42.904604] EYLEM: Fare Tıklama | DETAY: Konum: (3097.15234375, 736.6484375) | Buton: Button.left
+[2026-03-27 21:11:46.836446] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvdevamKey.spaceedelimKey.enter
+[2026-03-27 21:11:57.149937] EYLEM: Fare Tıklama | DETAY: Konum: (3133.3671875, 323.32421875) | Buton: Button.left
+[2026-03-27 21:11:59.250999] EYLEM: Fare Tıklama | DETAY: Konum: (3227.98046875, 793.046875) | Buton: Button.left
+[2026-03-27 21:12:01.870014] EYLEM: Fare Tıklama | DETAY: Konum: (3117.7578125, 751.4375) | Buton: Button.left
+[2026-03-27 21:12:04.538547] EYLEM: Fare Tıklama | DETAY: Konum: (2429.14453125, 406.203125) | Buton: Button.left
+[2026-03-27 21:12:06.273409] EYLEM: Fare Tıklama | DETAY: Konum: (2978.6484375, 952.03515625) | Buton: Button.left
+[2026-03-27 21:12:07.524351] EYLEM: Fare Tıklama | DETAY: Konum: (3155.265625, 749.6796875) | Buton: Button.left
+[2026-03-27 21:12:09.709572] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: devamKey.enter
+[2026-03-27 21:12:23.388027] EYLEM: Fare Tıklama | DETAY: Konum: (3200.94921875, 794.33984375) | Buton: Button.left
+[2026-03-27 21:12:25.956097] EYLEM: Fare Tıklama | DETAY: Konum: (3091.62890625, 692.43359375) | Buton: Button.left
+[2026-03-27 21:12:30.660245] EYLEM: Fare Tıklama | DETAY: Konum: (3078.484375, 757.41015625) | Buton: Button.left
+[2026-03-27 21:12:36.548210] EYLEM: Fare Tıklama | DETAY: Konum: (2422.3671875, 404.87109375) | Buton: Button.left
+[2026-03-27 21:12:40.334540] EYLEM: Fare Tıklama | DETAY: Konum: (2411.0703125, 374.3046875) | Buton: Button.left
+[2026-03-27 21:12:43.353823] EYLEM: Fare Tıklama | DETAY: Konum: (2154.16015625, 588.25390625) | Buton: Button.left
+[2026-03-27 21:12:50.876476] EYLEM: Fare Tıklama | DETAY: Konum: (2157.90234375, 620.29296875) | Buton: Button.left
+[2026-03-27 21:12:51.743898] EYLEM: Fare Tıklama | DETAY: Konum: (2160.2109375, 643.8984375) | Buton: Button.left
+[2026-03-27 21:12:53.244905] EYLEM: Fare Tıklama | DETAY: Konum: (2155.21484375, 620.640625) | Buton: Button.left
+[2026-03-27 21:12:54.412389] EYLEM: Fare Tıklama | DETAY: Konum: (2156.41015625, 644.265625) | Buton: Button.left
+[2026-03-27 21:12:55.146473] EYLEM: Fare Tıklama | DETAY: Konum: (2155.15625, 605.890625) | Buton: Button.left
+[2026-03-27 21:12:56.047126] EYLEM: Fare Tıklama | DETAY: Konum: (2160.21875, 623.3125) | Buton: Button.left
+[2026-03-27 21:12:59.183289] EYLEM: Fare Tıklama | DETAY: Konum: (2973.95703125, 957.02734375) | Buton: Button.left
+[2026-03-27 21:13:03.203074] EYLEM: Fare Tıklama | DETAY: Konum: (3113.671875, 167.3359375) | Buton: Button.left
+[2026-03-27 21:13:03.970260] EYLEM: Fare Tıklama | DETAY: Konum: (3001.21484375, 171.5390625) | Buton: Button.left
+[2026-03-27 21:13:04.537132] EYLEM: Fare Tıklama | DETAY: Konum: (2997.96875, 150.49609375) | Buton: Button.left
+[2026-03-27 21:13:05.288239] EYLEM: Fare Tıklama | DETAY: Konum: (3098.4375, 152.65234375) | Buton: Button.left
+[2026-03-27 21:13:05.755008] EYLEM: Fare Tıklama | DETAY: Konum: (3068.78515625, 152.65234375) | Buton: Button.left
+[2026-03-27 21:13:06.439000] EYLEM: Fare Tıklama | DETAY: Konum: (3122.515625, 146.4296875) | Buton: Button.left
+[2026-03-27 21:13:08.123619] EYLEM: Fare Tıklama | DETAY: Konum: (3048.3046875, 751.11328125) | Buton: Button.left
+[2026-03-27 21:13:10.167681] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.enter
+[2026-03-27 21:13:13.645128] EYLEM: Fare Tıklama | DETAY: Konum: (3066.91015625, 170.25) | Buton: Button.left
+[2026-03-27 21:13:15.163021] EYLEM: Fare Tıklama | DETAY: Konum: (3051.60546875, 731.8984375) | Buton: Button.left
+[2026-03-27 21:13:17.576346] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.enter
+[2026-03-27 21:13:29.241242] EYLEM: Fare Tıklama | DETAY: Konum: (3033.67578125, 260.2578125) | Buton: Button.left
+[2026-03-27 21:13:31.642791] EYLEM: Fare Tıklama | DETAY: Konum: (3041.015625, 266.203125) | Buton: Button.left
+[2026-03-27 21:13:32.927349] EYLEM: Fare Tıklama | DETAY: Konum: (3059.0546875, 277.44921875) | Buton: Button.left
+[2026-03-27 21:13:34.595439] EYLEM: Fare Tıklama | DETAY: Konum: (3037.03515625, 265.87890625) | Buton: Button.left
+[2026-03-27 21:13:37.464333] EYLEM: Fare Tıklama | DETAY: Konum: (3126.61328125, 150.7421875) | Buton: Button.left
+[2026-03-27 21:13:38.715193] EYLEM: Fare Tıklama | DETAY: Konum: (3055.33984375, 748.203125) | Buton: Button.left
+[2026-03-27 21:13:48.367175] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: vKey.spacebuKey.spacehatayıKey.spaceveriyorKey.enter
+[2026-03-27 21:13:56.311672] EYLEM: Fare Tıklama | DETAY: Konum: (910.90625, 42.5859375) | Buton: Button.left
+[2026-03-27 21:14:05.487307] EYLEM: Fare Tıklama | DETAY: Konum: (3272.7265625, 158.62890625) | Buton: Button.left
+[2026-03-27 21:14:06.888187] EYLEM: Fare Tıklama | DETAY: Konum: (3213.4921875, 288.3203125) | Buton: Button.left
+[2026-03-27 21:14:08.039401] EYLEM: Fare Tıklama | DETAY: Konum: (3295.328125, 164.8203125) | Buton: Button.left
+[2026-03-27 21:14:13.527179] EYLEM: Fare Tıklama | DETAY: Konum: (3340.5078125, 281.96484375) | Buton: Button.left
+[2026-03-27 21:14:17.363240] EYLEM: Fare Tıklama | DETAY: Konum: (3070.5234375, 155.3984375) | Buton: Button.left
+[2026-03-27 21:14:18.447536] EYLEM: Fare Tıklama | DETAY: Konum: (3228.53515625, 156.34375) | Buton: Button.left
+[2026-03-27 21:14:20.799549] EYLEM: Fare Tıklama | DETAY: Konum: (3088.00390625, 739.78515625) | Buton: Button.left
+[2026-03-27 21:14:23.231997] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.enter
+[2026-03-27 21:14:30.807797] EYLEM: Fare Tıklama | DETAY: Konum: (3038.08984375, 722.9765625) | Buton: Button.left
+[2026-03-27 21:14:39.647224] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: uygulamKey.backspacemayıKey.spaceyükleKey.enter
+[2026-03-27 21:16:51.572225] EYLEM: Fare Tıklama | DETAY: Konum: (3072.91796875, 738.4765625) | Buton: Button.left
+[2026-03-27 21:16:58.225035] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spacekomutlarıKey.spaceçalıştırKey.enter
+[2026-03-27 21:17:36.225532] EYLEM: Fare Tıklama | DETAY: Konum: (3289.58984375, 308.921875) | Buton: Button.left
+[2026-03-27 21:17:37.826505] EYLEM: Fare Tıklama | DETAY: Konum: (2306.484375, 948.65625) | Buton: Button.left
+[2026-03-27 21:17:40.370962] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 21:17:55.591247] EYLEM: Fare Tıklama | DETAY: Konum: (1901.984375, 1403.8203125) | Buton: Button.left
+[2026-03-27 21:17:57.993273] EYLEM: Fare Tıklama | DETAY: Konum: (2453.36328125, 773.24609375) | Buton: Button.left
+[2026-03-27 21:18:07.384301] EYLEM: Fare Tıklama | DETAY: Konum: (2858.23828125, 566.23046875) | Buton: Button.left
+[2026-03-27 21:18:14.095128] EYLEM: Fare Tıklama | DETAY: Konum: (986.0078125, 656.08984375) | Buton: Button.left
+[2026-03-27 21:18:18.878544] EYLEM: Fare Tıklama | DETAY: Konum: (1091.14453125, 380.859375) | Buton: Button.left
+[2026-03-27 21:18:22.946596] EYLEM: Fare Tıklama | DETAY: Konum: (2705.62109375, 552.7734375) | Buton: Button.left
+[2026-03-27 21:18:33.994859] EYLEM: Fare Tıklama | DETAY: Konum: (531.41015625, 216.796875) | Buton: Button.left
+[2026-03-27 21:18:35.311053] EYLEM: Fare Tıklama | DETAY: Konum: (739.4296875, 237.86328125) | Buton: Button.left
+[2026-03-27 21:18:36.844837] EYLEM: Fare Tıklama | DETAY: Konum: (691.6484375, 406.98828125) | Buton: Button.left
+[2026-03-27 21:18:41.811661] EYLEM: Fare Tıklama | DETAY: Konum: (682.09765625, 381.7890625) | Buton: Button.left
+[2026-03-27 21:18:43.861284] EYLEM: Fare Tıklama | DETAY: Konum: (847.0, 396.359375) | Buton: Button.left
+[2026-03-27 21:18:45.091217] EYLEM: Fare Tıklama | DETAY: Konum: (549.9921875, 672.2421875) | Buton: Button.left
+[2026-03-27 21:18:49.540429] EYLEM: Fare Tıklama | DETAY: Konum: (139.296875, 775.1953125) | Buton: Button.left
+[2026-03-27 21:18:50.169424] EYLEM: Fare Tıklama | DETAY: Konum: (171.04296875, 824.28125) | Buton: Button.left
+[2026-03-27 21:18:55.740847] EYLEM: Fare Tıklama | DETAY: Konum: (74.7109375, 637.3984375) | Buton: Button.left
+[2026-03-27 21:18:56.957896] EYLEM: Fare Tıklama | DETAY: Konum: (629.06640625, 92.68359375) | Buton: Button.left
+[2026-03-27 21:18:58.674003] EYLEM: Fare Tıklama | DETAY: Konum: (1016.64453125, 287.42578125) | Buton: Button.left
+[2026-03-27 21:19:00.700581] EYLEM: Fare Tıklama | DETAY: Konum: (510.453125, 490.9140625) | Buton: Button.left
+[2026-03-27 21:19:06.649216] EYLEM: Fare Tıklama | DETAY: Konum: (2072.9453125, 997.89453125) | Buton: Button.left
+[2026-03-27 21:19:09.345555] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.upKey.enter
+[2026-03-27 21:19:14.972620] EYLEM: Fare Tıklama | DETAY: Konum: (1742.4375, 938.20703125) | Buton: Button.left
+[2026-03-27 21:19:17.858084] EYLEM: Fare Tıklama | DETAY: Konum: (1739.87109375, 946.375) | Buton: Button.left
+[2026-03-27 21:19:19.878739] EYLEM: Fare Tıklama | DETAY: Konum: (1971.578125, 957.5859375) | Buton: Button.right
+[2026-03-27 21:19:21.644256] EYLEM: Fare Tıklama | DETAY: Konum: (2042.921875, 1057.80078125) | Buton: Button.left
+[2026-03-27 21:19:22.845498] EYLEM: Fare Tıklama | DETAY: Konum: (3102.4140625, 746.5078125) | Buton: Button.left
+[2026-03-27 21:19:24.684923] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 21:19:40.443032] EYLEM: Fare Tıklama | DETAY: Konum: (3283.1953125, 297.31640625) | Buton: Button.left
+[2026-03-27 21:19:42.211137] EYLEM: Fare Tıklama | DETAY: Konum: (2224.96484375, 1012.3046875) | Buton: Button.left
+[2026-03-27 21:19:44.971158] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 21:19:55.105053] EYLEM: Fare Tıklama | DETAY: Konum: (3288.08203125, 403.25390625) | Buton: Button.left
+[2026-03-27 21:20:38.506990] EYLEM: Fare Tıklama | DETAY: Konum: (2884.24609375, 460.96875) | Buton: Button.left
+[2026-03-27 21:20:51.193228] EYLEM: Fare Tıklama | DETAY: Konum: (466.06640625, 464.9296875) | Buton: Button.left
+[2026-03-27 21:20:57.944285] EYLEM: Fare Tıklama | DETAY: Konum: (188.92578125, 163.296875) | Buton: Button.left
+[2026-03-27 21:20:59.331206] EYLEM: Fare Tıklama | DETAY: Konum: (184.65234375, 164.640625) | Buton: Button.left
+[2026-03-27 21:21:19.368038] EYLEM: Fare Tıklama | DETAY: Konum: (1155.96875, 884.3125) | Buton: Button.left
+[2026-03-27 21:21:32.250606] EYLEM: Fare Tıklama | DETAY: Konum: (1154.89453125, 872.23828125) | Buton: Button.left
+[2026-03-27 21:21:36.056463] EYLEM: Fare Tıklama | DETAY: Konum: (1156.125, 53.78125) | Buton: Button.left
+[2026-03-27 21:21:40.567138] EYLEM: Fare Tıklama | DETAY: Konum: (1058.47265625, 58.890625) | Buton: Button.left
+[2026-03-27 21:21:41.654790] EYLEM: Fare Tıklama | DETAY: Konum: (835.0234375, 63.8359375) | Buton: Button.left
+[2026-03-27 21:21:49.721319] EYLEM: Fare Tıklama | DETAY: Konum: (1224.453125, 856.48046875) | Buton: Button.left
+[2026-03-27 21:21:52.704609] EYLEM: Fare Tıklama | DETAY: Konum: (606.078125, 700.69140625) | Buton: Button.left
+[2026-03-27 21:21:55.937446] EYLEM: Fare Tıklama | DETAY: Konum: (1164.375, 873.48828125) | Buton: Button.left
+[2026-03-27 21:22:05.251150] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: ardımKey.spacealıyoruzKey.shift_r:Key.spaceKey.cmdvKey.enter
+[2026-03-27 21:22:28.882463] EYLEM: Fare Tıklama | DETAY: Konum: (1352.93359375, 528.5546875) | Buton: Button.left
+[2026-03-27 21:22:31.644202] EYLEM: Fare Tıklama | DETAY: Konum: (1242.8359375, 906.140625) | Buton: Button.left
+[2026-03-27 21:22:31.890871] EYLEM: Fare Tıklama | DETAY: Konum: (1242.953125, 906.140625) | Buton: Button.left
+[2026-03-27 21:22:32.060907] EYLEM: Fare Tıklama | DETAY: Konum: (1242.953125, 906.140625) | Buton: Button.left
+[2026-03-27 21:22:32.597781] EYLEM: Fare Tıklama | DETAY: Konum: (1242.953125, 906.140625) | Buton: Button.right
+[2026-03-27 21:22:33.900490] EYLEM: Fare Tıklama | DETAY: Konum: (1270.41015625, 912.4453125) | Buton: Button.right
+[2026-03-27 21:22:35.563236] EYLEM: Fare Tıklama | DETAY: Konum: (1209.875, 918.375) | Buton: Button.right
+[2026-03-27 21:22:36.268867] EYLEM: Fare Tıklama | DETAY: Konum: (1209.875, 918.375) | Buton: Button.right
+[2026-03-27 21:22:40.490662] EYLEM: Fare Tıklama | DETAY: Konum: (3041.625, 726.50390625) | Buton: Button.left
+[2026-03-27 21:22:42.993910] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 21:22:53.116285] EYLEM: Fare Tıklama | DETAY: Konum: (3335.33203125, 230.69140625) | Buton: Button.left
+[2026-03-27 21:22:55.267856] EYLEM: Fare Tıklama | DETAY: Konum: (3139.2734375, 636.12890625) | Buton: Button.left
+[2026-03-27 21:22:59.338901] EYLEM: Fare Tıklama | DETAY: Konum: (3079.36328125, 464.37109375) | Buton: Button.left
+[2026-03-27 21:23:12.611684] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: reKey.alt_r@emareasKey.backspaceKey.backspaceas.comKey.enter
+[2026-03-27 21:23:20.502795] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.shift_rEmre2025*Key.enter
+[2026-03-27 21:23:35.366115] EYLEM: Fare Tıklama | DETAY: Konum: (3226.87890625, 583.83203125) | Buton: Button.left
+[2026-03-27 21:23:56.667007] EYLEM: Fare Tıklama | DETAY: Konum: (3072.3828125, 782.35546875) | Buton: Button.left
+[2026-03-27 21:23:59.319498] EYLEM: Fare Tıklama | DETAY: Konum: (3146.72265625, 648.11328125) | Buton: Button.left
+[2026-03-27 21:24:03.138752] EYLEM: Fare Tıklama | DETAY: Konum: (3143.63671875, 685.15234375) | Buton: Button.left
+[2026-03-27 21:24:06.674744] EYLEM: Fare Tıklama | DETAY: Konum: (3138.44921875, 810.828125) | Buton: Button.left
+[2026-03-27 21:24:19.385920] EYLEM: Fare Tıklama | DETAY: Konum: (3339.15234375, 277.71484375) | Buton: Button.left
+[2026-03-27 21:24:27.324859] EYLEM: Fare Tıklama | DETAY: Konum: (3239.08984375, 474.31640625) | Buton: Button.left
+[2026-03-27 21:24:33.196353] EYLEM: Fare Tıklama | DETAY: Konum: (2516.28125, 1036.7578125) | Buton: Button.left
+[2026-03-27 21:24:35.431903] EYLEM: Fare Tıklama | DETAY: Konum: (1754.8046875, 863.33203125) | Buton: Button.left
+[2026-03-27 21:24:36.415901] EYLEM: Fare Tıklama | DETAY: Konum: (1774.96484375, 857.94140625) | Buton: Button.left
+[2026-03-27 21:24:37.033091] EYLEM: Fare Tıklama | DETAY: Konum: (1769.72265625, 860.03125) | Buton: Button.left
+[2026-03-27 21:24:40.452150] EYLEM: Fare Tıklama | DETAY: Konum: (2096.84765625, 1097.6015625) | Buton: Button.left
+[2026-03-27 21:24:42.812176] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 21:25:39.542629] EYLEM: Fare Tıklama | DETAY: Konum: (1395.28125, 807.640625) | Buton: Button.left
+[2026-03-27 21:26:15.065566] EYLEM: Fare Tıklama | DETAY: Konum: (764.26171875, 94.22265625) | Buton: Button.left
+[2026-03-27 21:26:16.740174] EYLEM: Fare Tıklama | DETAY: Konum: (238.02734375, 272.12109375) | Buton: Button.left
+[2026-03-27 21:26:18.244860] EYLEM: Fare Tıklama | DETAY: Konum: (707.83203125, 600.19140625) | Buton: Button.left
+[2026-03-27 21:26:19.499243] EYLEM: Fare Tıklama | DETAY: Konum: (1436.5390625, 408.140625) | Buton: Button.left
+[2026-03-27 21:26:23.277503] EYLEM: Fare Tıklama | DETAY: Konum: (1198.56640625, 946.9140625) | Buton: Button.left
+[2026-03-27 21:26:25.098616] EYLEM: Fare Tıklama | DETAY: Konum: (1151.9140625, 394.67578125) | Buton: Button.left
+[2026-03-27 21:26:28.889995] EYLEM: Fare Tıklama | DETAY: Konum: (1395.1796875, 812.59375) | Buton: Button.left
+[2026-03-27 21:26:34.712230] EYLEM: Fare Tıklama | DETAY: Konum: (1394.87890625, 810.32421875) | Buton: Button.left
+[2026-03-27 21:26:43.477469] EYLEM: Fare Tıklama | DETAY: Konum: (1396.3671875, 814.6953125) | Buton: Button.left
+[2026-03-27 22:58:09.167804] EYLEM: Fare Tıklama | DETAY: Konum: (1164.5859375, 881.125) | Buton: Button.left
+[2026-03-27 22:58:34.331358] EYLEM: Fare Tıklama | DETAY: Konum: (1345.24609375, 524.671875) | Buton: Button.left
+[2026-03-27 22:58:40.765077] EYLEM: Fare Tıklama | DETAY: Konum: (1349.109375, 526.81640625) | Buton: Button.left
+[2026-03-27 22:58:41.434976] EYLEM: Fare Tıklama | DETAY: Konum: (1349.109375, 526.81640625) | Buton: Button.left
+[2026-03-27 22:58:57.305218] EYLEM: Fare Tıklama | DETAY: Konum: (72.3515625, 164.05078125) | Buton: Button.left
+[2026-03-27 22:59:05.175577] EYLEM: Fare Tıklama | DETAY: Konum: (1005.0546875, 948.62109375) | Buton: Button.right
+[2026-03-27 22:59:06.701114] EYLEM: Fare Tıklama | DETAY: Konum: (1054.08984375, 760.01953125) | Buton: Button.left
+[2026-03-27 22:59:08.987986] EYLEM: Fare Tıklama | DETAY: Konum: (341.515625, 417.6328125) | Buton: Button.left
+[2026-03-27 22:59:11.084163] EYLEM: Fare Tıklama | DETAY: Konum: (569.71875, 430.34765625) | Buton: Button.left
+[2026-03-27 22:59:12.338479] EYLEM: Fare Tıklama | DETAY: Konum: (795.83203125, 441.421875) | Buton: Button.left
+[2026-03-27 22:59:13.534140] EYLEM: Fare Tıklama | DETAY: Konum: (1152.30859375, 685.01171875) | Buton: Button.left
+[2026-03-27 22:59:22.293425] EYLEM: Fare Tıklama | DETAY: Konum: (256.390625, 311.93359375) | Buton: Button.left
+[2026-03-27 22:59:28.838148] EYLEM: Fare Tıklama | DETAY: Konum: (1436.09765625, 876.33984375) | Buton: Button.left
+[2026-03-27 22:59:34.058446] EYLEM: Fare Tıklama | DETAY: Konum: (1200.5234375, 793.1328125) | Buton: Button.left
+[2026-03-27 22:59:34.667208] EYLEM: Fare Tıklama | DETAY: Konum: (1136.60546875, 818.5625) | Buton: Button.left
+[2026-03-27 22:59:38.508820] EYLEM: Fare Tıklama | DETAY: Konum: (1213.17578125, 787.72265625) | Buton: Button.left
+[2026-03-27 22:59:44.546369] EYLEM: Fare Tıklama | DETAY: Konum: (1175.6875, 703.6015625) | Buton: Button.left
+[2026-03-27 22:59:46.243379] EYLEM: Fare Tıklama | DETAY: Konum: (1133.78515625, 821.66796875) | Buton: Button.left
+[2026-03-27 22:59:47.429631] EYLEM: Fare Tıklama | DETAY: Konum: (1163.3359375, 843.6328125) | Buton: Button.left
+[2026-03-27 22:59:49.683897] EYLEM: Fare Tıklama | DETAY: Konum: (1095.96484375, 718.38671875) | Buton: Button.left
+[2026-03-27 22:59:50.642035] EYLEM: Fare Tıklama | DETAY: Konum: (1151.12109375, 795.09765625) | Buton: Button.left
+[2026-03-27 22:59:54.633689] EYLEM: Fare Tıklama | DETAY: Konum: (1349.13671875, 522.56640625) | Buton: Button.left
+[2026-03-27 22:59:55.780012] EYLEM: Fare Tıklama | DETAY: Konum: (1322.03125, 912.00390625) | Buton: Button.left
+[2026-03-27 22:59:55.979760] EYLEM: Fare Tıklama | DETAY: Konum: (1322.03125, 912.00390625) | Buton: Button.left
+[2026-03-27 22:59:56.150132] EYLEM: Fare Tıklama | DETAY: Konum: (1322.03125, 912.00390625) | Buton: Button.left
+[2026-03-27 23:00:01.670739] EYLEM: Fare Tıklama | DETAY: Konum: (1112.10546875, 813.046875) | Buton: Button.left
+[2026-03-27 23:00:02.371118] EYLEM: Fare Tıklama | DETAY: Konum: (1083.21875, 799.31640625) | Buton: Button.left
+[2026-03-27 23:00:13.530912] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: ckhanddeKey.spacesorunKey.spacevarKey.spaceKey.enter
+[2026-03-27 23:00:16.239520] EYLEM: Fare Tıklama | DETAY: Konum: (229.16796875, 240.375) | Buton: Button.left
+[2026-03-27 23:00:17.073127] EYLEM: Fare Tıklama | DETAY: Konum: (228.69140625, 240.375) | Buton: Button.left
+[2026-03-27 23:00:18.006019] EYLEM: Fare Tıklama | DETAY: Konum: (224.25390625, 221.6015625) | Buton: Button.left
+[2026-03-27 23:00:18.714260] EYLEM: Fare Tıklama | DETAY: Konum: (230.2421875, 220.2421875) | Buton: Button.left
+[2026-03-27 23:00:27.298237] EYLEM: Fare Tıklama | DETAY: Konum: (1104.734375, 953.31640625) | Buton: Button.left
+[2026-03-27 23:00:30.708859] EYLEM: Fare Tıklama | DETAY: Konum: (1315.91796875, 88.29296875) | Buton: Button.left
+[2026-03-27 23:00:32.363220] EYLEM: Fare Tıklama | DETAY: Konum: (950.109375, 114.82421875) | Buton: Button.left
+[2026-03-27 23:00:41.171637] EYLEM: Fare Tıklama | DETAY: Konum: (1436.53125, 225.69140625) | Buton: Button.left
+[2026-03-27 23:00:42.793356] EYLEM: Fare Tıklama | DETAY: Konum: (608.49609375, 839.69921875) | Buton: Button.left
+[2026-03-27 23:00:44.603674] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 23:00:56.970689] EYLEM: Fare Tıklama | DETAY: Konum: (170.92578125, 89.671875) | Buton: Button.left
+[2026-03-27 23:00:59.608644] EYLEM: Fare Tıklama | DETAY: Konum: (217.65234375, 104.85546875) | Buton: Button.left
+[2026-03-27 23:01:03.362668] EYLEM: Fare Tıklama | DETAY: Konum: (1306.70703125, 922.5703125) | Buton: Button.left
+[2026-03-27 23:01:15.562971] EYLEM: Fare Tıklama | DETAY: Konum: (457.39453125, 80.91015625) | Buton: Button.left
+[2026-03-27 23:01:17.917095] EYLEM: Fare Tıklama | DETAY: Konum: (552.83984375, 85.80078125) | Buton: Button.left
+[2026-03-27 23:01:19.479328] EYLEM: Fare Tıklama | DETAY: Konum: (24.296875, 93.34765625) | Buton: Button.left
+[2026-03-27 23:01:21.080067] EYLEM: Fare Tıklama | DETAY: Konum: (22.39453125, 89.08203125) | Buton: Button.left
+[2026-03-27 23:01:21.783231] EYLEM: Fare Tıklama | DETAY: Konum: (22.39453125, 89.08203125) | Buton: Button.left
+[2026-03-27 23:01:24.283571] EYLEM: Fare Tıklama | DETAY: Konum: (61.63671875, 141.23046875) | Buton: Button.left
+[2026-03-27 23:01:26.980254] EYLEM: Fare Tıklama | DETAY: Konum: (64.01171875, 137.53515625) | Buton: Button.left
+[2026-03-27 23:01:42.037049] EYLEM: Fare Tıklama | DETAY: Konum: (1281.49609375, 948.9921875) | Buton: Button.left
+[2026-03-27 23:01:45.867350] EYLEM: Fare Tıklama | DETAY: Konum: (353.0859375, 365.18359375) | Buton: Button.left
+[2026-03-27 23:01:49.140958] EYLEM: Fare Tıklama | DETAY: Konum: (1349.83984375, 365.25) | Buton: Button.left
+[2026-03-27 23:01:55.853681] EYLEM: Fare Tıklama | DETAY: Konum: (1453.921875, 366.46875) | Buton: Button.left
+[2026-03-27 23:01:57.224208] EYLEM: Fare Tıklama | DETAY: Konum: (927.97265625, 567.71875) | Buton: Button.left
+[2026-03-27 23:02:08.382669] EYLEM: Fare Tıklama | DETAY: Konum: (1210.0625, 668.03515625) | Buton: Button.left
+[2026-03-27 23:02:15.386889] EYLEM: Fare Tıklama | DETAY: Konum: (1399.31640625, 401.2734375) | Buton: Button.left
+[2026-03-27 23:02:19.911684] EYLEM: Fare Tıklama | DETAY: Konum: (364.53515625, 774.1875) | Buton: Button.left
+[2026-03-27 23:02:30.415962] EYLEM: Fare Tıklama | DETAY: Konum: (1089.16015625, 642.94921875) | Buton: Button.left
+[2026-03-27 23:02:31.836812] EYLEM: Fare Tıklama | DETAY: Konum: (1024.14453125, 636.32421875) | Buton: Button.left
+[2026-03-27 23:02:34.175271] EYLEM: Fare Tıklama | DETAY: Konum: (1165.15625, 635.2890625) | Buton: Button.right
+[2026-03-27 23:02:34.865723] EYLEM: Fare Tıklama | DETAY: Konum: (1180.5625, 650.00390625) | Buton: Button.left
+[2026-03-27 23:02:36.019921] EYLEM: Fare Tıklama | DETAY: Konum: (642.90234375, 873.7265625) | Buton: Button.left
+[2026-03-27 23:02:37.854753] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 23:02:39.447708] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 23:02:43.236865] EYLEM: Fare Tıklama | DETAY: Konum: (849.13671875, 412.375) | Buton: Button.left
+[2026-03-27 23:02:53.519597] EYLEM: Fare Tıklama | DETAY: Konum: (342.85546875, 363.79296875) | Buton: Button.left
+[2026-03-27 23:03:50.381862] EYLEM: Fare Tıklama | DETAY: Konum: (1090.37109375, 881.875) | Buton: Button.left
+[2026-03-27 23:03:52.120518] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: aKey.enter
+[2026-03-27 23:05:57.186015] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: senKey.spacehalletKey.enter
+[2026-03-27 23:06:11.343577] EYLEM: Fare Tıklama | DETAY: Konum: (1053.67578125, 917.98046875) | Buton: Button.left
+[2026-03-27 23:06:12.564254] EYLEM: Fare Tıklama | DETAY: Konum: (1079.8984375, 804.9375) | Buton: Button.left
+[2026-03-27 23:06:20.168323] EYLEM: Fare Tıklama | DETAY: Konum: (1395.72265625, 383.63671875) | Buton: Button.left
+[2026-03-27 23:06:22.254475] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 23:06:24.614129] EYLEM: Fare Tıklama | DETAY: Konum: (1402.90625, 377.59765625) | Buton: Button.left
+[2026-03-27 23:06:25.829948] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 23:06:38.339406] EYLEM: Fare Tıklama | DETAY: Konum: (1122.21484375, 885.25) | Buton: Button.left
+[2026-03-27 23:06:48.498510] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: senKey.spacehalletKey.enter
+[2026-03-27 23:07:01.692874] EYLEM: Fare Tıklama | DETAY: Konum: (837.125, 834.0078125) | Buton: Button.left
+[2026-03-27 23:07:09.150742] EYLEM: Fare Tıklama | DETAY: Konum: (1055.09375, 337.203125) | Buton: Button.left
+[2026-03-27 23:07:14.142505] EYLEM: Fare Tıklama | DETAY: Konum: (1148.30078125, 526.22265625) | Buton: Button.left
+[2026-03-27 23:07:26.579966] EYLEM: Fare Tıklama | DETAY: Konum: (1472.609375, 347.6015625) | Buton: Button.left
+[2026-03-27 23:07:29.004825] EYLEM: Fare Tıklama | DETAY: Konum: (953.14453125, 741.9375) | Buton: Button.left
+[2026-03-27 23:07:33.759211] EYLEM: Fare Tıklama | DETAY: Konum: (865.01171875, 706.91796875) | Buton: Button.left
+[2026-03-27 23:07:37.380157] EYLEM: Fare Tıklama | DETAY: Konum: (1458.0078125, 45.734375) | Buton: Button.left
+[2026-03-27 23:07:49.800717] EYLEM: Fare Tıklama | DETAY: Konum: (1433.89453125, 310.0078125) | Buton: Button.left
+[2026-03-27 23:07:51.225373] EYLEM: Fare Tıklama | DETAY: Konum: (361.08203125, 932.5703125) | Buton: Button.left
+[2026-03-27 23:07:52.551217] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.ctrlcKey.ctrlcKey.cmdvKey.enter
+[2026-03-27 23:07:55.217749] EYLEM: Fare Tıklama | DETAY: Konum: (60.671875, 810.5625) | Buton: Button.left
+[2026-03-27 23:07:59.559118] EYLEM: Fare Tıklama | DETAY: Konum: (1260.08984375, 557.9921875) | Buton: Button.left
+[2026-03-27 23:08:01.053811] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 23:08:32.107174] EYLEM: Fare Tıklama | DETAY: Konum: (1439.20703125, 285.73828125) | Buton: Button.left
+[2026-03-27 23:08:39.372501] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 23:08:42.282367] EYLEM: Fare Tıklama | DETAY: Konum: (527.2578125, 165.42578125) | Buton: Button.left
+[2026-03-27 23:08:43.274097] EYLEM: Fare Tıklama | DETAY: Konum: (536.3671875, 168.984375) | Buton: Button.left
+[2026-03-27 23:08:52.545260] EYLEM: Fare Tıklama | DETAY: Konum: (1442.36328125, 326.9765625) | Buton: Button.left
+[2026-03-27 23:08:54.876547] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 23:08:57.303821] EYLEM: Fare Tıklama | DETAY: Konum: (553.52734375, 215.546875) | Buton: Button.left
+[2026-03-27 23:08:57.899221] EYLEM: Fare Tıklama | DETAY: Konum: (624.8125, 212.87890625) | Buton: Button.left
+[2026-03-27 23:08:58.991053] EYLEM: Fare Tıklama | DETAY: Konum: (708.0859375, 98.53515625) | Buton: Button.left
+[2026-03-27 23:09:00.161771] EYLEM: Fare Tıklama | DETAY: Konum: (589.6015625, 100.73046875) | Buton: Button.left
+[2026-03-27 23:09:02.966239] EYLEM: Fare Tıklama | DETAY: Konum: (1395.65625, 325.09765625) | Buton: Button.left
+[2026-03-27 23:09:04.399191] EYLEM: Fare Tıklama | DETAY: Konum: (577.22265625, 816.04296875) | Buton: Button.left
+[2026-03-27 23:09:06.734445] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 23:09:18.708006] EYLEM: Fare Tıklama | DETAY: Konum: (1208.63671875, 552.8828125) | Buton: Button.left
+[2026-03-27 23:09:31.128369] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: herşeyiKey.spacesseKey.backspaceKey.backspaceenKey.spaceyapKey.enter
+[2026-03-27 23:09:34.312025] EYLEM: Fare Tıklama | DETAY: Konum: (161.015625, 711.69140625) | Buton: Button.left
+[2026-03-27 23:09:35.666761] EYLEM: Fare Tıklama | DETAY: Konum: (221.90234375, 708.58203125) | Buton: Button.left
+[2026-03-27 23:10:12.370007] EYLEM: Fare Tıklama | DETAY: Konum: (273.40625, 701.984375) | Buton: Button.left
+[2026-03-27 23:10:13.969771] EYLEM: Fare Tıklama | DETAY: Konum: (872.39453125, 426.078125) | Buton: Button.left
+[2026-03-27 23:10:16.140576] EYLEM: Fare Tıklama | DETAY: Konum: (191.78515625, 703.5625) | Buton: Button.left
+[2026-03-27 23:10:18.269682] EYLEM: Fare Tıklama | DETAY: Konum: (29.046875, 888.546875) | Buton: Button.left
+[2026-03-27 23:10:21.840506] EYLEM: Fare Tıklama | DETAY: Konum: (1264.50390625, 596.26171875) | Buton: Button.left
+[2026-03-27 23:10:23.169630] EYLEM: Fare Tıklama | DETAY: Konum: (1270.99609375, 583.22265625) | Buton: Button.left
+[2026-03-27 23:10:24.253170] EYLEM: Fare Tıklama | DETAY: Konum: (1263.4296875, 514.24609375) | Buton: Button.left
+[2026-03-27 23:10:25.211427] EYLEM: Fare Tıklama | DETAY: Konum: (1262.37890625, 566.77734375) | Buton: Button.left
+[2026-03-27 23:12:50.918916] EYLEM: Fare Tıklama | DETAY: Konum: (1440.00390625, 261.05078125) | Buton: Button.left
+[2026-03-27 23:12:52.277250] EYLEM: Fare Tıklama | DETAY: Konum: (1440.24609375, 257.5) | Buton: Button.left
+[2026-03-27 23:12:53.456218] EYLEM: Fare Tıklama | DETAY: Konum: (433.578125, 818.61328125) | Buton: Button.left
+[2026-03-27 23:12:56.164584] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 23:13:05.785896] EYLEM: Fare Tıklama | DETAY: Konum: (1437.2265625, 364.75) | Buton: Button.left
+[2026-03-27 23:13:07.464726] EYLEM: Fare Tıklama | DETAY: Konum: (560.30859375, 901.8359375) | Buton: Button.left
+[2026-03-27 23:13:09.454761] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 23:13:15.053013] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: 3673Key.enter
+[2026-03-27 23:13:17.684944] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-27 23:14:21.522955] EYLEM: Fare Tıklama | DETAY: Konum: (60.046875, 802.00390625) | Buton: Button.left
+[2026-03-27 23:14:33.664087] EYLEM: Fare Tıklama | DETAY: Konum: (1220.26953125, 562.765625) | Buton: Button.left
+[2026-03-27 23:14:36.000138] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-27 23:17:18.292182] EYLEM: Fare Tıklama | DETAY: Konum: (1437.671875, 316.62109375) | Buton: Button.left
+[2026-03-27 23:17:20.117334] EYLEM: Fare Tıklama | DETAY: Konum: (669.23828125, 925.40234375) | Buton: Button.left
+[2026-03-27 23:17:28.975465] EYLEM: Fare Tıklama | DETAY: Konum: (245.640625, 832.328125) | Buton: Button.left
+[2026-03-27 23:17:33.775337] EYLEM: Fare Tıklama | DETAY: Konum: (1320.83984375, 371.71484375) | Buton: Button.left
+[2026-03-27 23:17:35.216564] EYLEM: Fare Tıklama | DETAY: Konum: (1264.87890625, 311.75) | Buton: Button.left
+[2026-03-27 23:17:37.808494] EYLEM: Fare Tıklama | DETAY: Konum: (664.640625, 858.234375) | Buton: Button.left
+[2026-03-27 23:17:40.733669] EYLEM: Fare Tıklama | DETAY: Konum: (503.50390625, 933.3203125) | Buton: Button.left
+[2026-03-27 23:17:48.236874] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: vKey.ctrlcKey.ctrlcKey.ctrlKey.cmdvKey.ctrlccdKey.spacemobileKey.enter
+[2026-03-27 23:17:58.077720] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: npmKey.spaceinstallKey.enter
+[2026-03-27 23:18:38.161374] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: npmKey.spacerunKey.spaceandroşKey.backspaceidKey.enter
+[2026-03-27 23:18:43.225248] EYLEM: Fare Tıklama | DETAY: Konum: (538.29296875, 676.87890625) | Buton: Button.left
+[2026-03-27 23:18:49.404166] EYLEM: Fare Tıklama | DETAY: Konum: (57.2265625, 848.6953125) | Buton: Button.left
+[2026-03-27 23:18:52.662868] EYLEM: Fare Tıklama | DETAY: Konum: (708.31640625, 745.7421875) | Buton: Button.right
+[2026-03-27 23:18:53.558437] EYLEM: Fare Tıklama | DETAY: Konum: (748.46875, 758.11328125) | Buton: Button.left
+[2026-03-27 23:18:54.532844] EYLEM: Fare Tıklama | DETAY: Konum: (1297.20703125, 524.4140625) | Buton: Button.left
+[2026-03-27 23:18:56.643066] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-27 23:19:07.821150] EYLEM: Fare Tıklama | DETAY: Konum: (1447.5859375, 854.79296875) | Buton: Button.left
+[2026-03-27 23:21:12.777775] EYLEM: Fare Tıklama | DETAY: Konum: (1208.53125, 522.9765625) | Buton: Button.left
+[2026-03-27 23:21:15.480720] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: yaniKey.enter
+[2026-03-28 00:06:19.025792] EYLEM: Fare Tıklama | DETAY: Konum: (1440.91015625, 178.234375) | Buton: Button.left
+[2026-03-28 00:06:20.362615] EYLEM: Fare Tıklama | DETAY: Konum: (1439.90234375, 181.44140625) | Buton: Button.left
+[2026-03-28 00:06:21.754029] EYLEM: Fare Tıklama | DETAY: Konum: (434.953125, 886.0390625) | Buton: Button.left
+[2026-03-28 00:06:23.615942] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:06:35.466807] EYLEM: Fare Tıklama | DETAY: Konum: (60.765625, 771.26953125) | Buton: Button.left
+[2026-03-28 00:06:41.729253] EYLEM: Fare Tıklama | DETAY: Konum: (1214.265625, 504.46875) | Buton: Button.left
+[2026-03-28 00:06:43.800938] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:07:29.329870] EYLEM: Fare Tıklama | DETAY: Konum: (1393.84375, 194.265625) | Buton: Button.left
+[2026-03-28 00:07:31.150402] EYLEM: Fare Tıklama | DETAY: Konum: (1388.06640625, 184.60546875) | Buton: Button.left
+[2026-03-28 00:07:32.795972] EYLEM: Fare Tıklama | DETAY: Konum: (323.078125, 938.69140625) | Buton: Button.left
+[2026-03-28 00:07:37.155200] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:07:48.567259] EYLEM: Fare Tıklama | DETAY: Konum: (1185.5859375, 254.671875) | Buton: Button.left
+[2026-03-28 00:07:52.804363] EYLEM: Fare Tıklama | DETAY: Konum: (507.1015625, 925.5703125) | Buton: Button.left
+[2026-03-28 00:07:54.347010] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:08:03.687678] EYLEM: Fare Tıklama | DETAY: Konum: (1185.17578125, 310.59765625) | Buton: Button.left
+[2026-03-28 00:09:01.267156] EYLEM: Fare Tıklama | DETAY: Konum: (1184.92578125, 285.0859375) | Buton: Button.left
+[2026-03-28 00:09:03.137947] EYLEM: Fare Tıklama | DETAY: Konum: (1186.296875, 284.4140625) | Buton: Button.left
+[2026-03-28 00:09:07.842175] EYLEM: Fare Tıklama | DETAY: Konum: (439.0390625, 937.02734375) | Buton: Button.left
+[2026-03-28 00:09:10.583306] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdcKey.cmdvKey.enter
+[2026-03-28 00:09:14.430153] EYLEM: Fare Tıklama | DETAY: Konum: (1247.078125, 286.91796875) | Buton: Button.left
+[2026-03-28 00:09:14.667261] EYLEM: Fare Tıklama | DETAY: Konum: (1247.078125, 286.91796875) | Buton: Button.left
+[2026-03-28 00:09:14.834171] EYLEM: Fare Tıklama | DETAY: Konum: (1247.078125, 286.91796875) | Buton: Button.left
+[2026-03-28 00:09:15.337764] EYLEM: Fare Tıklama | DETAY: Konum: (1247.078125, 286.91796875) | Buton: Button.right
+[2026-03-28 00:09:15.963118] EYLEM: Fare Tıklama | DETAY: Konum: (1264.78515625, 306.39453125) | Buton: Button.left
+[2026-03-28 00:09:16.946541] EYLEM: Fare Tıklama | DETAY: Konum: (776.1640625, 911.77734375) | Buton: Button.left
+[2026-03-28 00:09:19.330527] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:09:22.138278] EYLEM: Fare Tıklama | DETAY: Konum: (1280.44140625, 307.7578125) | Buton: Button.left
+[2026-03-28 00:09:22.351347] EYLEM: Fare Tıklama | DETAY: Konum: (1280.44140625, 307.7578125) | Buton: Button.left
+[2026-03-28 00:09:22.673229] EYLEM: Fare Tıklama | DETAY: Konum: (1280.44140625, 307.7578125) | Buton: Button.left
+[2026-03-28 00:09:23.081113] EYLEM: Fare Tıklama | DETAY: Konum: (1280.44140625, 307.7578125) | Buton: Button.left
+[2026-03-28 00:09:23.309057] EYLEM: Fare Tıklama | DETAY: Konum: (1280.44140625, 307.7578125) | Buton: Button.left
+[2026-03-28 00:09:23.496709] EYLEM: Fare Tıklama | DETAY: Konum: (1280.44140625, 307.7578125) | Buton: Button.left
+[2026-03-28 00:09:26.759003] EYLEM: Fare Tıklama | DETAY: Konum: (523.48046875, 934.01953125) | Buton: Button.left
+[2026-03-28 00:09:28.718994] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:09:31.471792] EYLEM: Fare Tıklama | DETAY: Konum: (1283.1171875, 327.49609375) | Buton: Button.left
+[2026-03-28 00:09:31.667533] EYLEM: Fare Tıklama | DETAY: Konum: (1283.1171875, 327.49609375) | Buton: Button.left
+[2026-03-28 00:09:31.854767] EYLEM: Fare Tıklama | DETAY: Konum: (1283.1171875, 327.49609375) | Buton: Button.left
+[2026-03-28 00:09:34.746518] EYLEM: Fare Tıklama | DETAY: Konum: (561.74609375, 942.921875) | Buton: Button.left
+[2026-03-28 00:09:36.340165] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:09:38.313236] EYLEM: Fare Tıklama | DETAY: Konum: (1348.1796875, 338.9140625) | Buton: Button.left
+[2026-03-28 00:09:38.496457] EYLEM: Fare Tıklama | DETAY: Konum: (1348.1796875, 338.9140625) | Buton: Button.left
+[2026-03-28 00:09:38.658890] EYLEM: Fare Tıklama | DETAY: Konum: (1348.1796875, 338.9140625) | Buton: Button.left
+[2026-03-28 00:09:41.363176] EYLEM: Fare Tıklama | DETAY: Konum: (683.57421875, 931.5) | Buton: Button.left
+[2026-03-28 00:09:43.069261] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:09:44.825590] EYLEM: Fare Tıklama | DETAY: Konum: (1257.55078125, 396.65234375) | Buton: Button.left
+[2026-03-28 00:09:45.875363] EYLEM: Fare Tıklama | DETAY: Konum: (1242.1484375, 387.59375) | Buton: Button.left
+[2026-03-28 00:09:46.088050] EYLEM: Fare Tıklama | DETAY: Konum: (1242.1484375, 387.7109375) | Buton: Button.left
+[2026-03-28 00:09:46.250546] EYLEM: Fare Tıklama | DETAY: Konum: (1242.1484375, 387.7109375) | Buton: Button.left
+[2026-03-28 00:09:48.596522] EYLEM: Fare Tıklama | DETAY: Konum: (982.3046875, 850.2890625) | Buton: Button.left
+[2026-03-28 00:09:50.413007] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:09:58.005158] EYLEM: Fare Tıklama | DETAY: Konum: (56.74609375, 825.1015625) | Buton: Button.left
+[2026-03-28 00:10:00.950402] EYLEM: Fare Tıklama | DETAY: Konum: (755.37890625, 898.546875) | Buton: Button.right
+[2026-03-28 00:10:03.100728] EYLEM: Fare Tıklama | DETAY: Konum: (824.18359375, 757.921875) | Buton: Button.left
+[2026-03-28 00:10:06.747489] EYLEM: Fare Tıklama | DETAY: Konum: (1199.6484375, 523.4140625) | Buton: Button.left
+[2026-03-28 00:10:08.722802] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:10:12.422784] EYLEM: Fare Tıklama | DETAY: Konum: (955.765625, 798.1875) | Buton: Button.left
+[2026-03-28 00:10:31.163369] EYLEM: Fare Tıklama | DETAY: Konum: (1094.53515625, 946.33984375) | Buton: Button.left
+[2026-03-28 00:10:33.338776] EYLEM: Fare Tıklama | DETAY: Konum: (664.0859375, 924.5390625) | Buton: Button.left
+[2026-03-28 00:10:35.967374] EYLEM: Fare Tıklama | DETAY: Konum: (632.55859375, 47.40234375) | Buton: Button.left
+[2026-03-28 00:10:37.238197] EYLEM: Fare Tıklama | DETAY: Konum: (741.6875, 834.765625) | Buton: Button.left
+[2026-03-28 00:10:50.386510] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: clowKey.spacekuracakKey.spacemıyı<zKey.enter
+[2026-03-28 00:10:53.789221] EYLEM: Fare Tıklama | DETAY: Konum: (866.6484375, 62.16015625) | Buton: Button.left
+[2026-03-28 00:11:10.467895] EYLEM: Fare Tıklama | DETAY: Konum: (517.8984375, 925.96484375) | Buton: Button.left
+[2026-03-28 00:11:11.671666] EYLEM: Fare Tıklama | DETAY: Konum: (593.69140625, 754.3984375) | Buton: Button.left
+[2026-03-28 00:11:17.905784] EYLEM: Fare Tıklama | DETAY: Konum: (812.5546875, 624.42578125) | Buton: Button.left
+[2026-03-28 00:11:20.422967] EYLEM: Fare Tıklama | DETAY: Konum: (1054.18359375, 535.25390625) | Buton: Button.left
+[2026-03-28 00:11:20.600875] EYLEM: Fare Tıklama | DETAY: Konum: (1054.18359375, 535.25390625) | Buton: Button.left
+[2026-03-28 00:11:22.405318] EYLEM: Fare Tıklama | DETAY: Konum: (793.75, 902.7578125) | Buton: Button.left
+[2026-03-28 00:11:24.734592] EYLEM: Fare Tıklama | DETAY: Konum: (773.08984375, 904.90234375) | Buton: Button.left
+[2026-03-28 00:11:29.479977] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: sonKey.spacehaliKey.enter
+[2026-03-28 00:11:49.172558] EYLEM: Fare Tıklama | DETAY: Konum: (1395.1953125, 836.91796875) | Buton: Button.left
+[2026-03-28 00:12:01.604936] EYLEM: Fare Tıklama | DETAY: Konum: (1207.3984375, 281.17578125) | Buton: Button.left
+[2026-03-28 00:12:06.943327] EYLEM: Fare Tıklama | DETAY: Konum: (1318.765625, 468.4609375) | Buton: Button.left
+[2026-03-28 00:12:12.480084] EYLEM: Fare Tıklama | DETAY: Konum: (1247.21484375, 519.82421875) | Buton: Button.left
+[2026-03-28 00:12:22.137567] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: çalıştırKey.spaceterminaldeKey.enter
+[2026-03-28 00:13:04.555503] EYLEM: Fare Tıklama | DETAY: Konum: (1385.7109375, 254.59375) | Buton: Button.left
+[2026-03-28 00:13:08.193138] EYLEM: Fare Tıklama | DETAY: Konum: (1271.65234375, 543.921875) | Buton: Button.left
+[2026-03-28 00:13:16.711438] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: içindeKey.spaceterminalKey.spacevarKey.enter
+[2026-03-28 00:13:59.013986] EYLEM: Fare Tıklama | DETAY: Konum: (1391.06640625, 242.1953125) | Buton: Button.left
+[2026-03-28 00:14:00.193046] EYLEM: Fare Tıklama | DETAY: Konum: (757.82421875, 893.140625) | Buton: Button.left
+[2026-03-28 00:14:01.770990] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:14:13.893314] EYLEM: Fare Tıklama | DETAY: Konum: (1261.76953125, 283.57421875) | Buton: Button.left
+[2026-03-28 00:14:16.034851] EYLEM: Fare Tıklama | DETAY: Konum: (1258.55078125, 284.21484375) | Buton: Button.left
+[2026-03-28 00:14:27.472441] EYLEM: Fare Tıklama | DETAY: Konum: (1394.7890625, 234.53515625) | Buton: Button.left
+[2026-03-28 00:14:28.734880] EYLEM: Fare Tıklama | DETAY: Konum: (797.2890625, 929.1015625) | Buton: Button.left
+[2026-03-28 00:14:36.432244] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:14:39.331125] EYLEM: Fare Tıklama | DETAY: Konum: (54.18359375, 788.4453125) | Buton: Button.left
+[2026-03-28 00:14:42.009709] EYLEM: Fare Tıklama | DETAY: Konum: (1218.01953125, 527.5) | Buton: Button.left
+[2026-03-28 00:14:43.464967] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:14:52.927236] EYLEM: Fare Tıklama | DETAY: Konum: (1054.99609375, 864.98828125) | Buton: Button.left
+[2026-03-28 00:15:05.980690] EYLEM: Fare Tıklama | DETAY: Konum: (1385.01953125, 166.00390625) | Buton: Button.left
+[2026-03-28 00:15:08.618308] EYLEM: Fare Tıklama | DETAY: Konum: (223.1171875, 943.00390625) | Buton: Button.left
+[2026-03-28 00:15:09.880898] EYLEM: Fare Tıklama | DETAY: Konum: (604.78125, 413.234375) | Buton: Button.left
+[2026-03-28 00:15:11.624319] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:15:23.060284] EYLEM: Fare Tıklama | DETAY: Konum: (1179.17578125, 347.97265625) | Buton: Button.left
+[2026-03-28 00:15:29.947306] EYLEM: Fare Tıklama | DETAY: Konum: (618.1484375, 925.67578125) | Buton: Button.left
+[2026-03-28 00:15:31.638821] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.ctrlccdcdKey.spaceKey.enter
+[2026-03-28 00:15:34.435063] EYLEM: Fare Tıklama | DETAY: Konum: (1391.17578125, 340.5) | Buton: Button.left
+[2026-03-28 00:15:35.311653] EYLEM: Fare Tıklama | DETAY: Konum: (850.19921875, 879.78515625) | Buton: Button.left
+[2026-03-28 00:15:37.061745] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:15:39.689410] EYLEM: Fare Tıklama | DETAY: Konum: (1385.765625, 329.87109375) | Buton: Button.left
+[2026-03-28 00:15:41.289144] EYLEM: Fare Tıklama | DETAY: Konum: (667.58984375, 906.9140625) | Buton: Button.left
+[2026-03-28 00:15:53.201325] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdKey.ctrlcKey.cmdvKey.enter
+[2026-03-28 00:16:03.597628] EYLEM: Fare Tıklama | DETAY: Konum: (1064.765625, 871.796875) | Buton: Button.left
+[2026-03-28 00:16:05.890085] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.altKey.altKey.ctrlcKey.cmdvKey.enter
+[2026-03-28 00:16:22.622422] EYLEM: Fare Tıklama | DETAY: Konum: (1059.5, 480.00390625) | Buton: Button.left
+[2026-03-28 00:16:25.189068] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: 3673Key.enter
+[2026-03-28 00:16:50.327759] EYLEM: Fare Tıklama | DETAY: Konum: (847.28515625, 343.75) | Buton: Button.left
+[2026-03-28 00:23:55.409424] EYLEM: Fare Tıklama | DETAY: Konum: (1148.94921875, 872.765625) | Buton: Button.left
+[2026-03-28 00:24:19.699540] EYLEM: Fare Tıklama | DETAY: Konum: (1452.09375, 307.51171875) | Buton: Button.left
+[2026-03-28 00:24:19.909203] EYLEM: Fare Tıklama | DETAY: Konum: (1452.09375, 307.51171875) | Buton: Button.left
+[2026-03-28 00:24:23.283422] EYLEM: Fare Tıklama | DETAY: Konum: (1017.83984375, 334.80859375) | Buton: Button.left
+[2026-03-28 00:24:28.016785] EYLEM: Fare Tıklama | DETAY: Konum: (1022.6953125, 110.79296875) | Buton: Button.left
+[2026-03-28 00:24:33.545349] EYLEM: Fare Tıklama | DETAY: Konum: (1464.39453125, 838.20703125) | Buton: Button.left
+[2026-03-28 00:24:42.725226] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: haliKey.spaceböyleKey.spaceçokKey.spacekötüKey.enter
+[2026-03-28 00:29:22.276903] EYLEM: Fare Tıklama | DETAY: Konum: (1395.59765625, 834.9296875) | Buton: Button.left
+[2026-03-28 00:29:34.285954] EYLEM: Fare Tıklama | DETAY: Konum: (1209.6171875, 530.03125) | Buton: Button.left
+[2026-03-28 00:29:37.843949] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: yükledimKey.enter
+[2026-03-28 00:29:46.607214] EYLEM: Fare Tıklama | DETAY: Konum: (86.80859375, 645.31640625) | Buton: Button.left
+[2026-03-28 00:29:47.418801] EYLEM: Fare Tıklama | DETAY: Konum: (77.49609375, 638.34765625) | Buton: Button.left
+[2026-03-28 00:32:18.643608] EYLEM: Fare Tıklama | DETAY: Konum: (1225.7421875, 516.91796875) | Buton: Button.left
+[2026-03-28 00:32:24.724298] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: javaKey.spaceyüklendiKey.enter
+[2026-03-28 00:32:34.051480] EYLEM: Fare Tıklama | DETAY: Konum: (1497.6796875, 179.6796875) | Buton: Button.left
+[2026-03-28 00:32:41.234993] EYLEM: Fare Tıklama | DETAY: Konum: (1381.05078125, 220.296875) | Buton: Button.left
+[2026-03-28 00:32:42.252232] EYLEM: Fare Tıklama | DETAY: Konum: (1381.05078125, 220.296875) | Buton: Button.left
+[2026-03-28 00:32:43.155653] EYLEM: Fare Tıklama | DETAY: Konum: (1381.05078125, 220.296875) | Buton: Button.left
+[2026-03-28 00:32:43.751916] EYLEM: Fare Tıklama | DETAY: Konum: (1381.05078125, 220.296875) | Buton: Button.left
+[2026-03-28 00:32:50.234592] EYLEM: Fare Tıklama | DETAY: Konum: (1255.484375, 587.8125) | Buton: Button.left
+[2026-03-28 00:32:50.855899] EYLEM: Fare Tıklama | DETAY: Konum: (1255.484375, 587.8125) | Buton: Button.left
+[2026-03-28 00:32:52.897620] EYLEM: Fare Tıklama | DETAY: Konum: (1302.3203125, 281.625) | Buton: Button.left
+[2026-03-28 00:32:55.172454] EYLEM: Fare Tıklama | DETAY: Konum: (1296.9609375, 597.6328125) | Buton: Button.left
+[2026-03-28 00:33:00.555786] EYLEM: Fare Tıklama | DETAY: Konum: (1361.64453125, 539.39453125) | Buton: Button.left
+[2026-03-28 00:33:02.951549] EYLEM: Fare Tıklama | DETAY: Konum: (1313.33984375, 600.34765625) | Buton: Button.left
+[2026-03-28 00:33:06.593731] EYLEM: Fare Tıklama | DETAY: Konum: (1363.19921875, 534.43359375) | Buton: Button.left
+[2026-03-28 00:33:06.756275] EYLEM: Fare Tıklama | DETAY: Konum: (1363.19921875, 534.43359375) | Buton: Button.left
+[2026-03-28 00:33:10.604967] EYLEM: Fare Tıklama | DETAY: Konum: (1484.7421875, 213.7734375) | Buton: Button.left
+[2026-03-28 00:33:19.819497] EYLEM: Fare Tıklama | DETAY: Konum: (1384.74609375, 269.41015625) | Buton: Button.left
+[2026-03-28 00:33:22.296129] EYLEM: Fare Tıklama | DETAY: Konum: (559.1015625, 908.80078125) | Buton: Button.left
+[2026-03-28 00:33:24.053138] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvKey.enter
+[2026-03-28 00:33:36.028099] EYLEM: Fare Tıklama | DETAY: Konum: (1263.21484375, 311.7109375) | Buton: Button.left
+[2026-03-28 00:33:36.215543] EYLEM: Fare Tıklama | DETAY: Konum: (1263.21484375, 311.7109375) | Buton: Button.left
+[2026-03-28 00:33:36.381774] EYLEM: Fare Tıklama | DETAY: Konum: (1263.21484375, 311.7109375) | Buton: Button.left
+[2026-03-28 00:33:38.349175] EYLEM: Fare Tıklama | DETAY: Konum: (833.72265625, 896.33203125) | Buton: Button.left
+[2026-03-28 00:33:40.177932] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:33:44.592114] EYLEM: Fare Tıklama | DETAY: Konum: (1194.359375, 330.109375) | Buton: Button.left
+[2026-03-28 00:33:44.792178] EYLEM: Fare Tıklama | DETAY: Konum: (1194.359375, 330.109375) | Buton: Button.left
+[2026-03-28 00:33:44.954760] EYLEM: Fare Tıklama | DETAY: Konum: (1194.359375, 330.109375) | Buton: Button.left
+[2026-03-28 00:33:46.250897] EYLEM: Fare Tıklama | DETAY: Konum: (1193.8671875, 328.89453125) | Buton: Button.left
+[2026-03-28 00:33:47.559592] EYLEM: Fare Tıklama | DETAY: Konum: (1191.99609375, 333.32421875) | Buton: Button.left
+[2026-03-28 00:33:47.759430] EYLEM: Fare Tıklama | DETAY: Konum: (1191.99609375, 333.32421875) | Buton: Button.left
+[2026-03-28 00:33:48.217996] EYLEM: Fare Tıklama | DETAY: Konum: (1191.99609375, 333.32421875) | Buton: Button.left
+[2026-03-28 00:33:48.609422] EYLEM: Fare Tıklama | DETAY: Konum: (1191.99609375, 333.32421875) | Buton: Button.left
+[2026-03-28 00:33:48.780949] EYLEM: Fare Tıklama | DETAY: Konum: (1191.99609375, 333.32421875) | Buton: Button.left
+[2026-03-28 00:33:48.963692] EYLEM: Fare Tıklama | DETAY: Konum: (1191.99609375, 333.32421875) | Buton: Button.left
+[2026-03-28 00:33:50.697332] EYLEM: Fare Tıklama | DETAY: Konum: (916.88671875, 770.40234375) | Buton: Button.left
+[2026-03-28 00:33:51.914546] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:33:55.743574] EYLEM: Fare Tıklama | DETAY: Konum: (1233.3359375, 354.98046875) | Buton: Button.left
+[2026-03-28 00:33:56.956236] EYLEM: Fare Tıklama | DETAY: Konum: (1227.20703125, 350.62109375) | Buton: Button.left
+[2026-03-28 00:33:57.143721] EYLEM: Fare Tıklama | DETAY: Konum: (1227.08984375, 350.62109375) | Buton: Button.left
+[2026-03-28 00:33:57.322763] EYLEM: Fare Tıklama | DETAY: Konum: (1227.08984375, 350.62109375) | Buton: Button.left
+[2026-03-28 00:33:59.214830] EYLEM: Fare Tıklama | DETAY: Konum: (967.19140625, 807.2890625) | Buton: Button.left
+[2026-03-28 00:34:00.874356] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:34:17.511571] EYLEM: Fare Tıklama | DETAY: Konum: (1493.62890625, 178.90625) | Buton: Button.left
+[2026-03-28 00:34:23.494808] EYLEM: Fare Tıklama | DETAY: Konum: (1196.98828125, 200.72265625) | Buton: Button.left
+[2026-03-28 00:34:27.199021] EYLEM: Fare Tıklama | DETAY: Konum: (1485.69140625, 213.09765625) | Buton: Button.left
+[2026-03-28 00:34:28.732551] EYLEM: Fare Tıklama | DETAY: Konum: (1470.97265625, 862.515625) | Buton: Button.left
+[2026-03-28 00:34:31.190568] EYLEM: Fare Tıklama | DETAY: Konum: (1286.6328125, 539.1875) | Buton: Button.left
+[2026-03-28 00:34:37.215997] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: uygulamaKey.spacehataKey.spaceverdiKey.enter
+[2026-03-28 00:38:27.262358] EYLEM: Fare Tıklama | DETAY: Konum: (1209.96484375, 280.51953125) | Buton: Button.left
+[2026-03-28 00:38:33.062122] EYLEM: Fare Tıklama | DETAY: Konum: (1326.65234375, 464.1875) | Buton: Button.left
+[2026-03-28 00:43:03.771160] EYLEM: Fare Tıklama | DETAY: Konum: (1389.36328125, 175.45703125) | Buton: Button.left
+[2026-03-28 00:43:05.425546] EYLEM: Fare Tıklama | DETAY: Konum: (522.7421875, 937.05859375) | Buton: Button.left
+[2026-03-28 00:43:10.703526] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvüKey.backspaceKey.enter
+[2026-03-28 00:43:15.067688] EYLEM: Fare Tıklama | DETAY: Konum: (1270.640625, 231.140625) | Buton: Button.left
+[2026-03-28 00:43:16.100238] EYLEM: Fare Tıklama | DETAY: Konum: (1213.93359375, 295.11328125) | Buton: Button.left
+[2026-03-28 00:43:19.229518] EYLEM: Fare Tıklama | DETAY: Konum: (370.41796875, 935.16796875) | Buton: Button.left
+[2026-03-28 00:43:21.485614] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:43:26.580926] EYLEM: Fare Tıklama | DETAY: Konum: (1499.33203125, 182.25) | Buton: Button.left
+[2026-03-28 00:43:31.658929] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:32.242413] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:32.783892] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:33.275598] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:34.046601] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:34.709280] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:35.463110] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:36.125723] EYLEM: Fare Tıklama | DETAY: Konum: (1380.625, 217.73828125) | Buton: Button.left
+[2026-03-28 00:43:42.946172] EYLEM: Fare Tıklama | DETAY: Konum: (1204.3828125, 198.52734375) | Buton: Button.left
+[2026-03-28 00:43:45.513110] EYLEM: Fare Tıklama | DETAY: Konum: (1488.72265625, 227.5234375) | Buton: Button.left
+[2026-03-28 00:43:46.938174] EYLEM: Fare Tıklama | DETAY: Konum: (1470.58203125, 860.6328125) | Buton: Button.left
+[2026-03-28 00:43:49.208972] EYLEM: Fare Tıklama | DETAY: Konum: (1498.4453125, 180.203125) | Buton: Button.left
+[2026-03-28 00:43:51.109073] EYLEM: Fare Tıklama | DETAY: Konum: (1384.625, 217.72265625) | Buton: Button.left
+[2026-03-28 00:43:55.563066] EYLEM: Fare Tıklama | DETAY: Konum: (1202.56640625, 206.59765625) | Buton: Button.left
+[2026-03-28 00:43:58.946503] EYLEM: Fare Tıklama | DETAY: Konum: (1482.17578125, 148.125) | Buton: Button.left
+[2026-03-28 00:44:00.125769] EYLEM: Fare Tıklama | DETAY: Konum: (1475.19140625, 840.08984375) | Buton: Button.left
+[2026-03-28 00:44:07.467138] EYLEM: Fare Tıklama | DETAY: Konum: (1497.28125, 214.6953125) | Buton: Button.left
+[2026-03-28 00:44:09.671520] EYLEM: Fare Tıklama | DETAY: Konum: (1494.640625, 171.109375) | Buton: Button.left
+[2026-03-28 00:44:12.959126] EYLEM: Fare Tıklama | DETAY: Konum: (1187.91015625, 205.80078125) | Buton: Button.left
+[2026-03-28 00:44:15.684348] EYLEM: Fare Tıklama | DETAY: Konum: (1491.1953125, 217.9453125) | Buton: Button.left
+[2026-03-28 00:44:17.013397] EYLEM: Fare Tıklama | DETAY: Konum: (1484.63671875, 859.9296875) | Buton: Button.left
+[2026-03-28 00:44:19.092421] EYLEM: Fare Tıklama | DETAY: Konum: (1433.015625, 574.40625) | Buton: Button.left
+[2026-03-28 00:48:25.300992] EYLEM: Fare Tıklama | DETAY: Konum: (1229.13671875, 282.359375) | Buton: Button.left
+[2026-03-28 00:48:33.072764] EYLEM: Fare Tıklama | DETAY: Konum: (1396.171875, 806.11328125) | Buton: Button.left
+[2026-03-28 00:48:40.134367] EYLEM: Fare Tıklama | DETAY: Konum: (1210.76171875, 882.3359375) | Buton: Button.left
+[2026-03-28 00:48:48.380484] EYLEM: Fare Tıklama | DETAY: Konum: (434.796875, 428.03515625) | Buton: Button.left
+[2026-03-28 00:48:49.838934] EYLEM: Fare Tıklama | DETAY: Konum: (1074.33984375, 131.671875) | Buton: Button.left
+[2026-03-28 00:48:52.517993] EYLEM: Fare Tıklama | DETAY: Konum: (59.62890625, 334.68359375) | Buton: Button.left
+[2026-03-28 00:48:55.047180] EYLEM: Fare Tıklama | DETAY: Konum: (1081.98828125, 127.3828125) | Buton: Button.left
+[2026-03-28 00:48:55.646923] EYLEM: Fare Tıklama | DETAY: Konum: (1076.359375, 130.87109375) | Buton: Button.left
+[2026-03-28 00:48:57.080716] EYLEM: Fare Tıklama | DETAY: Konum: (1073.49609375, 132.87890625) | Buton: Button.left
+[2026-03-28 00:48:57.384652] EYLEM: Fare Tıklama | DETAY: Konum: (1073.375, 132.99609375) | Buton: Button.left
+[2026-03-28 00:48:57.655259] EYLEM: Fare Tıklama | DETAY: Konum: (1073.375, 132.99609375) | Buton: Button.left
+[2026-03-28 00:48:59.226474] EYLEM: Fare Tıklama | DETAY: Konum: (1441.828125, 190.07421875) | Buton: Button.left
+[2026-03-28 00:49:06.926850] EYLEM: Fare Tıklama | DETAY: Konum: (1441.015625, 305.47265625) | Buton: Button.left
+[2026-03-28 00:49:07.129968] EYLEM: Fare Tıklama | DETAY: Konum: (1441.015625, 305.47265625) | Buton: Button.left
+[2026-03-28 00:49:10.780093] EYLEM: Fare Tıklama | DETAY: Konum: (1463.01171875, 135.8359375) | Buton: Button.left
+[2026-03-28 00:49:12.694615] EYLEM: Fare Tıklama | DETAY: Konum: (298.68359375, 333.3515625) | Buton: Button.left
+[2026-03-28 00:49:14.159992] EYLEM: Fare Tıklama | DETAY: Konum: (474.11328125, 303.5234375) | Buton: Button.left
+[2026-03-28 00:49:17.206748] EYLEM: Fare Tıklama | DETAY: Konum: (236.58984375, 278.28125) | Buton: Button.left
+[2026-03-28 00:49:19.892817] EYLEM: Fare Tıklama | DETAY: Konum: (405.8359375, 210.8515625) | Buton: Button.left
+[2026-03-28 00:49:21.462957] EYLEM: Fare Tıklama | DETAY: Konum: (746.6171875, 541.44140625) | Buton: Button.left
+[2026-03-28 00:49:22.679250] EYLEM: Fare Tıklama | DETAY: Konum: (957.42578125, 219.73046875) | Buton: Button.left
+[2026-03-28 00:49:24.461139] EYLEM: Fare Tıklama | DETAY: Konum: (1261.78125, 456.99609375) | Buton: Button.left
+[2026-03-28 00:49:25.377143] EYLEM: Fare Tıklama | DETAY: Konum: (1278.44921875, 428.48828125) | Buton: Button.left
+[2026-03-28 00:49:26.868633] EYLEM: Fare Tıklama | DETAY: Konum: (1460.171875, 286.69921875) | Buton: Button.left
+[2026-03-28 00:49:31.712615] EYLEM: Fare Tıklama | DETAY: Konum: (1271.203125, 358.28515625) | Buton: Button.left
+[2026-03-28 00:49:31.891684] EYLEM: Fare Tıklama | DETAY: Konum: (1271.203125, 358.28515625) | Buton: Button.left
+[2026-03-28 00:49:34.807651] EYLEM: Fare Tıklama | DETAY: Konum: (1271.203125, 358.51171875) | Buton: Button.left
+[2026-03-28 00:49:38.885817] EYLEM: Fare Tıklama | DETAY: Konum: (1034.56640625, 68.13671875) | Buton: Button.left
+[2026-03-28 00:49:46.651188] EYLEM: Fare Tıklama | DETAY: Konum: (1465.796875, 826.5703125) | Buton: Button.left
+[2026-03-28 00:49:56.533672] EYLEM: Fare Tıklama | DETAY: Konum: (1187.65625, 878.72265625) | Buton: Button.left
+[2026-03-28 00:50:13.568329] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: stündekiKey.spacedeğilKey.spacemiKey.shift_r?Key.enter
+[2026-03-28 00:54:02.915768] EYLEM: Fare Tıklama | DETAY: Konum: (1401.52734375, 807.58984375) | Buton: Button.left
+[2026-03-28 00:54:16.236634] EYLEM: Fare Tıklama | DETAY: Konum: (1277.3671875, 422.640625) | Buton: Button.left
+[2026-03-28 00:54:24.186354] EYLEM: Fare Tıklama | DETAY: Konum: (1261.609375, 335.265625) | Buton: Button.left
+[2026-03-28 00:54:26.349048] EYLEM: Fare Tıklama | DETAY: Konum: (1275.28125, 356.66015625) | Buton: Button.left
+[2026-03-28 00:54:26.558797] EYLEM: Fare Tıklama | DETAY: Konum: (1275.28125, 356.66015625) | Buton: Button.left
+[2026-03-28 00:54:34.424104] EYLEM: Fare Tıklama | DETAY: Konum: (298.12109375, 329.37890625) | Buton: Button.left
+[2026-03-28 00:54:35.728100] EYLEM: Fare Tıklama | DETAY: Konum: (328.6640625, 358.5234375) | Buton: Button.left
+[2026-03-28 00:54:36.915728] EYLEM: Fare Tıklama | DETAY: Konum: (1040.71875, 497.51953125) | Buton: Button.left
+[2026-03-28 00:54:38.770104] EYLEM: Fare Tıklama | DETAY: Konum: (1273.8125, 336.5078125) | Buton: Button.left
+[2026-03-28 00:54:38.974037] EYLEM: Fare Tıklama | DETAY: Konum: (1273.8125, 336.625) | Buton: Button.left
+[2026-03-28 00:54:47.378108] EYLEM: Fare Tıklama | DETAY: Konum: (1176.078125, 106.55859375) | Buton: Button.left
+[2026-03-28 00:54:51.007152] EYLEM: Fare Tıklama | DETAY: Konum: (311.1171875, 118.47265625) | Buton: Button.left
+[2026-03-28 00:54:54.023967] EYLEM: Fare Tıklama | DETAY: Konum: (1250.2734375, 875.1328125) | Buton: Button.left
+[2026-03-28 00:54:59.780854] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.spaceseferKey.spacehiçKey.spaceaçılmadıKey.enter
+[2026-03-28 00:55:04.803119] EYLEM: Fare Tıklama | DETAY: Konum: (1330.42578125, 468.234375) | Buton: Button.left
+[2026-03-28 00:55:09.532790] EYLEM: Fare Tıklama | DETAY: Konum: (1211.91796875, 295.69921875) | Buton: Button.left
+[2026-03-28 00:55:14.841091] EYLEM: Fare Tıklama | DETAY: Konum: (356.82421875, 937.05078125) | Buton: Button.left
+[2026-03-28 00:55:16.134675] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdcKey.cmdvKey.enter
+[2026-03-28 00:55:19.211929] EYLEM: Fare Tıklama | DETAY: Konum: (1489.74609375, 169.9140625) | Buton: Button.left
+[2026-03-28 00:55:21.923774] EYLEM: Fare Tıklama | DETAY: Konum: (1281.35546875, 387.04296875) | Buton: Button.left
+[2026-03-28 00:55:24.865839] EYLEM: Fare Tıklama | DETAY: Konum: (1289.34375, 388.171875) | Buton: Button.left
+[2026-03-28 00:55:32.077740] EYLEM: Fare Tıklama | DETAY: Konum: (1358.64453125, 583.671875) | Buton: Button.left
+[2026-03-28 00:55:33.190301] EYLEM: Fare Tıklama | DETAY: Konum: (1358.64453125, 583.671875) | Buton: Button.left
+[2026-03-28 00:55:33.690422] EYLEM: Fare Tıklama | DETAY: Konum: (1358.64453125, 583.671875) | Buton: Button.left
+[2026-03-28 00:55:34.215251] EYLEM: Fare Tıklama | DETAY: Konum: (1358.64453125, 583.671875) | Buton: Button.left
+[2026-03-28 00:55:34.840349] EYLEM: Fare Tıklama | DETAY: Konum: (1358.64453125, 583.671875) | Buton: Button.left
+[2026-03-28 00:55:37.511326] EYLEM: Fare Tıklama | DETAY: Konum: (1358.64453125, 583.671875) | Buton: Button.left
+[2026-03-28 00:55:39.090131] EYLEM: Fare Tıklama | DETAY: Konum: (1321.01953125, 380.890625) | Buton: Button.left
+[2026-03-28 00:55:40.648947] EYLEM: Fare Tıklama | DETAY: Konum: (1298.06640625, 265.44921875) | Buton: Button.left
+[2026-03-28 00:55:41.657198] EYLEM: Fare Tıklama | DETAY: Konum: (1310.62890625, 441.08203125) | Buton: Button.left
+[2026-03-28 00:55:42.923897] EYLEM: Fare Tıklama | DETAY: Konum: (1357.6328125, 424.015625) | Buton: Button.left
+[2026-03-28 00:55:43.828254] EYLEM: Fare Tıklama | DETAY: Konum: (1307.90234375, 375.0234375) | Buton: Button.left
+[2026-03-28 00:55:44.065670] EYLEM: Fare Tıklama | DETAY: Konum: (1307.78125, 375.0234375) | Buton: Button.left
+[2026-03-28 00:55:49.216647] EYLEM: Fare Tıklama | DETAY: Konum: (1497.578125, 207.62890625) | Buton: Button.left
+[2026-03-28 00:55:50.578768] EYLEM: Fare Tıklama | DETAY: Konum: (1198.046875, 530.97265625) | Buton: Button.left
+[2026-03-28 00:55:59.086836] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: ıKey.spaceadıKey.spaceşifreKey.spaceistiyorKey.enter
+[2026-03-28 00:57:06.778009] EYLEM: Fare Tıklama | DETAY: Konum: (1483.61328125, 162.37890625) | Buton: Button.left
+[2026-03-28 00:57:08.648732] EYLEM: Fare Tıklama | DETAY: Konum: (1288.41796875, 379.66015625) | Buton: Button.left
+[2026-03-28 00:57:14.877714] EYLEM: Fare Tıklama | DETAY: Konum: (1311.203125, 440.85546875) | Buton: Button.left
+[2026-03-28 00:57:33.448501] EYLEM: Fare Tıklama | DETAY: Konum: (1360.59765625, 427.390625) | Buton: Button.left
+[2026-03-28 00:57:37.407140] EYLEM: Fare Tıklama | DETAY: Konum: (1298.08984375, 408.34375) | Buton: Button.left
+[2026-03-28 00:57:37.586053] EYLEM: Fare Tıklama | DETAY: Konum: (1298.08984375, 408.34375) | Buton: Button.left
+[2026-03-28 00:57:37.806790] EYLEM: Fare Tıklama | DETAY: Konum: (1298.08984375, 408.34375) | Buton: Button.left
+[2026-03-28 00:57:38.298350] EYLEM: Fare Tıklama | DETAY: Konum: (1298.08984375, 408.34375) | Buton: Button.left
+[2026-03-28 00:57:38.485782] EYLEM: Fare Tıklama | DETAY: Konum: (1298.08984375, 408.34375) | Buton: Button.left
+[2026-03-28 00:57:45.198371] EYLEM: Fare Tıklama | DETAY: Konum: (1302.3671875, 447.76953125) | Buton: Button.left
+[2026-03-28 00:57:47.456867] EYLEM: Fare Tıklama | DETAY: Konum: (1488.44921875, 218.5859375) | Buton: Button.left
+[2026-03-28 00:57:57.265195] EYLEM: Fare Tıklama | DETAY: Konum: (1246.015625, 527.8984375) | Buton: Button.left
+[2026-03-28 00:58:16.717451] EYLEM: Fare Tıklama | DETAY: Konum: (1494.984375, 160.3984375) | Buton: Button.left
+[2026-03-28 00:58:18.627632] EYLEM: Fare Tıklama | DETAY: Konum: (1362.61328125, 419.95703125) | Buton: Button.left
+[2026-03-28 00:58:20.623572] EYLEM: Fare Tıklama | DETAY: Konum: (1313.05859375, 439.75) | Buton: Button.left
+[2026-03-28 00:58:40.160815] EYLEM: Fare Tıklama | DETAY: Konum: (1490.9375, 217.31640625) | Buton: Button.left
+[2026-03-28 00:58:41.372991] EYLEM: Fare Tıklama | DETAY: Konum: (1202.93359375, 520.63671875) | Buton: Button.left
+[2026-03-28 00:58:50.047991] EYLEM: Fare Tıklama | DETAY: Konum: (1435.890625, 580.62890625) | Buton: Button.left
+[2026-03-28 01:00:15.422801] EYLEM: Fare Tıklama | DETAY: Konum: (1260.55859375, 515.23828125) | Buton: Button.left
+[2026-03-28 01:00:26.100297] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: ülatörKey.spacekullanıyoruzKey.enter
+[2026-03-28 01:03:33.747099] EYLEM: Fare Tıklama | DETAY: Konum: (1216.4609375, 284.125) | Buton: Button.left
+[2026-03-28 01:03:36.988733] EYLEM: Fare Tıklama | DETAY: Konum: (1319.49609375, 463.25390625) | Buton: Button.left
+[2026-03-28 01:03:42.959923] EYLEM: Fare Tıklama | DETAY: Konum: (518.10546875, 937.05078125) | Buton: Button.left
+[2026-03-28 01:03:54.523350] EYLEM: Fare Tıklama | DETAY: Konum: (1210.375, 283.109375) | Buton: Button.left
+[2026-03-28 01:04:01.372807] EYLEM: Fare Tıklama | DETAY: Konum: (1324.734375, 466.0) | Buton: Button.left
+[2026-03-28 01:04:16.564924] EYLEM: Fare Tıklama | DETAY: Konum: (1222.76171875, 289.16796875) | Buton: Button.left
+[2026-03-28 01:04:18.267867] EYLEM: Fare Tıklama | DETAY: Konum: (1325.64453125, 466.4375) | Buton: Button.left
+[2026-03-28 01:04:36.030893] EYLEM: Fare Tıklama | DETAY: Konum: (1501.23046875, 173.3671875) | Buton: Button.left
+[2026-03-28 01:04:37.538641] EYLEM: Fare Tıklama | DETAY: Konum: (1366.16796875, 424.5625) | Buton: Button.left
+[2026-03-28 01:04:38.734707] EYLEM: Fare Tıklama | DETAY: Konum: (1294.59765625, 377.45703125) | Buton: Button.left
+[2026-03-28 01:04:40.030379] EYLEM: Fare Tıklama | DETAY: Konum: (1344.87109375, 377.109375) | Buton: Button.left
+[2026-03-28 01:04:40.651243] EYLEM: Fare Tıklama | DETAY: Konum: (1331.42578125, 378.7265625) | Buton: Button.left
+[2026-03-28 01:04:48.013533] EYLEM: Fare Tıklama | DETAY: Konum: (1307.83984375, 382.73046875) | Buton: Button.left
+[2026-03-28 01:04:48.209653] EYLEM: Fare Tıklama | DETAY: Konum: (1307.83984375, 382.73046875) | Buton: Button.left
+[2026-03-28 01:04:48.388595] EYLEM: Fare Tıklama | DETAY: Konum: (1307.83984375, 382.73046875) | Buton: Button.left
+[2026-03-28 01:04:48.930151] EYLEM: Fare Tıklama | DETAY: Konum: (1303.89453125, 381.91796875) | Buton: Button.left
+[2026-03-28 01:04:50.463673] EYLEM: Fare Tıklama | DETAY: Konum: (1300.25, 383.12109375) | Buton: Button.left
+[2026-03-28 01:04:54.684369] EYLEM: Fare Tıklama | DETAY: Konum: (1284.0078125, 409.234375) | Buton: Button.left
+[2026-03-28 01:04:55.709472] EYLEM: Fare Tıklama | DETAY: Konum: (1271.3984375, 410.82421875) | Buton: Button.left
+[2026-03-28 01:05:00.080283] EYLEM: Fare Tıklama | DETAY: Konum: (1281.97265625, 438.8515625) | Buton: Button.left
+[2026-03-28 01:05:05.849758] EYLEM: Fare Tıklama | DETAY: Konum: (1238.30859375, 596.69140625) | Buton: Button.left
+[2026-03-28 01:05:06.760957] EYLEM: Fare Tıklama | DETAY: Konum: (1307.11328125, 591.47265625) | Buton: Button.left
+[2026-03-28 01:05:07.997128] EYLEM: Fare Tıklama | DETAY: Konum: (1364.16015625, 586.61328125) | Buton: Button.left
+[2026-03-28 01:05:13.422277] EYLEM: Fare Tıklama | DETAY: Konum: (1244.265625, 588.77734375) | Buton: Button.left
+[2026-03-28 01:05:15.445664] EYLEM: Fare Tıklama | DETAY: Konum: (1297.20703125, 403.0625) | Buton: Button.left
+[2026-03-28 01:05:16.511877] EYLEM: Fare Tıklama | DETAY: Konum: (1292.80078125, 343.46875) | Buton: Button.left
+[2026-03-28 01:05:17.257174] EYLEM: Fare Tıklama | DETAY: Konum: (1338.15234375, 308.71484375) | Buton: Button.left
+[2026-03-28 01:05:18.198436] EYLEM: Fare Tıklama | DETAY: Konum: (1366.25390625, 264.33203125) | Buton: Button.left
+[2026-03-28 01:05:18.418975] EYLEM: Fare Tıklama | DETAY: Konum: (1366.25390625, 264.33203125) | Buton: Button.left
+[2026-03-28 01:05:18.993716] EYLEM: Fare Tıklama | DETAY: Konum: (1366.25390625, 264.33203125) | Buton: Button.left
+[2026-03-28 01:05:19.976734] EYLEM: Fare Tıklama | DETAY: Konum: (1162.49609375, 458.5) | Buton: Button.left
+[2026-03-28 01:05:27.403561] EYLEM: Fare Tıklama | DETAY: Konum: (1048.328125, 879.390625) | Buton: Button.left
+[2026-03-28 01:06:15.590611] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: ekKey.spacebağlıKey.spacedeğilKey.spacemiKey.shift_r?Key.enter
+[2026-03-28 01:07:04.577959] EYLEM: Fare Tıklama | DETAY: Konum: (1071.2421875, 874.86328125) | Buton: Button.left
+[2026-03-28 01:07:42.345824] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: eKey.spaceileKey.spacegirişKey.spaceyapmalıKey.enter
+[2026-03-28 01:09:53.756047] EYLEM: Fare Tıklama | DETAY: Konum: (1111.16015625, 576.02734375) | Buton: Button.left
+[2026-03-28 01:09:57.751316] EYLEM: Fare Tıklama | DETAY: Konum: (84.4921875, 844.640625) | Buton: Button.left
+[2026-03-28 01:10:00.430196] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.enter
+[2026-03-28 01:10:08.448154] EYLEM: Fare Tıklama | DETAY: Konum: (229.4375, 94.07421875) | Buton: Button.left
+[2026-03-28 01:10:10.105392] EYLEM: Fare Tıklama | DETAY: Konum: (888.51171875, 65.4609375) | Buton: Button.left
+[2026-03-28 01:10:13.356439] EYLEM: Fare Tıklama | DETAY: Konum: (1012.71484375, 863.78515625) | Buton: Button.left
+[2026-03-28 01:10:26.474552] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: yrıntılarıKey.spacenelşelerKey.enter
+[2026-03-28 01:10:30.134840] EYLEM: Fare Tıklama | DETAY: Konum: (1070.74609375, 863.125) | Buton: Button.left
+[2026-03-28 01:10:32.030789] EYLEM: Fare Tıklama | DETAY: Konum: (1027.5546875, 868.13671875) | Buton: Button.left
+[2026-03-28 01:10:33.272391] EYLEM: Fare Tıklama | DETAY: Konum: (1119.421875, 856.30859375) | Buton: Button.left
+[2026-03-28 01:10:33.480841] EYLEM: Fare Tıklama | DETAY: Konum: (1119.421875, 856.42578125) | Buton: Button.left
+[2026-03-28 01:10:33.634679] EYLEM: Fare Tıklama | DETAY: Konum: (1119.421875, 856.42578125) | Buton: Button.left
+[2026-03-28 01:10:43.947278] EYLEM: Fare Tıklama | DETAY: Konum: (1356.63671875, 858.2734375) | Buton: Button.left
+[2026-03-28 01:10:45.247383] EYLEM: Fare Tıklama | DETAY: Konum: (1260.68359375, 671.23828125) | Buton: Button.left
+[2026-03-28 01:10:45.455639] EYLEM: Fare Tıklama | DETAY: Konum: (1260.68359375, 671.23828125) | Buton: Button.left
+[2026-03-28 01:10:46.206011] EYLEM: Fare Tıklama | DETAY: Konum: (1067.78515625, 846.2421875) | Buton: Button.left
+[2026-03-28 01:10:49.272170] EYLEM: Fare Tıklama | DETAY: Konum: (1126.828125, 364.875) | Buton: Button.left
+[2026-03-28 01:10:49.534529] EYLEM: Fare Tıklama | DETAY: Konum: (1126.828125, 364.875) | Buton: Button.left
+[2026-03-28 01:10:49.680458] EYLEM: Fare Tıklama | DETAY: Konum: (1126.828125, 364.875) | Buton: Button.left
+[2026-03-28 01:10:50.967529] EYLEM: Fare Tıklama | DETAY: Konum: (1075.1171875, 862.7265625) | Buton: Button.left
+[2026-03-28 01:10:51.338721] EYLEM: Fare Tıklama | DETAY: Konum: (1075.23828125, 862.7265625) | Buton: Button.left
+[2026-03-28 01:10:52.096626] EYLEM: Fare Tıklama | DETAY: Konum: (1118.01953125, 865.234375) | Buton: Button.left
+[2026-03-28 01:11:18.397957] EYLEM: Fare Tıklama | DETAY: Konum: (1144.1484375, 879.671875) | Buton: Button.left
+[2026-03-28 01:11:30.897258] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: madımKey.spacekontreolKey.spaceederKey.enter
+[2026-03-28 01:12:06.086118] EYLEM: Fare Tıklama | DETAY: Konum: (61.8984375, 265.44921875) | Buton: Button.left
+[2026-03-28 01:12:08.584508] EYLEM: Fare Tıklama | DETAY: Konum: (769.33984375, 81.81640625) | Buton: Button.left
+[2026-03-28 01:12:09.642774] EYLEM: Fare Tıklama | DETAY: Konum: (650.44140625, 82.0546875) | Buton: Button.left
+[2026-03-28 01:12:10.387893] EYLEM: Fare Tıklama | DETAY: Konum: (675.91796875, 80.7265625) | Buton: Button.left
+[2026-03-28 01:12:10.979547] EYLEM: Fare Tıklama | DETAY: Konum: (667.41796875, 83.14453125) | Buton: Button.left
+[2026-03-28 01:12:12.218379] EYLEM: Fare Tıklama | DETAY: Konum: (503.37109375, 79.75) | Buton: Button.left
+[2026-03-28 01:17:45.869954] EYLEM: Fare Tıklama | DETAY: Konum: (1119.9296875, 781.390625) | Buton: Button.left
+[2026-03-28 01:17:47.230905] EYLEM: Fare Tıklama | DETAY: Konum: (1398.37109375, 830.1171875) | Buton: Button.left
+[2026-03-28 01:17:51.430291] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.enter
+[2026-03-28 01:17:52.345702] EYLEM: Fare Tıklama | DETAY: Konum: (149.57421875, 844.8671875) | Buton: Button.left
+[2026-03-28 01:17:55.502914] EYLEM: Fare Tıklama | DETAY: Konum: (140.53515625, 850.30078125) | Buton: Button.left
+[2026-03-28 01:17:56.523392] EYLEM: Fare Tıklama | DETAY: Konum: (140.53515625, 850.30078125) | Buton: Button.left
+[2026-03-28 01:17:57.139727] EYLEM: Fare Tıklama | DETAY: Konum: (140.53515625, 850.53125) | Buton: Button.left
+[2026-03-28 01:17:57.460594] EYLEM: Fare Tıklama | DETAY: Konum: (140.53515625, 850.6484375) | Buton: Button.left
+[2026-03-28 01:17:57.647942] EYLEM: Fare Tıklama | DETAY: Konum: (140.53515625, 850.6484375) | Buton: Button.left
+[2026-03-28 01:17:57.794466] EYLEM: Fare Tıklama | DETAY: Konum: (140.53515625, 850.6484375) | Buton: Button.left
+[2026-03-28 01:17:59.727540] EYLEM: Fare Tıklama | DETAY: Konum: (414.984375, 105.7890625) | Buton: Button.left
+[2026-03-28 01:18:01.411313] EYLEM: Fare Tıklama | DETAY: Konum: (428.83984375, 103.76953125) | Buton: Button.left
+[2026-03-28 01:18:04.236157] EYLEM: Fare Tıklama | DETAY: Konum: (298.59765625, 336.87890625) | Buton: Button.left
+[2026-03-28 01:18:12.276669] EYLEM: Fare Tıklama | DETAY: Konum: (108.87109375, 869.21484375) | Buton: Button.left
+[2026-03-28 01:18:14.381809] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: dmerhabaKey.enter
+[2026-03-28 01:18:15.789939] EYLEM: Fare Tıklama | DETAY: Konum: (97.92578125, 868.140625) | Buton: Button.left
+[2026-03-28 01:18:19.273093] EYLEM: Fare Tıklama | DETAY: Konum: (58.7890625, 855.859375) | Buton: Button.left
+[2026-03-28 01:18:19.485388] EYLEM: Fare Tıklama | DETAY: Konum: (58.7890625, 855.859375) | Buton: Button.left
+[2026-03-28 01:18:19.643898] EYLEM: Fare Tıklama | DETAY: Konum: (58.7890625, 855.859375) | Buton: Button.left
+[2026-03-28 01:18:22.785340] EYLEM: Fare Tıklama | DETAY: Konum: (135.0703125, 784.19921875) | Buton: Button.left
+[2026-03-28 01:18:23.931144] EYLEM: Fare Tıklama | DETAY: Konum: (228.828125, 866.921875) | Buton: Button.left
+[2026-03-28 01:18:24.352400] EYLEM: Fare Tıklama | DETAY: Konum: (228.828125, 866.6875) | Buton: Button.left
+[2026-03-28 01:18:24.760564] EYLEM: Fare Tıklama | DETAY: Konum: (228.828125, 865.2265625) | Buton: Button.left
+[2026-03-28 01:18:27.511654] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: nasüüüKey.backspacessKey.enter
+[2026-03-28 01:18:27.784460] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-28 01:18:30.361203] EYLEM: Fare Tıklama | DETAY: Konum: (434.4296875, 110.140625) | Buton: Button.left
+[2026-03-28 01:18:32.414981] EYLEM: Fare Tıklama | DETAY: Konum: (1271.7265625, 355.078125) | Buton: Button.left
+[2026-03-28 01:18:32.612239] EYLEM: Fare Tıklama | DETAY: Konum: (1271.7265625, 355.078125) | Buton: Button.left
+[2026-03-28 01:18:35.110350] EYLEM: Fare Tıklama | DETAY: Konum: (181.99609375, 871.0234375) | Buton: Button.left
+[2026-03-28 01:18:37.131434] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: meKey.enter
+[2026-03-28 01:18:39.626075] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: eeöeKey.enter
+[2026-03-28 01:18:44.435710] EYLEM: Fare Tıklama | DETAY: Konum: (188.96484375, 822.15625) | Buton: Button.left
+[2026-03-28 01:18:45.939589] EYLEM: Fare Tıklama | DETAY: Konum: (133.8984375, 812.0703125) | Buton: Button.left
+[2026-03-28 01:18:46.160513] EYLEM: Fare Tıklama | DETAY: Konum: (133.8984375, 812.0703125) | Buton: Button.left
+[2026-03-28 01:18:46.343966] EYLEM: Fare Tıklama | DETAY: Konum: (133.8984375, 812.0703125) | Buton: Button.left
+[2026-03-28 01:18:50.185278] EYLEM: Fare Tıklama | DETAY: Konum: (160.8671875, 880.3671875) | Buton: Button.left
+[2026-03-28 01:18:50.406271] EYLEM: Fare Tıklama | DETAY: Konum: (160.8671875, 880.3671875) | Buton: Button.left
+[2026-03-28 01:18:52.752229] EYLEM: Fare Tıklama | DETAY: Konum: (1325.74609375, 62.51953125) | Buton: Button.left
+[2026-03-28 01:18:54.831253] EYLEM: Fare Tıklama | DETAY: Konum: (1395.83203125, 837.421875) | Buton: Button.left
+[2026-03-28 01:19:13.181308] EYLEM: Fare Tıklama | DETAY: Konum: (1192.421875, 890.0703125) | Buton: Button.left
+[2026-03-28 01:19:35.390256] EYLEM: Fare Tıklama | DETAY: Konum: (275.71484375, 915.6796875) | Buton: Button.left
+[2026-03-28 01:19:36.082946] EYLEM: Fare Tıklama | DETAY: Konum: (236.0703125, 898.3671875) | Buton: Button.left
+[2026-03-28 01:19:48.510054] EYLEM: Fare Tıklama | DETAY: Konum: (29.828125, 813.51953125) | Buton: Button.left
+[2026-03-28 01:19:53.156070] EYLEM: Fare Tıklama | DETAY: Konum: (1396.0390625, 805.96484375) | Buton: Button.left
+[2026-03-28 01:19:55.680865] EYLEM: Fare Tıklama | DETAY: Konum: (1391.97265625, 869.453125) | Buton: Button.left
+[2026-03-28 01:19:57.284847] EYLEM: Fare Tıklama | DETAY: Konum: (1415.609375, 872.01171875) | Buton: Button.left
+[2026-03-28 01:20:07.748747] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: habaKey.shiftKey.cmd4resmiKey.spaceinceleKey.enter
+[2026-03-28 01:22:29.210449] EYLEM: Fare Tıklama | DETAY: Konum: (1115.11328125, 708.44140625) | Buton: Button.left
+[2026-03-28 01:22:30.685972] EYLEM: Fare Tıklama | DETAY: Konum: (1398.86328125, 834.578125) | Buton: Button.left
+[2026-03-28 01:22:33.501824] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: jkjkKey.enter
+[2026-03-28 01:22:37.069533] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: bmjkjkjKey.enter
+[2026-03-28 01:22:46.218710] EYLEM: Fare Tıklama | DETAY: Konum: (179.9140625, 846.33203125) | Buton: Button.left
+[2026-03-28 01:22:50.510700] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.enter
+[2026-03-28 01:22:54.443061] EYLEM: Fare Tıklama | DETAY: Konum: (265.19140625, 99.41796875) | Buton: Button.left
+[2026-03-28 01:22:57.605052] EYLEM: Fare Tıklama | DETAY: Konum: (612.296875, 652.9921875) | Buton: Button.left
+[2026-03-28 01:22:58.376280] EYLEM: Fare Tıklama | DETAY: Konum: (701.54296875, 652.9921875) | Buton: Button.left
+[2026-03-28 01:22:58.547200] EYLEM: Fare Tıklama | DETAY: Konum: (701.54296875, 652.9921875) | Buton: Button.left
+[2026-03-28 01:22:58.726155] EYLEM: Fare Tıklama | DETAY: Konum: (701.54296875, 652.9921875) | Buton: Button.left
+[2026-03-28 01:22:58.909601] EYLEM: Fare Tıklama | DETAY: Konum: (701.54296875, 652.9921875) | Buton: Button.left
+[2026-03-28 01:23:02.700944] EYLEM: Fare Tıklama | DETAY: Konum: (504.12890625, 445.98046875) | Buton: Button.left
+[2026-03-28 01:23:08.830303] EYLEM: Fare Tıklama | DETAY: Konum: (1416.85546875, 853.50390625) | Buton: Button.left
+[2026-03-28 01:23:11.438585] EYLEM: Fare Tıklama | DETAY: Konum: (1391.87109375, 804.5078125) | Buton: Button.left
+[2026-03-28 01:23:13.594207] EYLEM: Fare Tıklama | DETAY: Konum: (1183.50390625, 882.82421875) | Buton: Button.left
+[2026-03-28 01:23:45.731350] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: ıKey.spaceanlatabildimKey.spacemiKey.shift_r?Key.enter
+[2026-03-28 01:25:21.426718] EYLEM: Fare Tıklama | DETAY: Konum: (1389.8515625, 831.14453125) | Buton: Button.left
+[2026-03-28 01:25:31.217530] EYLEM: Fare Tıklama | DETAY: Konum: (1347.78125, 581.34375) | Buton: Button.left
+[2026-03-28 01:25:32.242598] EYLEM: Fare Tıklama | DETAY: Konum: (1347.78125, 581.34375) | Buton: Button.left
+[2026-03-28 01:25:36.397232] EYLEM: Fare Tıklama | DETAY: Konum: (457.609375, 940.8125) | Buton: Button.left
+[2026-03-28 01:25:37.465313] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.enter
+[2026-03-28 01:25:40.349762] EYLEM: Fare Tıklama | DETAY: Konum: (1247.03125, 584.4921875) | Buton: Button.left
+[2026-03-28 01:25:42.301037] EYLEM: Fare Tıklama | DETAY: Konum: (1282.2890625, 594.8046875) | Buton: Button.left
+[2026-03-28 01:25:52.050025] EYLEM: Fare Tıklama | DETAY: Konum: (1207.94140625, 214.4609375) | Buton: Button.left
+[2026-03-28 01:25:55.416872] EYLEM: Fare Tıklama | DETAY: Konum: (1499.47265625, 214.86328125) | Buton: Button.left
+[2026-03-28 01:25:56.875051] EYLEM: Fare Tıklama | DETAY: Konum: (1469.73828125, 869.01171875) | Buton: Button.left
+[2026-03-28 01:25:59.204501] EYLEM: Fare Tıklama | DETAY: Konum: (1447.00390625, 575.0703125) | Buton: Button.left
+[2026-03-28 01:27:27.040812] EYLEM: Fare Tıklama | DETAY: Konum: (1206.92578125, 290.84375) | Buton: Button.left
+[2026-03-28 01:27:32.603918] EYLEM: Fare Tıklama | DETAY: Konum: (1319.6015625, 471.01953125) | Buton: Button.left
+[2026-03-28 01:27:44.736880] EYLEM: Fare Tıklama | DETAY: Konum: (1498.31640625, 166.1171875) | Buton: Button.left
+[2026-03-28 01:27:46.932072] EYLEM: Fare Tıklama | DETAY: Konum: (1349.4453125, 582.05078125) | Buton: Button.left
+[2026-03-28 01:27:48.194763] EYLEM: Fare Tıklama | DETAY: Konum: (1349.32421875, 582.05078125) | Buton: Button.left
+[2026-03-28 01:27:53.306926] EYLEM: Fare Tıklama | DETAY: Konum: (1205.58984375, 205.56640625) | Buton: Button.left
+[2026-03-28 01:27:56.652870] EYLEM: Fare Tıklama | DETAY: Konum: (1493.21875, 212.4609375) | Buton: Button.left
+[2026-03-28 01:27:58.078529] EYLEM: Fare Tıklama | DETAY: Konum: (1466.87109375, 845.40234375) | Buton: Button.left
+[2026-03-28 01:28:02.098980] EYLEM: Fare Tıklama | DETAY: Konum: (1443.78125, 575.84765625) | Buton: Button.left
+[2026-03-28 01:29:32.085649] EYLEM: Fare Tıklama | DETAY: Konum: (1221.5, 286.2578125) | Buton: Button.left
+[2026-03-28 01:29:33.797498] EYLEM: Fare Tıklama | DETAY: Konum: (1324.10546875, 464.1484375) | Buton: Button.left
+[2026-03-28 01:29:44.422912] EYLEM: Fare Tıklama | DETAY: Konum: (1491.9375, 179.1171875) | Buton: Button.left
+[2026-03-28 01:29:46.364533] EYLEM: Fare Tıklama | DETAY: Konum: (1350.9453125, 585.015625) | Buton: Button.left
+[2026-03-28 01:29:50.551779] EYLEM: Fare Tıklama | DETAY: Konum: (1359.78125, 594.10546875) | Buton: Button.left
+[2026-03-28 01:29:54.368718] EYLEM: Fare Tıklama | DETAY: Konum: (1312.1796875, 392.078125) | Buton: Button.left
+[2026-03-28 01:29:57.310239] EYLEM: Fare Tıklama | DETAY: Konum: (1239.09375, 585.9375) | Buton: Button.left
+[2026-03-28 01:29:58.985261] EYLEM: Fare Tıklama | DETAY: Konum: (1235.046875, 591.5703125) | Buton: Button.left
+[2026-03-28 01:29:59.722628] EYLEM: Fare Tıklama | DETAY: Konum: (1230.1640625, 593.0234375) | Buton: Button.left
+[2026-03-28 01:30:01.989189] EYLEM: Fare Tıklama | DETAY: Konum: (1303.84765625, 577.90234375) | Buton: Button.left
+[2026-03-28 01:30:17.039143] EYLEM: Fare Tıklama | DETAY: Konum: (273.609375, 278.390625) | Buton: Button.left
+[2026-03-28 01:30:25.309943] EYLEM: Fare Tıklama | DETAY: Konum: (189.25, 410.125) | Buton: Button.left
+[2026-03-28 01:30:27.218349] EYLEM: Fare Tıklama | DETAY: Konum: (189.25, 410.125) | Buton: Button.left
+[2026-03-28 01:30:39.963948] EYLEM: Fare Tıklama | DETAY: Konum: (162.17578125, 323.61328125) | Buton: Button.left
+[2026-03-28 01:30:49.230439] EYLEM: Fare Tıklama | DETAY: Konum: (1260.4921875, 287.41015625) | Buton: Button.left
+[2026-03-28 01:30:51.813447] EYLEM: Fare Tıklama | DETAY: Konum: (1105.28125, 399.16015625) | Buton: Button.left
+[2026-03-28 01:31:01.421863] EYLEM: Fare Tıklama | DETAY: Konum: (1239.1171875, 18.15234375) | Buton: Button.left
+[2026-03-28 01:31:05.371989] EYLEM: Fare Tıklama | DETAY: Konum: (1102.37109375, 243.73828125) | Buton: Button.left
+[2026-03-28 01:31:11.976450] EYLEM: Fare Tıklama | DETAY: Konum: (1087.25390625, 297.08203125) | Buton: Button.left
+[2026-03-28 01:31:14.105407] EYLEM: Fare Tıklama | DETAY: Konum: (464.3125, 332.67578125) | Buton: Button.left
+[2026-03-28 01:31:16.514127] EYLEM: Fare Tıklama | DETAY: Konum: (1013.765625, 332.88671875) | Buton: Button.left
+[2026-03-28 01:31:17.630405] EYLEM: Fare Tıklama | DETAY: Konum: (1081.91796875, 332.30078125) | Buton: Button.left
+[2026-03-28 01:31:17.834226] EYLEM: Fare Tıklama | DETAY: Konum: (1081.796875, 332.30078125) | Buton: Button.left
+[2026-03-28 01:31:18.642450] EYLEM: Fare Tıklama | DETAY: Konum: (1081.796875, 332.30078125) | Buton: Button.right
+[2026-03-28 01:31:19.875784] EYLEM: Fare Tıklama | DETAY: Konum: (1144.74609375, 438.5078125) | Buton: Button.left
+[2026-03-28 01:31:21.455619] EYLEM: Fare Tıklama | DETAY: Konum: (991.45703125, 658.52734375) | Buton: Button.left
+[2026-03-28 01:31:28.634208] EYLEM: Fare Tıklama | DETAY: Konum: (1271.41796875, 290.83984375) | Buton: Button.left
+[2026-03-28 01:31:29.509226] EYLEM: Fare Tıklama | DETAY: Konum: (1259.109375, 288.125) | Buton: Button.left
+[2026-03-28 01:31:29.704951] EYLEM: Fare Tıklama | DETAY: Konum: (1259.109375, 288.125) | Buton: Button.left
+[2026-03-28 01:31:29.880018] EYLEM: Fare Tıklama | DETAY: Konum: (1259.109375, 288.125) | Buton: Button.left
+[2026-03-28 01:31:30.713677] EYLEM: Fare Tıklama | DETAY: Konum: (1264.95703125, 288.125) | Buton: Button.left
+[2026-03-28 01:31:35.621590] EYLEM: Fare Tıklama | DETAY: Konum: (1301.97265625, 383.20703125) | Buton: Button.left
+[2026-03-28 01:31:36.784317] EYLEM: Fare Tıklama | DETAY: Konum: (1286.51171875, 389.99609375) | Buton: Button.left
+[2026-03-28 01:31:39.038639] EYLEM: Fare Tıklama | DETAY: Konum: (1286.51171875, 389.99609375) | Buton: Button.left
+[2026-03-28 01:31:43.963314] EYLEM: Fare Tıklama | DETAY: Konum: (1237.296875, 589.4765625) | Buton: Button.left
+[2026-03-28 01:31:49.388562] EYLEM: Fare Tıklama | DETAY: Konum: (1376.32421875, 353.625) | Buton: Button.left
+[2026-03-28 01:31:51.313186] EYLEM: Fare Tıklama | DETAY: Konum: (1359.078125, 590.1484375) | Buton: Button.left
+[2026-03-28 01:31:52.942343] EYLEM: Fare Tıklama | DETAY: Konum: (1284.58984375, 389.76953125) | Buton: Button.left
+[2026-03-28 01:32:02.754793] EYLEM: Fare Tıklama | DETAY: Konum: (1271.0703125, 364.78515625) | Buton: Button.left
+[2026-03-28 01:32:09.850723] EYLEM: Fare Tıklama | DETAY: Konum: (1369.55078125, 448.3828125) | Buton: Button.left
+[2026-03-28 01:32:10.184005] EYLEM: Fare Tıklama | DETAY: Konum: (1369.55078125, 448.3828125) | Buton: Button.left
+[2026-03-28 01:32:10.429621] EYLEM: Fare Tıklama | DETAY: Konum: (1369.55078125, 448.3828125) | Buton: Button.left
+[2026-03-28 01:32:11.242242] EYLEM: Fare Tıklama | DETAY: Konum: (1366.51953125, 467.5546875) | Buton: Button.left
+[2026-03-28 01:32:22.129227] EYLEM: Fare Tıklama | DETAY: Konum: (1173.25, 705.17578125) | Buton: Button.left
+[2026-03-28 01:32:24.544239] EYLEM: Fare Tıklama | DETAY: Konum: (1108.84375, 706.1171875) | Buton: Button.right
+[2026-03-28 01:32:25.291967] EYLEM: Fare Tıklama | DETAY: Konum: (1130.64453125, 715.46484375) | Buton: Button.left
+[2026-03-28 01:32:28.937926] EYLEM: Fare Tıklama | DETAY: Konum: (1261.99609375, 365.7578125) | Buton: Button.left
+[2026-03-28 01:32:29.158542] EYLEM: Fare Tıklama | DETAY: Konum: (1261.99609375, 365.7578125) | Buton: Button.left
+[2026-03-28 01:32:29.337793] EYLEM: Fare Tıklama | DETAY: Konum: (1261.99609375, 365.7578125) | Buton: Button.left
+[2026-03-28 01:32:35.304734] EYLEM: Fare Tıklama | DETAY: Konum: (1287.8828125, 389.4375) | Buton: Button.left
+[2026-03-28 01:32:36.337978] EYLEM: Fare Tıklama | DETAY: Konum: (1287.8828125, 389.4375) | Buton: Button.left
+[2026-03-28 01:32:37.625425] EYLEM: Fare Tıklama | DETAY: Konum: (1287.8828125, 389.4375) | Buton: Button.left
+[2026-03-28 01:32:42.704544] EYLEM: Fare Tıklama | DETAY: Konum: (1297.88671875, 550.09375) | Buton: Button.left
+[2026-03-28 01:32:47.437921] EYLEM: Fare Tıklama | DETAY: Konum: (1287.94921875, 478.79296875) | Buton: Button.left
+[2026-03-28 01:32:50.420995] EYLEM: Fare Tıklama | DETAY: Konum: (1366.49609375, 499.7734375) | Buton: Button.left
+[2026-03-28 01:32:51.508390] EYLEM: Fare Tıklama | DETAY: Konum: (1364.5078125, 499.52734375) | Buton: Button.left
+[2026-03-28 01:32:56.016997] EYLEM: Fare Tıklama | DETAY: Konum: (1311.8515625, 309.87890625) | Buton: Button.left
+[2026-03-28 01:32:56.908520] EYLEM: Fare Tıklama | DETAY: Konum: (1312.6796875, 324.171875) | Buton: Button.left
+[2026-03-28 01:33:01.529443] EYLEM: Fare Tıklama | DETAY: Konum: (1366.75, 384.109375) | Buton: Button.left
+[2026-03-28 01:33:02.833468] EYLEM: Fare Tıklama | DETAY: Konum: (1364.703125, 363.7578125) | Buton: Button.left
+[2026-03-28 01:33:05.200053] EYLEM: Fare Tıklama | DETAY: Konum: (1356.11328125, 356.515625) | Buton: Button.left
+[2026-03-28 01:33:18.808342] EYLEM: Fare Tıklama | DETAY: Konum: (838.7421875, 112.8359375) | Buton: Button.left
+[2026-03-28 01:33:23.116940] EYLEM: Fare Tıklama | DETAY: Konum: (488.81640625, 119.96875) | Buton: Button.left
+[2026-03-28 01:33:26.974864] EYLEM: Fare Tıklama | DETAY: Konum: (1107.44140625, 879.9921875) | Buton: Button.left
+[2026-03-28 01:33:35.756581] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.cmdvkullanıcıKey.spaceadıKey.spaceneKey.spaceKey.enter
+[2026-03-28 01:33:40.137278] EYLEM: Fare Tıklama | DETAY: Konum: (1111.59765625, 786.73046875) | Buton: Button.left
+[2026-03-28 01:33:41.438317] EYLEM: Fare Tıklama | DETAY: Konum: (1395.1171875, 832.32421875) | Buton: Button.left
+[2026-03-28 01:33:56.963367] EYLEM: Fare Tıklama | DETAY: Konum: (1112.15625, 877.69921875) | Buton: Button.left
+[2026-03-28 01:34:11.041784] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: lanıcıKey.spaceadıKey.spaceşifreKey.spaceneKey.enter
+[2026-03-28 01:34:14.195761] EYLEM: Fare Tıklama | DETAY: Konum: (1299.70703125, 421.6171875) | Buton: Button.left
+[2026-03-28 01:34:28.524568] EYLEM: Fare Tıklama | DETAY: Konum: (1279.6015625, 383.52734375) | Buton: Button.left
+[2026-03-28 01:34:29.916185] EYLEM: Fare Tıklama | DETAY: Konum: (1374.24609375, 385.5625) | Buton: Button.left
+[2026-03-28 01:34:30.145416] EYLEM: Fare Tıklama | DETAY: Konum: (1374.24609375, 385.5625) | Buton: Button.left
+[2026-03-28 01:34:31.203558] EYLEM: Fare Tıklama | DETAY: Konum: (1374.5859375, 413.28125) | Buton: Button.left
+[2026-03-28 01:34:31.416008] EYLEM: Fare Tıklama | DETAY: Konum: (1374.5859375, 413.3984375) | Buton: Button.left
+[2026-03-28 01:34:31.957585] EYLEM: Fare Tıklama | DETAY: Konum: (1374.5859375, 416.90234375) | Buton: Button.left
+[2026-03-28 01:35:10.686806] EYLEM: Fare Tıklama | DETAY: Konum: (1263.98046875, 277.19921875) | Buton: Button.left
+[2026-03-28 01:35:11.741099] EYLEM: Fare Tıklama | DETAY: Konum: (1286.921875, 250.56640625) | Buton: Button.left
+[2026-03-28 01:35:15.582308] EYLEM: Fare Tıklama | DETAY: Konum: (1309.25, 365.70703125) | Buton: Button.left
+[2026-03-28 01:35:19.082401] EYLEM: Fare Tıklama | DETAY: Konum: (1267.78515625, 361.85546875) | Buton: Button.left
+[2026-03-28 01:35:26.132277] EYLEM: Fare Tıklama | DETAY: Konum: (1286.24609375, 390.8671875) | Buton: Button.left
+[2026-03-28 01:35:27.369944] EYLEM: Fare Tıklama | DETAY: Konum: (1286.24609375, 390.8671875) | Buton: Button.left
+[2026-03-28 01:35:32.653353] EYLEM: Fare Tıklama | DETAY: Konum: (1293.72265625, 462.82421875) | Buton: Button.left
+[2026-03-28 01:35:40.607171] EYLEM: Fare Tıklama | DETAY: Konum: (1211.3515625, 217.16796875) | Buton: Button.left
+[2026-03-28 01:35:47.874959] EYLEM: Fare Tıklama | DETAY: Konum: (1481.20703125, 841.08203125) | Buton: Button.left
+[2026-03-28 01:35:50.178235] EYLEM: Fare Tıklama | DETAY: Konum: (1033.23046875, 884.53515625) | Buton: Button.left
+[2026-03-28 01:35:53.114719] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: Key.backspaceKey.backspaceadmin123Key.shiftKey.cmd4olmadıKey.enter
+[2026-03-28 01:36:52.545931] EYLEM: Fare Tıklama | DETAY: Konum: (1395.34375, 803.69140625) | Buton: Button.left
+[2026-03-28 01:37:00.415393] EYLEM: Fare Tıklama | DETAY: Konum: (1392.6328125, 810.07421875) | Buton: Button.left
+[2026-03-28 01:37:40.822926] EYLEM: Fare Tıklama | DETAY: Konum: (1118.53515625, 811.2265625) | Buton: Button.left
+[2026-03-28 01:37:45.706236] EYLEM: Fare Tıklama | DETAY: Konum: (1364.54296875, 591.76953125) | Buton: Button.left
+[2026-03-28 01:37:46.581901] EYLEM: Fare Tıklama | DETAY: Konum: (1364.54296875, 591.76953125) | Buton: Button.left
+[2026-03-28 01:37:47.452173] EYLEM: Fare Tıklama | DETAY: Konum: (1239.79296875, 593.75390625) | Buton: Button.left
+[2026-03-28 01:37:48.302482] EYLEM: Fare Tıklama | DETAY: Konum: (1342.4609375, 563.02734375) | Buton: Button.left
+[2026-03-28 01:37:57.577158] EYLEM: Fare Tıklama | DETAY: Konum: (1359.52734375, 587.078125) | Buton: Button.left
+[2026-03-28 01:38:14.118965] EYLEM: Fare Tıklama | DETAY: Konum: (1175.2265625, 881.5703125) | Buton: Button.left
+[2026-03-28 01:38:17.442677] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: olmadıKey.spaceKey.enter
+[2026-03-28 01:39:39.295035] EYLEM: Fare Tıklama | DETAY: Konum: (1396.2890625, 808.75) | Buton: Button.left
+[2026-03-28 01:41:45.026118] EYLEM: Fare Tıklama | DETAY: Konum: (1200.99609375, 206.375) | Buton: Button.left
+[2026-03-28 01:41:48.054886] EYLEM: Fare Tıklama | DETAY: Konum: (1001.76953125, 204.6640625) | Buton: Button.left
+[2026-03-28 01:41:48.907339] EYLEM: Fare Tıklama | DETAY: Konum: (1058.7578125, 289.12109375) | Buton: Button.left
+[2026-03-28 01:41:50.967909] EYLEM: Fare Tıklama | DETAY: Konum: (458.23828125, 332.1328125) | Buton: Button.left
+[2026-03-28 01:41:52.909176] EYLEM: Fare Tıklama | DETAY: Konum: (981.34375, 643.84765625) | Buton: Button.left
+[2026-03-28 01:41:54.817065] EYLEM: Fare Tıklama | DETAY: Konum: (1371.796875, 339.14453125) | Buton: Button.left
+[2026-03-28 01:41:57.855368] EYLEM: Fare Tıklama | DETAY: Konum: (1285.73046875, 341.2265625) | Buton: Button.left
+[2026-03-28 01:41:58.044703] EYLEM: Fare Tıklama | DETAY: Konum: (1285.60546875, 341.2265625) | Buton: Button.left
+[2026-03-28 01:42:01.183692] EYLEM: Fare Tıklama | DETAY: Konum: (180.71484375, 891.23828125) | Buton: Button.left
+[2026-03-28 01:42:07.371542] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: merhabaKey.spaceanlatKey.enter
+[2026-03-28 01:42:28.823435] EYLEM: Klavye Girişi (Enter) | DETAY: Yazılan: buKey.spacegünKey.spaceneKey.spaceöğrendinKey.enter
+[2026-03-28 01:42:34.279571] EYLEM: Fare Tıklama | DETAY: Konum: (99.82421875, 766.8046875) | Buton: Button.left
+[2026-03-28 01:42:35.447186] EYLEM: Fare Tıklama | DETAY: Konum: (199.21484375, 776.9921875) | Buton: Button.left
+[2026-03-28 01:42:36.987839] EYLEM: Fare Tıklama | DETAY: Konum: (206.1875, 568.0625) | Buton: Button.left
+[2026-03-28 01:42:38.362622] EYLEM: Fare Tıklama | DETAY: Konum: (252.11328125, 882.80859375) | Buton: Button.left
+[2026-03-28 01:42:51.687603] EYLEM: Fare Tıklama | DETAY: Konum: (1115.71875, 812.21875) | Buton: Button.left
+[2026-03-28 01:43:02.458921] EYLEM: Fare Tıklama | DETAY: Konum: (1005.96875, 735.68359375) | Buton: Button.left
+[2026-03-28 01:43:04.424981] EYLEM: Fare Tıklama | DETAY: Konum: (1002.33984375, 762.40234375) | Buton: Button.left
+[2026-03-28 01:43:05.588913] EYLEM: Fare Tıklama | DETAY: Konum: (998.88671875, 743.2109375) | Buton: Button.left
+[2026-03-28 01:43:06.324662] EYLEM: Fare Tıklama | DETAY: Konum: (1049.13671875, 743.2109375) | Buton: Button.left

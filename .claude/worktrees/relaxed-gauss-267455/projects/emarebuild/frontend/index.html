@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EmareBuild — AI Uygulama Oluşturucu</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">
+      <span class="logo-icon">⚡</span>
+      <span class="logo-text">EmareBuild</span>
+    </div>
+    <div class="topbar-status" id="statusBar">Bağlanıyor...</div>
+  </header>
+
+  <main class="workspace">
+    <!-- LEFT: Chat Panel -->
+    <section class="panel chat-panel">
+      <div class="panel-header">
+        <span>💬 Sohbet</span>
+      </div>
+      <div class="chat-messages" id="chatMessages"></div>
+      <form class="chat-input-area" id="chatForm">
+        <textarea
+          id="chatInput"
+          placeholder="Uygulamanızı anlatın... Örn: 'Bir yapılacaklar listesi uygulaması yap'"
+          rows="3"
+        ></textarea>
+        <button type="submit" id="sendBtn">
+          <span>Gönder</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+          </svg>
+        </button>
+      </form>
+    </section>
+
+    <!-- RIGHT: Preview + Code Panel -->
+    <section class="panel preview-panel">
+      <div class="panel-header">
+        <div class="tab-bar">
+          <button class="tab active" data-tab="preview">👁️ Önizleme</button>
+          <button class="tab" data-tab="code">📄 Kod</button>
+          <button class="tab" data-tab="files">📁 Dosyalar</button>
+        </div>
+      </div>
+
+      <div class="tab-content active" id="tabPreview">
+        <div class="preview-placeholder" id="previewPlaceholder">
+          <div class="placeholder-icon">🚀</div>
+          <h2>Uygulamanız burada görünecek</h2>
+          <p>Sol panelden ne tür bir uygulama istediğinizi anlatın</p>
+        </div>
+        <iframe id="previewFrame" class="preview-frame hidden" sandbox="allow-scripts allow-same-origin"></iframe>
+      </div>
+
+      <div class="tab-content" id="tabCode">
+        <div class="code-viewer">
+          <pre><code id="codeContent">// Henüz kod oluşturulmadı</code></pre>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tabFiles">
+        <div class="file-list" id="fileList">
+          <p class="empty-state">Henüz dosya yok</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

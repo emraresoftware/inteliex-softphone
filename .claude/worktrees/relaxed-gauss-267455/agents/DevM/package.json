@@ -1,0 +1,12 @@
+{
+  "name": "devm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DevM otomatik yazilim uretim platformu - VS Code Copilot Agent",
+  "type": "commonjs",
+  "scripts": {
+    "talimatlar": "node scripts/run-talimatlar.js",
+    "talimatlar-ai": "node scripts/run-talimatlar-ai.js",
+    "talimatlar-watch": "node scripts/watch-talimatlar.js"
+  }
+}

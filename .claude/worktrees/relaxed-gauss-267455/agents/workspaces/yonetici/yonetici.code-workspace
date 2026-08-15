@@ -1,0 +1,13 @@
+{
+  "folders": [
+    { "path": "../../../", "name": "🗂 Dergah (repo)" },
+    { "path": "../../cards", "name": "📋 İş Kartları" }
+  ],
+  "settings": {
+    "github.copilot.chat.agent.enabled": true,
+    "files.exclude": { "**/node_modules": true, "**/__pycache__": true }
+  },
+  "extensions": {
+    "recommendations": ["github.copilot", "github.copilot-chat"]
+  }
+}

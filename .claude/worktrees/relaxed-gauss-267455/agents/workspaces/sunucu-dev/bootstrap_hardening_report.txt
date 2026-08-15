@@ -1,0 +1,3 @@
+bootstrap test hooks hazir
+error akis sertlestirme hazir
+npm test -- --runInBand ok

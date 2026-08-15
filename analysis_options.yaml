@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - ABTO_VoIP_SDK_Mobile_Flutter_20250825/**
+
+linter:
+  rules:
+    prefer_single_quotes: true

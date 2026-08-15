@@ -1,0 +1,20 @@
+[Unit]
+Description=Inteliex Softphone remote diagnostics
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+EnvironmentFile=/etc/inteliex-softphone-diagnostics.env
+ExecStart=/usr/bin/python3 /opt/inteliex-softphone-diagnostics/softphone_diagnostics.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/log/inteliex-softphone
+
+[Install]
+WantedBy=multi-user.target

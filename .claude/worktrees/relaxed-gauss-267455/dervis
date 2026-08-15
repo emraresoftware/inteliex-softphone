@@ -1,0 +1,17 @@
+#!/usr/bin/env zsh
+# dervis — Dergah CLI wrapper
+# Kurulum: sudo ln -sf /Users/emre/Dergah/dervis /usr/local/bin/dervis
+
+# Symlink ise gerçek dosya konumunu bul
+SCRIPT="$0"
+if [[ -L "$SCRIPT" ]]; then
+    SCRIPT="$(readlink "$SCRIPT")"
+fi
+DERGAH_ROOT="$(cd "$(dirname "$SCRIPT")" && pwd)"
+PYTHON="$DERGAH_ROOT/.venv/bin/python3.14"
+
+if [[ ! -x "$PYTHON" ]]; then
+    PYTHON=$(command -v python3.14 || command -v python3 || command -v python)
+fi
+
+exec "$PYTHON" "$DERGAH_ROOT/scripts/dervis_cli.py" "$@"

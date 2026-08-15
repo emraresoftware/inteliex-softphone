@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "olusturulma_zamani_utc": "2026-03-28T15:46:06.059131+00:00",
+    "model": "qwen2.5:32b",
+    "toplam_proje": 1
+  },
+  "projeler": [
+    {
+      "proje_adi": "emarecloud_ceyiz",
+      "teknoloji": "Python, Docker",
+      "durum": "Aktif Geliştirme",
+      "vazife": "Backend Geliştirme"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+---
+description: Talimat dosyasi degisince veya kullanici istediginde oku ve talimatlari uygula
+globs: TALIMATLAR.md
+alwaysApply: false
+---
+
+# Talimat dosyasini oku ve uygula
+
+- TALIMATLAR.md bu projedeki talimat dosyasidir.
+- Kullanici "talimatlari uygula", "talimatlari oku" veya benzeri bir sey soylediginde:
+  1. TALIMATLAR.md dosyasini oku.
+  2. Isaretlenmemis maddeleri uygula.
+  3. Uyguladiklarini [x] ile isaretle.
+- Dosya yoksa veya bossa kullaniciya bilgi ver.

@@ -1,0 +1,20 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+ios/Flutter/.last_build_id
+
+# Additional build/binary exclusions
+*.apk
+*.ipa
+*.zip
+*.tar.gz
+build/
+.dart_tool/
+.idea/
+.vscode/

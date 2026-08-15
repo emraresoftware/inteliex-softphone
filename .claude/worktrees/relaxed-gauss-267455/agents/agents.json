@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "repoRoot": "./",
+  "baseBranch": "main",
+  "worktreeRoot": "./agents/worktrees",
+  "agents": [
+    {
+      "id": "orchestrator",
+      "branch": "agent/orchestrator",
+      "path": "agents/worktrees/orchestrator",
+      "focus": ["planning", "dependencies", "merge-gate", "release-check", "repo-hygiene"]
+    },
+    {
+      "id": "core",
+      "branch": "agent/core",
+      "path": "agents/worktrees/core",
+      "focus": ["dervis-core", "dergah-orkestrator", "niyet-akisi", "is-kurallari"]
+    },
+    {
+      "id": "panel",
+      "branch": "agent/panel",
+      "path": "agents/worktrees/panel",
+      "focus": ["dervis-panel", "widget", "ui-akisi", "panel-state"]
+    },
+    {
+      "id": "integration",
+      "branch": "agent/integration",
+      "path": "agents/worktrees/integration",
+      "focus": ["github-relay", "network-bootstrap", "node-sync", "api-security"]
+    },
+    {
+      "id": "quality",
+      "branch": "agent/quality",
+      "path": "agents/worktrees/quality",
+      "focus": ["syntax-check", "smoke-tests", "health-check", "regression-gate"]
+    },
+    {
+      "id": "ops",
+      "branch": "agent/ops",
+      "path": "agents/worktrees/ops",
+      "focus": ["scripts", "startup", "runtime", "log-operations"]
+    },
+    {
+      "id": "yonetici",
+      "branch": "agent/yonetici",
+      "path": "agents/workspaces/yonetici",
+      "role": "manager",
+      "focus": ["sprint-planlama", "gorev-dagilimi", "merge-kapisi", "kalite-onay", "handoff-koordinasyon"],
+      "description": "Yönetici ajan — sprint açar/kapar, görevleri dağıtır, merge kararı verir"
+    },
+    {
+      "id": "api-dev",
+      "branch": "agent/api-dev",
+      "path": "agents/workspaces/api-dev",
+      "role": "developer",
+      "focus": ["rest-endpoints", "route-tasarim", "controller", "api-dokumantasyon"],
+      "description": "API geliştiricisi — REST endpoint tasarımı ve implementasyonu"
+    },
+    {
+      "id": "sunucu-dev",
+      "branch": "agent/sunucu-dev",
+      "path": "agents/workspaces/sunucu-dev",
+      "role": "developer",
+      "focus": ["express-server", "middleware", "config", "hata-yonetimi"],
+      "description": "Sunucu geliştiricisi — Express kurulumu, middleware zinciri, config"
+    },
+    {
+      "id": "veri-dev",
+      "branch": "agent/veri-dev",
+      "path": "agents/workspaces/veri-dev",
+      "role": "developer",
+      "focus": ["veri-modelleri", "storage-katmani", "crud-ops", "veri-validasyon"],
+      "description": "Veri geliştiricisi — model tasarımı, JSON/DB storage katmanı"
+    },
+    {
+      "id": "guvenlik-dev",
+      "branch": "agent/guvenlik-dev",
+      "path": "agents/workspaces/guvenlik-dev",
+      "role": "developer",
+      "focus": ["input-validasyon", "auth-middleware", "rate-limit", "guvenlik-header"],
+      "description": "Güvenlik geliştiricisi — validasyon, auth, güvenlik önlemleri"
+    },
+    {
+      "id": "test-dev",
+      "branch": "agent/test-dev",
+      "path": "agents/workspaces/test-dev",
+      "role": "developer",
+      "focus": ["unit-test", "integration-test", "smoke-test", "test-coverage"],
+      "description": "Test geliştiricisi — tüm katmanlar için test yazımı ve CI"
+    },
+    {
+      "id": "eb-backend",
+      "branch": "agent/eb-backend",
+      "path": "agents/workspaces/eb-backend",
+      "role": "developer",
+      "focus": ["fastapi", "websocket", "ollama-entegrasyon", "python-backend"],
+      "description": "EmareBuild backend geliştiricisi — FastAPI, WebSocket, LLM pipeline"
+    },
+    {
+      "id": "eb-frontend",
+      "branch": "agent/eb-frontend",
+      "path": "agents/workspaces/eb-frontend",
+      "role": "developer",
+      "focus": ["html-css-js", "websocket-client", "ui-panel", "preview-yonetimi"],
+      "description": "EmareBuild frontend geliştiricisi — chat UI, preview panel, JS client"
+    },
+    {
+      "id": "eb-test",
+      "branch": "agent/eb-test",
+      "path": "agents/workspaces/eb-test",
+      "role": "developer",
+      "focus": ["pytest", "integration-test", "e2e-test", "ollama-mock"],
+      "description": "EmareBuild test geliştiricisi — pytest, WebSocket testleri"
+    },
+    {
+      "id": "erp-domain",
+      "branch": "agent/erp-domain",
+      "path": "agents/workspaces/erp-domain",
+      "role": "developer",
+      "project": "emarerp",
+      "remote": "ssh://emre@192.168.1.64/Users/emre/Desktop/Emare/emarerp/emare-crm",
+      "focus": ["satinalma", "onay-motoru", "quote-to-cash", "is-akisi"],
+      "description": "EmareRP domain geliştiricisi — satınalma, onay, Q2C akışları"
+    },
+    {
+      "id": "erp-finance",
+      "branch": "agent/erp-finance",
+      "path": "agents/workspaces/erp-finance",
+      "role": "developer",
+      "project": "emarerp",
+      "remote": "ssh://emre@192.168.1.64/Users/emre/Desktop/Emare/emarerp/emare-crm",
+      "focus": ["muhasebe", "banka-mutabakat", "coklu-doviz", "fatura"],
+      "description": "EmareRP finans geliştiricisi — muhasebe, mutabakat, çoklu döviz"
+    },
+    {
+      "id": "erp-integration",
+      "branch": "agent/erp-integration",
+      "path": "agents/workspaces/erp-integration",
+      "role": "developer",
+      "project": "emarerp",
+      "remote": "ssh://emre@192.168.1.64/Users/emre/Desktop/Emare/emarerp/emare-crm",
+      "focus": ["webhook", "saga", "dead-letter", "api-guvenlik"],
+      "description": "EmareRP entegrasyon geliştiricisi — webhook, saga, DLQ"
+    },
+    {
+      "id": "erp-quality",
+      "branch": "agent/erp-quality",
+      "path": "agents/workspaces/erp-quality",
+      "role": "developer",
+      "project": "emarerp",
+      "remote": "ssh://emre@192.168.1.64/Users/emre/Desktop/Emare/emarerp/emare-crm",
+      "focus": ["feature-test", "kontrat-test", "validate-sh", "coverage"],
+      "description": "EmareRP kalite geliştiricisi — testler, validate.sh, coverage"
+    },
+    {
+      "id": "erp-ui",
+      "branch": "agent/erp-ui",
+      "path": "agents/workspaces/erp-ui",
+      "role": "developer",
+      "project": "emarerp",
+      "remote": "ssh://emre@192.168.1.64/Users/emre/Desktop/Emare/emarerp/emare-crm",
+      "focus": ["livewire", "blade-sablonlar", "portal-ui", "dashboard"],
+      "description": "EmareRP UI geliştiricisi — Livewire, portal, dashboard"
+    },
+    {
+      "id": "erp-architect",
+      "branch": "agent/erp-architect",
+      "path": "agents/workspaces/erp-architect",
+      "role": "architect",
+      "project": "emarerp",
+      "remote": "ssh://emre@192.168.1.64/Users/emre/Desktop/Emare/emarerp/emare-crm",
+      "focus": ["mimari-tasarim", "sprint-planlama", "kod-review", "merge-kapisi", "koordinasyon"],
+      "description": "EmareRP sistem mimarı — tasarım kararları, sprint yönetimi, kalite kapısı"
+    }
+  ]
+}

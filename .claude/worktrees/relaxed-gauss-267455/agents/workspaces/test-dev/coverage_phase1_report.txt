@@ -1,0 +1,9 @@
+npm test -- --coverage --runInBand fail
+app.js statements 95.38
+errorHandler.js statements 100
+requestLogger.js statements 100
+global statements 73.77
+global branches 63.83
+global functions 73.98
+global lines 74.59
+global thresholds altinda

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.emre.talimatlar.watch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>/Users/emre/Desktop/emare-ulak-extension-complete/DevM/örnek proje/ws-1-orchestrator/scripts/start-watch-daemon.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/emre/Desktop/emare-ulak-extension-complete/DevM/örnek proje/ws-1-orchestrator</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/emre/Desktop/emare-ulak-extension-complete/DevM/örnek proje/ws-1-orchestrator/logs/watch-launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/emre/Desktop/emare-ulak-extension-complete/DevM/örnek proje/ws-1-orchestrator/logs/watch-launchd.err.log</string>
+</dict>
+</plist>

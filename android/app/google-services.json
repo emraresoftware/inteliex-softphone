@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740832393398",
+    "project_id": "inteliex-softphone",
+    "storage_bucket": "inteliex-softphone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740832393398:android:5eec4a0d9563f3d56f0e17",
+        "android_client_info": {
+          "package_name": "com.sesdata.inteliex_softphone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBavmkTNZDDG-JEUKTfuDOY_N7qqICAriQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "isim": "Ana Web Sunucusu",
+        "ip": "1.2.3.4",
+        "kullanici": "root",
+        "gorev": "Emare Hub Web Sitesi"
+    },
+    {
+        "isim": "Veritabanı",
+        "ip": "5.6.7.8",
+        "kullanici": "admin",
+        "gorev": "Proje Verileri"
+    }
+]

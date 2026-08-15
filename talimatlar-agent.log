@@ -1,0 +1,6 @@
+=== Talimatlar Agent Log — 2026-06-15T20:49:11.363Z ===
+20:49:11 [talimatlar-agent] Aktif — TALIMATLAR.md izleniyor.
+20:49:11 [watch] ✅ İzleniyor → inteliex softphone
+20:49:11 [watch] Toplam 1 workspace aktif.
+20:49:11 [monitor] Ajan monitör başlatıldı.
+20:49:11 [watch] fs.watch aktif → /Users/emre/Dergah/agents/workspaces

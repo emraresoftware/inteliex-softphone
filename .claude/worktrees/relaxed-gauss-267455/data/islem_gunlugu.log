@@ -1,0 +1,533 @@
+2026-03-27 17:40:00 | dervis_operator | INFO | SUCCESS: Dervis Operator baslatildi | cwd=/Users/emre/Dergah model=qwen2.5-coder:14b
+2026-03-27 17:40:03 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `cd /Users/emre/Dergah/projects`
+GEREKCE: Dergah klasörünün içindeki projects dizinine geçmek için kullanılır.
+2026-03-27 17:40:03 | dervis_operator | INFO | Komut calistiriliyor | command=`cd /Users/emre/Dergah/projects`
+2026-03-27 17:40:03 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 17:40:05 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `ls -l`
+GEREKCE: projects dizinindeki projeleri listelemek için kullanılır.
+2026-03-27 17:40:05 | dervis_operator | INFO | Komut calistiriliyor | command=`ls -l`
+2026-03-27 17:40:05 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:06 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Projects directory is empty or does not exist."`
+GEREKCE: projects dizininin boş veya mevcut olmadığını belirtmek için kullanılır.
+2026-03-27 17:40:06 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Projects directory is empty or does not exist."`
+2026-03-27 17:40:07 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:08 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `pwd`
+GEREKCE: Geçerli çalışma diziniyi kontrol etmek için kullanılır.
+2026-03-27 17:40:08 | dervis_operator | INFO | Komut calistiriliyor | command=`pwd`
+2026-03-27 17:40:08 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=126
+2026-03-27 17:40:10 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `ls -l /Users/emre/Dergah`
+GEREKCE: Dergah dizinindeki içerikleri listelemek için kullanılır.
+2026-03-27 17:40:10 | dervis_operator | INFO | Komut calistiriliyor | command=`ls -l /Users/emre/Dergah`
+2026-03-27 17:40:10 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:12 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Dergah directory is empty or does not exist."`
+GEREKCE: Dergah dizininin boş veya mevcut olmadığını belirtmek için kullanılır.
+2026-03-27 17:40:12 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Dergah directory is empty or does not exist."`
+2026-03-27 17:40:12 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:13 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `cd ~`
+GEREKCE: Ev dizinine geçerek sorunu gidermeye çalışmak için kullanılır.
+2026-03-27 17:40:13 | dervis_operator | INFO | Komut calistiriliyor | command=`cd ~`
+2026-03-27 17:40:13 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 17:40:15 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `ls -l`
+GEREKCE: Ev dizinindeki içerikleri listelemek için kullanılır.
+2026-03-27 17:40:15 | dervis_operator | INFO | Komut calistiriliyor | command=`ls -l`
+2026-03-27 17:40:15 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:16 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Home directory is empty or does not exist."`
+GEREKCE: Ev dizininin boş veya mevcut olmadığını belirtmek için kullanılır.
+2026-03-27 17:40:16 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Home directory is empty or does not exist."`
+2026-03-27 17:40:16 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:18 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `pwd`
+GEREKCE: Geçerli çalışma diziniyi kontrol etmek için kullanılır.
+2026-03-27 17:40:18 | dervis_operator | INFO | Komut calistiriliyor | command=`pwd`
+2026-03-27 17:40:18 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=126
+2026-03-27 17:40:19 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `ls -l /Users/emre`
+GEREKCE: Emre dizinindeki içerikleri listelemek için kullanılır.
+2026-03-27 17:40:19 | dervis_operator | INFO | Komut calistiriliyor | command=`ls -l /Users/emre`
+2026-03-27 17:40:19 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:21 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Emre directory is empty or does not exist."`
+GEREKCE: Emre dizininin boş veya mevcut olmadığını belirtmek için kullanılır.
+2026-03-27 17:40:21 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Emre directory is empty or does not exist."`
+2026-03-27 17:40:21 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:24 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "An unexpected error occurred. Please check your directory paths and try again."`
+GEREKCE: Beklenmedik bir hataya neden olan olası sorunları belirtmek için kullanılır.
+2026-03-27 17:40:24 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "An unexpected error occurred. Please check your directory paths and try again."`
+2026-03-27 17:40:24 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:26 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Error: Command not found. Please check your terminal and try again."`
+GEREKCE: Komutun bulunamadığını belirtmek için kullanılır.
+2026-03-27 17:40:26 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Error: Command not found. Please check your terminal and try again."`
+2026-03-27 17:40:26 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:28 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "It seems there is an issue with your terminal setup. Please try restarting your terminal and running the commands again."`
+GEREKCE: Terminal ayarlarında bir sorun olduğunu belirtmek için kullanılır.
+2026-03-27 17:40:28 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "It seems there is an issue with your terminal setup. Please try restarting your terminal and running the commands again."`
+2026-03-27 17:40:28 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:31 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Sorry, I couldn't complete the operation. Please contact your system administrator for further assistance."`
+GEREKCE: İşlemi tamamlanamadığını belirtmek ve kullanıcıya destek alması gerektiğini önermek için kullanılır.
+2026-03-27 17:40:31 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Sorry, I couldn't complete the operation. Please contact your system administrator for further assistance."`
+2026-03-27 17:40:31 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:33 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Operation failed. Please check your directory paths and try again."`
+GEREKCE: İşlem başarısız olduğunu ve kullanıcıya yönlendirmeleri belirtmek için kullanılır.
+2026-03-27 17:40:33 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Operation failed. Please check your directory paths and try again."`
+2026-03-27 17:40:33 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:35 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "There seems to be a problem with the terminal. Please restart your terminal and try again."`
+GEREKCE: Terminalde bir sorun olduğunu ve kullanıcıya yeniden başlatmayı önermek için kullanılır.
+2026-03-27 17:40:35 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "There seems to be a problem with the terminal. Please restart your terminal and try again."`
+2026-03-27 17:40:35 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:38 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "I'm unable to complete the operation. Please contact your system administrator for help."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya destek alması gerektiğini belirtmek için kullanılır.
+2026-03-27 17:40:38 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "I'm unable to complete the operation. Please contact your system administrator for help."`
+2026-03-27 17:40:38 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:40 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Failed to complete the operation. Please check your directory paths and try again."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya yönlendirmeleri belirtmek için kullanılır.
+2026-03-27 17:40:40 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Failed to complete the operation. Please check your directory paths and try again."`
+2026-03-27 17:40:40 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:43 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "The operation could not be completed. Please contact your system administrator for assistance."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya destek alması gerektiğini belirtmek için kullanılır.
+2026-03-27 17:40:43 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "The operation could not be completed. Please contact your system administrator for assistance."`
+2026-03-27 17:40:43 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:45 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "I'm sorry, I can't complete the operation. Please try again later."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya yeniden denemesini önermek için kullanılır.
+2026-03-27 17:40:45 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "I'm sorry, I can't complete the operation. Please try again later."`
+2026-03-27 17:40:45 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:48 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Operation could not be completed. Please try restarting your terminal and running the commands again."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya terminali yeniden başlatması gerektiğini önermek için kullanılır.
+2026-03-27 17:40:48 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Operation could not be completed. Please try restarting your terminal and running the commands again."`
+2026-03-27 17:40:48 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:50 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "I'm unable to complete the operation. Please check your directory paths and try again."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya yönlendirmeleri belirtmek için kullanılır.
+2026-03-27 17:40:50 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "I'm unable to complete the operation. Please check your directory paths and try again."`
+2026-03-27 17:40:50 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:53 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Sorry, I couldn't complete the operation. Please try running the commands in a different terminal or contact your system administrator."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya farklı bir terminalde komutları çalıştırmayı veya destek almayı önermek için kullanılır.
+2026-03-27 17:40:53 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Sorry, I couldn't complete the operation. Please try running the commands in a different terminal or contact your system administrator."`
+2026-03-27 17:40:53 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:40:56 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Failed to complete the operation. Please try running the commands again or contact your system administrator."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya komutları yeniden çalıştırmayı veya destek almayı önermek için kullanılır.
+2026-03-27 17:40:56 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Failed to complete the operation. Please try running the commands again or contact your system administrator."`
+2026-03-27 17:40:56 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:41:00 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "I'm unable to complete the operation. Please try running the commands in a different terminal or contact your system administrator for assistance."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya farklı bir terminalde komutları çalıştırmayı veya destek almayı önermek için kullanılır.
+2026-03-27 17:41:00 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "I'm unable to complete the operation. Please try running the commands in a different terminal or contact your system administrator for assistance."`
+2026-03-27 17:41:00 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:41:03 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Operation could not be completed. Please try running the commands in a different terminal or contact your system administrator."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya farklı bir terminalde komutları çalıştırmayı veya destek almayı önermek için kullanılır.
+2026-03-27 17:41:03 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Operation could not be completed. Please try running the commands in a different terminal or contact your system administrator."`
+2026-03-27 17:41:03 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:41:06 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "I'm sorry, I can't complete the operation right now. Please try again later or contact your system administrator for assistance."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya yeniden denemesini veya destek almayı önermek için kullanılır.
+2026-03-27 17:41:06 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "I'm sorry, I can't complete the operation right now. Please try again later or contact your system administrator for assistance."`
+2026-03-27 17:41:06 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:41:09 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "Failed to complete the operation. Please try running the commands again later or contact your system administrator."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya komutları yeniden çalıştırmayı veya destek almayı önermek için kullanılır.
+2026-03-27 17:41:09 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "Failed to complete the operation. Please try running the commands again later or contact your system administrator."`
+2026-03-27 17:41:09 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:41:12 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: `echo "I'm unable to complete the operation at this time. Please try again later or contact your system administrator for assistance."`
+GEREKCE: İşlemi tamamlamak için kullanıcıya yeniden denemesini veya destek almayı önermek için kullanılır.
+2026-03-27 17:41:12 | dervis_operator | INFO | Komut calistiriliyor | command=`echo "I'm unable to complete the operation at this time. Please try again later or contact your system administrator for assistance."`
+2026-03-27 17:41:12 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=127
+2026-03-27 17:48:15 | dervis_core | INFO | SUCCESS: Dervis Core baslatildi | model=qwen2.5-coder:14b root=/Users/emre/Dergah
+2026-03-27 17:48:19 | dervis_core | INFO | Model cevabi alindi | response={
+  "action": "think",
+  "args": {},
+  "reason": "Gerekli bilgi toplamak için ilk olarak düşünceli bir adıma geçmek daha güvenlidir."
+}
+2026-03-27 17:48:21 | dervis_core | INFO | Model cevabi alindi | response={
+  "action": "terminal",
+  "args": {
+    "command": "uname -a"
+  },
+  "reason": "Sistem bilgilerini alarak ortam hakkında temel bir anlayış kazanmak."
+}
+2026-03-27 17:48:21 | dervis_core | INFO | Terminal komutu calistiriliyor | command=uname -a
+2026-03-27 17:48:23 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "whoami"}, "reason": "Mevcut kullanıcıyı belirlemek için."}
+2026-03-27 17:48:23 | dervis_core | INFO | Terminal komutu calistiriliyor | command=whoami
+2026-03-27 17:48:26 | dervis_core | INFO | Model cevabi alindi | response={
+  "action": "list_dir",
+  "args": {
+    "path": "/Users/emre"
+  },
+  "reason": "Kullanıcının ev dizinine bakarak ortam hakkında daha fazla bilgi toplayalım."
+}
+2026-03-27 17:48:28 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "ls -la"}, "reason": "Mevcut dizindeki dosyaların detaylı bilgilerini almak."}
+2026-03-27 17:48:28 | dervis_core | INFO | Terminal komutu calistiriliyor | command=ls -la
+2026-03-27 17:48:33 | dervis_core | INFO | Model cevabi alindi | response={"action": "read_file", "args": {"path": "sunucular.json"}, "reason": "Belirli bir yapıda tutulan bilgileri okumak için."}
+2026-03-27 17:48:35 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "ping 1.2.3.4"}, "reason": "Ana web sunucusuna erişilebilirliğini kontrol etmek için."}
+2026-03-27 17:48:35 | dervis_core | INFO | Terminal komutu calistiriliyor | command=ping 1.2.3.4
+2026-03-27 17:50:14 | init_dergah | INFO | Dergah init basladi | root=/Users/emre/Dergah
+2026-03-27 17:50:14 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/projects
+2026-03-27 17:50:14 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/scripts
+2026-03-27 17:50:14 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/data
+2026-03-27 17:50:14 | init_dergah | INFO | Defter zaten mevcut | path=/Users/emre/Dergah/data/dergah_defteri.json
+2026-03-27 17:50:14 | init_dergah | INFO | Islem gunlugu zaten mevcut | path=/Users/emre/Dergah/data/islem_gunlugu.log
+2026-03-27 17:50:14 | init_dergah | INFO | SUCCESS: Dergah init tamamlandi
+2026-03-27 17:50:24 | tescil_merasimi | WARNING | projects/ altinda tescil edilecek proje bulunamadi
+2026-03-27 17:50:24 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=0
+2026-03-27 17:50:33 | dervis_core | INFO | SUCCESS: Dervis Core baslatildi | model=qwen2.5-coder:14b root=/Users/emre/Dergah
+2026-03-27 17:50:34 | dervis_core | INFO | Model cevabi alindi | response={
+  "action": "terminal",
+  "args": {
+    "command": "whoami"
+  },
+  "reason": "Kullanıcı kimliğini öğrenmek, yetki düzeyini belirlemek için gerekli."
+}
+2026-03-27 17:50:34 | dervis_core | INFO | Terminal komutu calistiriliyor | command=whoami
+2026-03-27 17:50:37 | dervis_core | INFO | Model cevabi alindi | response={
+  "action": "fetch_url",
+  "args": {
+    "url": "https://api.ipify.org?format=json"
+  },
+  "reason": "Cihazın IP adresini öğrenmek, ağ bağlantısını doğrulamak için gerekli."
+}
+2026-03-27 17:50:37 | dervis_core | INFO | URL getiriliyor | url=https://api.ipify.org?format=json
+2026-03-27 17:50:41 | dervis_core | INFO | Model cevabi alindi | response={
+  "action": "list_dir",
+  "args": {
+    "path": "/"
+  },
+  "reason": "Kök dizindeki dosyaları listeleme, sistem yapılarını analiz etmek için gerekli."
+}
+2026-03-27 17:50:44 | dervis_core | INFO | Model cevabi alindi | response={"action": "list_dir", "args": {"path": "/Users"}, "reason": "Kullanıcı dizinlerini listeleme, kullanıcıların varlığını ve yetkilerini anlamak için gerekli."}
+2026-03-27 17:50:46 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "id emre"}, "reason": "Kullanıcı 'emre' hakkında yetki ve grup bilgilerini öğrenmek için gerekli."}
+2026-03-27 17:50:46 | dervis_core | INFO | Terminal komutu calistiriliyor | command=id emre
+2026-03-27 17:50:49 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "ls -la /Users/emre"}, "reason": "Kullanıcı 'emre' dizinindeki dosyaları ve izinleri incelemek için gerekli."}
+2026-03-27 17:50:49 | dervis_core | INFO | Terminal komutu calistiriliyor | command=ls -la /Users/emre
+2026-03-27 17:50:56 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "cat /Users/emre/.zsh_history"}, "reason": "Kullanıcı 'emre' geçmiş komutlarını incelemek, potansiyel gizli veya ilgili işlemler için gerekli."}
+2026-03-27 17:50:56 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cat /Users/emre/.zsh_history
+2026-03-27 17:50:58 | dervis_core | INFO | Model cevabi alindi | response={"action": "read_file", "args": {"path": "/Users/emre/.zsh_history"}, "reason": "Kullanıcı 'emre' geçmiş komutlarını okumak, potansiyel gizli veya ilgili işlemler için gerekli."}
+2026-03-27 17:51:03 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "iconv -f ISO-8859-1 -t UTF-8 /Users/emre/.zsh_history > /tmp/zsh_history_utf8"}, "reason": "Kullanıcı 'emre' geçmiş komutlarını farklı bir kodlamayla okumak, potansiyel gizli veya ilgili işlemler için gerekli."}
+2026-03-27 17:51:03 | dervis_core | INFO | Terminal komutu calistiriliyor | command=iconv -f ISO-8859-1 -t UTF-8 /Users/emre/.zsh_history > /tmp/zsh_history_utf8
+2026-03-27 17:53:22 | dervis_core | INFO | SUCCESS: Etkilesimli sohbet modu acildi | model=qwen2.5-coder:14b
+2026-03-27 17:53:45 | dervis_core | INFO | Model cevabi alindi | response={"action": "terminal", "args": {"command": "ping 5.6.7.8"}, "reason": "Veritabanına erişilebilirliğini kontrol etmek için."}
+2026-03-27 17:53:45 | dervis_core | INFO | Terminal komutu calistiriliyor | command=ping 5.6.7.8
+2026-03-27 17:56:31 | dervis_core | INFO | SUCCESS: Etkilesimli sohbet modu acildi | model=qwen2.5-coder:14b
+2026-03-27 18:02:38 | dervis_core | INFO | URL getiriliyor | url=https://raw.githubusercontent.com/your-repo-url/giris_yap.py
+2026-03-27 18:47:13 | dergah_orkestrator | INFO | Orkestrasyon basladi
+2026-03-27 18:47:13 | dergah_orkestrator | INFO | Asama 1/3: Init
+2026-03-27 18:47:13 | init_dergah | INFO | Dergah init basladi | root=/Users/emre/Dergah
+2026-03-27 18:47:13 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/projects
+2026-03-27 18:47:13 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/scripts
+2026-03-27 18:47:13 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/data
+2026-03-27 18:47:13 | init_dergah | INFO | Defter zaten mevcut | path=/Users/emre/Dergah/data/dergah_defteri.json
+2026-03-27 18:47:13 | init_dergah | INFO | Islem gunlugu zaten mevcut | path=/Users/emre/Dergah/data/islem_gunlugu.log
+2026-03-27 18:47:13 | init_dergah | INFO | SUCCESS: Dergah init tamamlandi
+2026-03-27 18:47:13 | dergah_orkestrator | INFO | Asama 2/3: Tescil
+2026-03-27 18:47:13 | tescil_merasimi | WARNING | projects/ altinda tescil edilecek proje bulunamadi
+2026-03-27 18:47:13 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=0
+2026-03-27 18:47:13 | dergah_orkestrator | INFO | Asama 3/3 atlandi | reason=--operator verilmedi
+2026-03-27 18:47:13 | dergah_orkestrator | INFO | SUCCESS: Orkestrasyon tamamlandi
+2026-03-27 18:48:23 | dergah_orkestrator | INFO | Orkestrasyon basladi
+2026-03-27 18:48:23 | dergah_orkestrator | INFO | Asama 1/3: Init
+2026-03-27 18:48:23 | init_dergah | INFO | Dergah init basladi | root=/Users/emre/Dergah
+2026-03-27 18:48:23 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/projects
+2026-03-27 18:48:23 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/scripts
+2026-03-27 18:48:23 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/data
+2026-03-27 18:48:23 | init_dergah | INFO | Defter zaten mevcut | path=/Users/emre/Dergah/data/dergah_defteri.json
+2026-03-27 18:48:23 | init_dergah | INFO | Islem gunlugu zaten mevcut | path=/Users/emre/Dergah/data/islem_gunlugu.log
+2026-03-27 18:48:23 | init_dergah | INFO | SUCCESS: Dergah init tamamlandi
+2026-03-27 18:48:23 | dergah_orkestrator | INFO | Asama 2/3: Tescil
+2026-03-27 18:48:23 | tescil_merasimi | WARNING | projects/ altinda tescil edilecek proje bulunamadi
+2026-03-27 18:48:23 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=0
+2026-03-27 18:48:23 | dergah_orkestrator | INFO | Asama 3/3: Operator dongusu
+2026-03-27 18:48:23 | dervis_operator | INFO | SUCCESS: Dervis Operator baslatildi | cwd=/Users/emre/Dergah model=qwen2.5-coder:14b
+2026-03-27 18:48:27 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd /Users/emre/Dergah/projects
+GEREKCE: Çalışma dizinini projects klasörüne değiştirir, böylece projeleri daha kolay yönetebilirsiniz.
+2026-03-27 18:48:27 | dervis_operator | INFO | Komut calistiriliyor | command=cd /Users/emre/Dergah/projects
+2026-03-27 18:48:27 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:29 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: Mevcut dizindeki projeleri ayrıntılı bir şekilde listeler, böylece hangi projelere erişebileceğinizi görebilirsiniz.
+2026-03-27 18:48:29 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 18:48:29 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:33 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd data
+GEREKCE: Verileri tutan 'data' klasörüne geçer, böylece bu klasördeki dosyaları yönetebilirsiniz.
+2026-03-27 18:48:33 | dervis_operator | INFO | Komut calistiriliyor | command=cd data
+2026-03-27 18:48:33 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:35 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'data' klasöründeki dosyaları ayrıntılı bir şekilde listeler, böylece hangi verilere erişebileceğinizi görebilirsiniz.
+2026-03-27 18:48:35 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 18:48:35 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:39 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Çalışma dizinini bir üst düzey klasöre çıkarır, böylece 'data' klasöründen çıkabilirsiniz.
+2026-03-27 18:48:39 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 18:48:39 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:42 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l projects
+GEREKCE: 'projects' klasöründeki dosyaları ayrıntılı bir şekilde listeler, böylece hangi projelere erişebileceğinizi görebilirsiniz.
+2026-03-27 18:48:42 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l projects
+2026-03-27 18:48:42 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:43 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Çalışma dizinini bir üst düzey klasöre çıkarır, böylece 'projects' klasöründen çıkabilirsiniz.
+2026-03-27 18:48:43 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 18:48:43 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:46 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l projects_meta
+GEREKCE: 'projects_meta' klasöründeki dosyaları ayrıntılı bir şekilde listeler, böylece hangi meta verilere erişebileceğinizi görebilirsiniz.
+2026-03-27 18:48:46 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l projects_meta
+2026-03-27 18:48:46 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:48 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Çalışma dizinini bir üst düzey klasöre çıkarır, böylece 'projects_meta' klasöründen çıkabilirsiniz.
+2026-03-27 18:48:48 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 18:48:48 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:50 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l scripts
+GEREKCE: 'scripts' klasöründeki dosyaları ayrıntılı bir şekilde listeler, böylece hangi betiklere erişebileceğinizi görebilirsiniz.
+2026-03-27 18:48:50 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l scripts
+2026-03-27 18:48:50 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:55 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd scripts
+GEREKCE: 'scripts' klasörüne geçer, böylece bu klasördeki betikleri yönetebilirsiniz.
+2026-03-27 18:48:55 | dervis_operator | INFO | Komut calistiriliyor | command=cd scripts
+2026-03-27 18:48:55 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:48:58 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'scripts' klasöründeki dosyaları ayrıntılı bir şekilde listeler, böylece hangi betiklere erişebileceğinizi görebilirsiniz.
+2026-03-27 18:48:58 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 18:48:58 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:49:02 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Çalışma dizinini bir üst düzey klasöre çıkarır, böylece 'scripts' klasöründen çıkabilirsiniz.
+2026-03-27 18:49:02 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 18:49:02 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:49:05 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l user_data
+GEREKCE: 'user_data' klasöründeki dosyaları ayrıntılı bir şekilde listeler, böylece hangi kullanıcı verilerine erişebileceğinizi görebilirsiniz.
+2026-03-27 18:49:05 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l user_data
+2026-03-27 18:49:05 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:49:47 | dergah_orkestrator | INFO | Orkestrasyon basladi
+2026-03-27 18:49:47 | dergah_orkestrator | INFO | Asama 1/3: Init
+2026-03-27 18:49:47 | init_dergah | INFO | Dergah init basladi | root=/Users/emre/Dergah
+2026-03-27 18:49:47 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/projects
+2026-03-27 18:49:47 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/scripts
+2026-03-27 18:49:47 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/data
+2026-03-27 18:49:47 | init_dergah | INFO | Defter zaten mevcut | path=/Users/emre/Dergah/data/dergah_defteri.json
+2026-03-27 18:49:47 | init_dergah | INFO | Islem gunlugu zaten mevcut | path=/Users/emre/Dergah/data/islem_gunlugu.log
+2026-03-27 18:49:47 | init_dergah | INFO | SUCCESS: Dergah init tamamlandi
+2026-03-27 18:49:47 | dergah_orkestrator | INFO | Asama 2/3: Tescil
+2026-03-27 18:49:47 | tescil_merasimi | WARNING | projects/ altinda tescil edilecek proje bulunamadi
+2026-03-27 18:49:47 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=0
+2026-03-27 18:49:47 | dergah_orkestrator | INFO | Asama 3/3: Operator dongusu
+2026-03-27 18:49:47 | dervis_operator | INFO | SUCCESS: Dervis Operator baslatildi | cwd=/Users/emre/Dergah model=qwen2.5-coder:14b
+2026-03-27 18:49:48 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd /Users/emre/Dergah/projects
+GEREKCE: Calisma dizinini 'projects' klasoru'ne degistirerek, projeleri otonom olarak yönetmeye hazirlanir.
+2026-03-27 18:49:48 | dervis_operator | INFO | Komut calistiriliyor | command=cd /Users/emre/Dergah/projects
+2026-03-27 18:49:48 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:49:50 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'projects' klasorundeki projeleri detayli bir şekilde listeleerek, hangi projelerin mevcut oldugunu gorebiliriz.
+2026-03-27 18:49:50 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 18:49:50 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:49:54 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: python giris_yap.py
+GEREKCE: Calisma dizininde bulunan 'giris_yap.py' scriptini calistirarak, projeleri otonom olarak yönetmeye baslayabiliriz.
+2026-03-27 18:49:54 | dervis_operator | INFO | Komut calistiriliyor | command=python giris_yap.py
+2026-03-27 18:53:55 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=-1
+2026-03-27 18:53:57 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: killall python
+GEREKCE: Calisan 'python' proseslerini sonlandirarak, olasi zamana dayalı sorunlari cozme amaciyla devam edebiliriz.
+2026-03-27 18:53:57 | dervis_operator | INFO | Komut calistiriliyor | command=killall python
+2026-03-27 18:53:57 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=1
+2026-03-27 18:53:59 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ps aux | grep python
+GEREKCE: Calisan 'python' proseslerini kontrol ederek, olasi hatalari anlamaya calisiriz.
+2026-03-27 18:53:59 | dervis_operator | INFO | Komut calistiriliyor | command=ps aux | grep python
+2026-03-27 18:53:59 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 18:54:05 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: kill 17573
+GEREKCE: Calisan 'dergah_orkestrator.py' prosesini sonlandirarak, olasi zamana dayalı sorunlari cozme amaciyla devam edebiliriz.
+2026-03-27 18:54:05 | dervis_operator | INFO | Komut calistiriliyor | command=kill 17573
+2026-03-27 19:14:04 | dergah_orkestrator | INFO | Orkestrasyon basladi
+2026-03-27 19:14:04 | dergah_orkestrator | INFO | Asama 1/3: Init
+2026-03-27 19:14:04 | init_dergah | INFO | Dergah init basladi | root=/Users/emre/Dergah
+2026-03-27 19:14:04 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/projects
+2026-03-27 19:14:04 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/scripts
+2026-03-27 19:14:04 | init_dergah | INFO | SUCCESS: Dizin hazir | path=/Users/emre/Dergah/data
+2026-03-27 19:14:04 | init_dergah | INFO | Defter zaten mevcut | path=/Users/emre/Dergah/data/dergah_defteri.json
+2026-03-27 19:14:04 | init_dergah | INFO | Islem gunlugu zaten mevcut | path=/Users/emre/Dergah/data/islem_gunlugu.log
+2026-03-27 19:14:04 | init_dergah | INFO | SUCCESS: Dergah init tamamlandi
+2026-03-27 19:14:04 | dergah_orkestrator | INFO | Asama 2/3: Tescil
+2026-03-27 19:14:04 | tescil_merasimi | WARNING | projects/ altinda tescil edilecek proje bulunamadi
+2026-03-27 19:14:04 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=0
+2026-03-27 19:14:04 | dergah_orkestrator | INFO | Asama 3/3: Operator dongusu
+2026-03-27 19:14:04 | dervis_operator | INFO | SUCCESS: Dervis Operator baslatildi | cwd=/Users/emre/Dergah model=qwen2.5-coder:14b
+2026-03-27 19:14:08 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd /Users/emre/Dergah/projects
+GEREKCE: Çalışma dizinini 'projects' klasörüne değiştirerek, bu altındaki projeleri yönetmeye başlayabiliriz.
+2026-03-27 19:14:08 | dervis_operator | INFO | Komut calistiriliyor | command=cd /Users/emre/Dergah/projects
+2026-03-27 19:14:08 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:09 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'projects' klasöründeki projeleri listeleerek, hangi projelerin olduğunu görebiliriz.
+2026-03-27 19:14:09 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 19:14:09 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:13 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd data
+GEREKCE: 'data' klasörüne geçerek, bu dizindeki projeler veya verileri inceleyebiliriz.
+2026-03-27 19:14:13 | dervis_operator | INFO | Komut calistiriliyor | command=cd data
+2026-03-27 19:14:13 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:15 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'data' klasöründeki dosyaları ve alt dizinleri listeleerek, hangi projelerin veya verilerin olduğunu görebiliriz.
+2026-03-27 19:14:15 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 19:14:15 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:19 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Bir üst dizine dönerek, 'projects' klasörüne dönmek için gerekli adımı atıyoruz.
+2026-03-27 19:14:19 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 19:14:19 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:21 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l projects_meta
+GEREKCE: 'projects_meta' klasöründeki dosyaları ve alt dizinleri listeleerek, projelerin meta verilerini inceleyebiliriz.
+2026-03-27 19:14:21 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l projects_meta
+2026-03-27 19:14:21 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:23 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd projects
+GEREKCE: 'projects' klasörüne geçerek, bu dizindeki projeleri daha derinlemesine inceleyebiliriz.
+2026-03-27 19:14:23 | dervis_operator | INFO | Komut calistiriliyor | command=cd projects
+2026-03-27 19:14:23 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:25 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'projects' klasöründeki dosyaları ve alt dizinleri listeleerek, hangi projelerin olduğunu görebiliriz.
+2026-03-27 19:14:25 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 19:14:25 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:29 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Bir üst dizine dönerek, 'projects' klasörüne dönmek için gerekli adımı atıyoruz.
+2026-03-27 19:14:29 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 19:14:29 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:31 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l scripts
+GEREKCE: 'scripts' klasöründeki dosyaları ve alt dizinleri listeleerek, projelerle ilgili betikleri inceleyebiliriz.
+2026-03-27 19:14:31 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l scripts
+2026-03-27 19:14:31 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:37 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd scripts
+GEREKCE: 'scripts' klasörüne geçerek, projelerle ilgili betikleri daha derinlemesine inceleyebiliriz.
+2026-03-27 19:14:37 | dervis_operator | INFO | Komut calistiriliyor | command=cd scripts
+2026-03-27 19:14:37 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:39 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'scripts' klasöründeki dosyaları ve alt dizinleri listeleerek, hangi betiklerin olduğunu görebiliriz.
+2026-03-27 19:14:39 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 19:14:39 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:14:43 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Bir üst dizine dönerek, 'projects' klasörüne dönmek için gerekli adımı atıyoruz.
+2026-03-27 19:14:43 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 19:14:43 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:15:19 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l user_data
+GEREKCE: 'user_data' klasöründeki dosyaları ve alt dizinleri listeleerek, kullanıcı verilerini inceleyebiliriz.
+2026-03-27 19:15:19 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l user_data
+2026-03-27 19:15:19 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:15:42 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd user_data
+GEREKCE: 'user_data' klasörüne geçerek, kullanıcı verilerini daha derinlemesine inceleyebiliriz.
+2026-03-27 19:15:42 | dervis_operator | INFO | Komut calistiriliyor | command=cd user_data
+2026-03-27 19:15:42 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:16:04 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: ls -l
+GEREKCE: 'user_data' klasöründeki dosyaları ve alt dizinleri listeleerek, hangi kullanıcı verilerinin olduğunu görebiliriz.
+2026-03-27 19:16:04 | dervis_operator | INFO | Komut calistiriliyor | command=ls -l
+2026-03-27 19:16:04 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:16:27 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: cd ..
+GEREKCE: Bir üst dizine dönerek, ana çalışma alanına dönmek için gerekli adımı atıyoruz.
+2026-03-27 19:16:27 | dervis_operator | INFO | Komut calistiriliyor | command=cd ..
+2026-03-27 19:16:27 | dervis_operator | INFO | SUCCESS: Komut tamamlandi | returncode=0
+2026-03-27 19:16:51 | dervis_operator | INFO | Model yaniti alindi | response=KOMUT: exit
+GEREKCE: Terminal oturumunu kapatmak için gerekli komutu kullanıyoruz.
+2026-03-27 19:16:51 | dervis_operator | INFO | SUCCESS: Model donguyu sonlandirmayi istedi
+2026-03-27 19:16:51 | dergah_orkestrator | INFO | SUCCESS: Orkestrasyon tamamlandi
+2026-03-28 06:10:42 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-28 18:45:36 | tescil_merasimi | INFO | Proje analizi basladi | project=emarecloud_ceyiz
+2026-03-28 18:45:50 | tescil_merasimi | WARNING | Model JSON disi cevap verdi; varsayilan kayit yaziliyor | project=emarecloud_ceyiz
+2026-03-28 18:45:50 | tescil_merasimi | INFO | SUCCESS: Proje analizi tamamlandi | project=emarecloud_ceyiz
+2026-03-28 18:45:50 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=1
+2026-03-28 18:46:03 | tescil_merasimi | INFO | Proje analizi basladi | project=emarecloud_ceyiz
+2026-03-28 18:46:06 | tescil_merasimi | INFO | SUCCESS: Proje analizi tamamlandi | project=emarecloud_ceyiz
+2026-03-28 18:46:06 | tescil_merasimi | INFO | SUCCESS: Dergah defteri guncellendi | path=/Users/emre/Dergah/data/dergah_defteri.json total=1
+2026-03-29 15:38:59 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:40:01 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:40:27 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:44:11 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:44:54 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:45:46 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:47:05 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:48:10 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:49:04 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:52:25 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:54:08 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:54:18 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:54:25 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 15:54:32 | dervis_core | INFO | URL getiriliyor | url=file:///Users/emre/Dergah/agents/workspaces/guvenlik-dev/TALIMATLAR.md
+2026-03-29 16:50:35 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 16:51:05 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 16:55:39 | dervis_core | INFO | URL getiriliyor | url=https://example.com
+2026-03-29 16:58:13 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:05:52 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:09:52 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:09:59 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:10:18 | dervis_core | INFO | URL getiriliyor | url=http://localhost:3000/
+2026-03-29 17:10:38 | dervis_core | INFO | URL getiriliyor | url=http://localhost:3000/styles.css
+2026-03-29 17:11:25 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:12:16 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:12:49 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:12:52 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:13:48 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:15:38 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 17:27:59 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 18:50:12 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:00:46 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:02:16 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:02:54 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:03:37 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:03:54 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cd /Users/emre/Dergah/agents/workspaces/test-dev/projects/emarecloud_ceyiz && npm test -- --coverage --runInBand
+2026-03-29 19:04:09 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cd /Users/emre/Dergah/agents/workspaces/test-dev/projects/emarecloud_ceyiz && npm test -- --coverage --runInBand
+2026-03-29 19:04:22 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cd /Users/emre/Dergah/projects/emarecloud_ceyiz && npm test -- --coverage --runInBand
+2026-03-29 19:05:43 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cd /Users/emre/Dergah/projects/emarecloud_ceyiz && npm test -- --coverage --runInBand
+2026-03-29 19:06:42 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:12:47 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:13:01 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:13:45 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:14:02 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:14:15 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:14:57 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:15:39 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:16:25 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:16:43 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:17:03 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:17:18 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:18:14 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:19:01 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:19:44 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:20:03 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:20:42 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:32:42 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:36:08 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:36:19 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:37:05 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:37:21 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 19:38:19 | dervis_core | INFO | URL getiriliyor | url=/Users/emre/Dergah/agents/workspaces/yonetici/TALIMATLAR.md
+2026-03-29 19:38:20 | dervis_core | WARNING | Playwright fetch basarisiz, requests fallback | detail=Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "/Users/emre/Dergah/agents/workspaces/yonetici/TALIMATLAR.md", waiting until "domcontentloaded"
+
+2026-03-29 20:21:31 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:27:14 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:27:37 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:28:45 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:29:18 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:29:50 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:30:08 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:30:41 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:30:59 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:31:12 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:31:50 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn /Users/emre/Dergah/projects/emarebuild/backend/main:app --port 8765
+2026-03-29 20:32:03 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:32:13 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:32:45 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:32:52 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:33:02 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:33:37 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:34:04 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:34:14 | dervis_core | INFO | URL getiriliyor | url=file:///Users/emre/Dergah/agents/workspaces/eb-backend/TALIMATLAR.md
+2026-03-29 20:34:23 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:34:39 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:34:51 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:35:09 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:35:45 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cd /Users/emre/Dergah/projects/emarebuild && python -m uvicorn main:app --port 8765
+2026-03-29 20:35:56 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:36:14 | dervis_core | INFO | Terminal komutu calistiriliyor | command=cd /Users/emre/Dergah/projects/emarebuild && /Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:36:28 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-29 20:36:34 | dervis_core | INFO | URL getiriliyor | url=file:///Users/emre/Dergah/agents/workspaces/eb-backend/TALIMATLAR.md
+2026-03-29 20:36:44 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:37:06 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:37:33 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:37:49 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn /Users/emre/Dergah/projects/emarebuild/main:app --port 8765
+2026-03-29 20:38:21 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:38:48 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn backend.main:app --port 8765
+2026-03-29 20:39:25 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn main:app --port 8765
+2026-03-29 20:39:59 | dervis_core | INFO | Terminal komutu calistiriliyor | command=/Users/emre/Dergah/.venv/bin/python -m uvicorn /Users/emre/Dergah/projects/emarebuild/main:app --port 8765
+2026-03-30 00:36:59 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-30 00:37:21 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-30 00:37:57 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-30 00:38:29 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-30 00:39:03 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-30 00:39:38 | dervis_core | INFO | Python kodu calistiriliyor
+2026-03-30 16:00:06 | dervis_imager | INFO | Goruntu uretim basladi | prompt=a beautiful mountain landscape at sunset, cinematic lighting, 4k boyut=1024x1024
+2026-03-30 16:00:06 | dervis_imager | INFO | Kuyruga eklendi | prompt_id=2a9c09dc-0d2f-4d42-866c-9a8b051b43ef
+2026-03-30 16:00:46 | dervis_imager | INFO | SUCCESS: Goruntu uretildi | dosya=/Users/emre/Dergah/data/goruntuler/dergah_20260330_160046_bd37d0.png sure_sn=40.3 boyut_kb=1635
+2026-03-30 16:04:26 | dervis_imager | INFO | Goruntu uretim basladi | prompt=a modern dark-themed agent management dashboard UI, futuristic control panel wit boyut=1024x1024
+2026-03-30 16:04:26 | dervis_imager | INFO | Kuyruga eklendi | prompt_id=d7ee7183-7afd-4000-bd63-c332b7195860
+2026-03-30 16:04:58 | dervis_imager | INFO | SUCCESS: Goruntu uretildi | dosya=/Users/emre/Dergah/data/goruntuler/dergah_20260330_160458_19bd8b.png sure_sn=32.5 boyut_kb=1360
+2026-03-30 16:12:45 | dervis_imager | INFO | Goruntu uretim basladi | prompt=a modern dark-themed agent management dashboard UI, futuristic control panel wit boyut=1024x1024
+2026-03-30 16:12:45 | dervis_imager | INFO | Kuyruga eklendi | prompt_id=e42d5fb0-4906-4bc1-b4cb-c620479f429b
+2026-03-30 16:13:27 | dervis_imager | INFO | SUCCESS: Goruntu uretildi | dosya=/Users/emre/Dergah/data/goruntuler/dergah_20260330_161327_34001b.png sure_sn=41.8 boyut_kb=3388

@@ -1,0 +1,230 @@
+{
+  "info": {
+    "_postman_id": "a8ea7f8b-4fbb-4d5d-b66f-1e3f4ff0f001",
+    "name": "Inteliex API v2 - Auth and Devices",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Login, refresh, logout and devices upsert flow for Inteliex API v2."
+  },
+  "item": [
+    {
+      "name": "Auth - Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"user\": \"{{login_user}}\",\n  \"password\": \"{{login_password}}\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v2/index.php?_path=auth/login",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "index.php"
+          ],
+          "query": [
+            {
+              "key": "_path",
+              "value": "auth/login"
+            }
+          ]
+        },
+        "description": "Gets access_token + refresh_token."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('Status is 200', function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "var json = pm.response.json();",
+              "var attrs = json && json.data && json.data.attributes ? json.data.attributes : null;",
+              "",
+              "pm.test('Login response has token fields', function () {",
+              "  pm.expect(attrs).to.exist;",
+              "  pm.expect(attrs.access_token).to.be.a('string');",
+              "  pm.expect(attrs.refresh_token).to.be.a('string');",
+              "});",
+              "",
+              "if (attrs) {",
+              "  pm.environment.set('access_token', attrs.access_token);",
+              "  pm.environment.set('refresh_token', attrs.refresh_token);",
+              "  pm.environment.set('token_type', attrs.token_type || 'Bearer');",
+              "  if (attrs.expires_at) pm.environment.set('access_token_expires_at', attrs.expires_at);",
+              "  if (attrs.expires_in) pm.environment.set('access_token_expires_in', String(attrs.expires_in));",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - Refresh",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"refresh_token\": \"{{refresh_token}}\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v2/index.php?_path=auth/refresh",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "index.php"
+          ],
+          "query": [
+            {
+              "key": "_path",
+              "value": "auth/refresh"
+            }
+          ]
+        },
+        "description": "Gets a new access + refresh token pair."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('Status is 200', function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "var json = pm.response.json();",
+              "var attrs = json && json.data && json.data.attributes ? json.data.attributes : null;",
+              "",
+              "pm.test('Refresh response has token fields', function () {",
+              "  pm.expect(attrs).to.exist;",
+              "  pm.expect(attrs.access_token).to.be.a('string');",
+              "  pm.expect(attrs.refresh_token).to.be.a('string');",
+              "});",
+              "",
+              "if (attrs) {",
+              "  pm.environment.set('access_token', attrs.access_token);",
+              "  pm.environment.set('refresh_token', attrs.refresh_token);",
+              "  pm.environment.set('token_type', attrs.token_type || 'Bearer');",
+              "  if (attrs.expires_at) pm.environment.set('access_token_expires_at', attrs.expires_at);",
+              "  if (attrs.expires_in) pm.environment.set('access_token_expires_in', String(attrs.expires_in));",
+              "}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Devices - Upsert",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{access_token}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"type\": \"devices\",\n    \"attributes\": {\n      \"fcm_token\": \"{{fcm_token}}\",\n      \"platform\": \"{{platform}}\",\n      \"app_version\": \"{{app_version}}\",\n      \"device_id\": \"{{device_id}}\"\n    }\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v2/index.php?_path=devices",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "index.php"
+          ],
+          "query": [
+            {
+              "key": "_path",
+              "value": "devices"
+            }
+          ]
+        },
+        "description": "Idempotent device upsert by user + token/device context."
+      }
+    },
+    {
+      "name": "Auth - Logout",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{access_token}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v2/index.php?_path=auth/logout",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "index.php"
+          ],
+          "query": [
+            {
+              "key": "_path",
+              "value": "auth/logout"
+            }
+          ]
+        },
+        "description": "Revokes current session."
+      }
+    }
+  ]
+}
