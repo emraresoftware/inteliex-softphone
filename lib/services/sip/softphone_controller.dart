@@ -1976,7 +1976,10 @@ class SoftphoneController extends ChangeNotifier
     final isOnePlus = manufacturer.toLowerCase().contains('oneplus');
     final username = isOnePlus ? '2000' : '2001';
     final password = '3673';
-    final domain = '31.169.72.85';
+    // Parametrik: sabit santral IP'si YOK. Domain, derleme-zamani
+    // INTELIEX_SIP_DOMAIN define'indan gelir (her santral kendi hostname/IP'sini
+    // verir). Boylece debug seed de tek bir kuruluma cakili kalmaz.
+    final domain = AppEnvironment.sipDomain;
     final signaling = '$domain:5060';
 
     debugPrint(
