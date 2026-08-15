@@ -1,5 +1,0 @@
-npm start ok
-npm run dev ok
-GET / ok
-GET /health ok
-GET /metrics ok

@@ -1,4 +1,0 @@
-sunucu-dev ci report ok
-test-dev coverage report ok
-coverage thresholds 80 altinda
-E4 kapanis ozeti hazir

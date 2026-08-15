@@ -1,5 +1,0 @@
-sunucu-dev bootstrap hardening report ok
-test-dev coverage phase1 report ok
-npm test -- --runInBand ok
-npm test -- --coverage --runInBand thresholds altinda
-E5 teslim ozeti hazir

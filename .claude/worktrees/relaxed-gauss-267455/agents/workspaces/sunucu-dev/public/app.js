@@ -1,1 +1,0 @@
-// TODO: Implement fallback/mesaj akisi for empty catalog
