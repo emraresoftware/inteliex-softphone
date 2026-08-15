@@ -18,3 +18,7 @@ build/
 .dart_tool/
 .idea/
 .vscode/
+
+# Claude Code worktree/agent artifacts
+.claude/
+

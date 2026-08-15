@@ -1,4 +1,0 @@
-sunucu-dev storage_observability_hardening report ok
-test-dev coverage_phase2_report ok
-npm test -- --runInBand ok
-E6 coverage faz-2 teslim ozeti hazir

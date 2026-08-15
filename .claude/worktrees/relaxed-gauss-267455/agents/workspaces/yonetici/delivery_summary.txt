@@ -1,3 +1,0 @@
-sunucu-dev smoke ok
-test-dev regression ok
-runner artifact guard ok

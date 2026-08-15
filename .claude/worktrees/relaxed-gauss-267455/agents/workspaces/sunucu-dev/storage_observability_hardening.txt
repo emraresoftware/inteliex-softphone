@@ -1,5 +1,0 @@
-fileAdapter dependency injection eklendi: fs ve itemClass disaridan verilebilir
-fileAdapter write akisi dizin yoksa mkdir ile hazirliyor
-requestLogStore class/factory export edildi, query/logger/fs/path enjekte edilebilir hale getirildi
-database service class/factory export edildi, query/getClient enjekte edilebilir hale getirildi
-npm test -- --runInBand ok

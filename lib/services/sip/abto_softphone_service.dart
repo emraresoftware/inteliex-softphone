@@ -10,17 +10,20 @@ import 'sip_device_profile_service.dart';
 import 'softphone_sip_service.dart';
 
 class AbtoSoftphoneService implements SoftphoneSipService {
+  // SES DATA ILETISIM HIZMETLERI LTD STI adina SATIN ALINMIS tam surum ABTO
+  // lisanslari (BlueSnap #143951093, 2022-01-31). Trial degerleri kaldirildi:
+  // trial surum cagriyi ~60sn'de kesiyordu. Lisanslar PLATFORMA OZEL.
+  // NOT: Build'de ABTO_LICENSE_ID / ABTO_LICENSE_KEY dart-define verilirse
+  // onlar oncelikli olur (asagidaki initialize'a bak).
   static const String _defaultTrialAndroidLicenseId =
-      '{Trial_Flutter_Android-DB6F-BAE6-AE3AB24E-A131-4594-A0C7-2E77FF67701E}';
+      '{Licensed_for_SES_DATA_ILETISIM_HIZMETLERI_LTD_STI_Android-BD09-0450-A4983296-6B30-5901-1979-FDA5A4ECD01E}';
   static const String _defaultTrialAndroidLicenseKey =
-      '{mKqEzp2Ls7kOGxS2Q5Y1kLC/NtGKzvLR9iWko42FieSHthfZXAchnUurKxaI0wsC5wdptO6/oxVIcOUS2tD/fA==}';
+      '{aL3ViH3Esv7GkpuVyfmA0twvTCI50Z91ovD34dboHoWYCanxcA1OFatM4tqGk8kDR6LG4JANstI5OWOqdrMxTw==}';
 
-  // ABTO deneme lisanslari platforma ozeldir; Android anahtari iOS'ta
-  // "Invalid key" hatasi verip SDK'nin kayit atmasini engelliyordu.
   static const String _defaultTrialIosLicenseId =
-      '{Trial_Flutter_iOS-DB6F-78E2-B977C719-E140-48AB-A099-47F2B6DF801E}';
+      '{Licensed_for_SES_DATA_ILETISIM_HIZMETLERI_LTD_STI_iOS-BD09-0440-B4983296-6B30-5901-1979-FDA5A4ECD01E}';
   static const String _defaultTrialIosLicenseKey =
-      '{vcrgvw+N09sgb4mrVyVGrFxSOdICZo2MKBpufQiG4GXZxSNcLmwK2U5Xb/WLQX/IP7gdYEGoT+EbbYNdV4PDMQ==}';
+      '{QjoKpRvsoSgimnevYF/9X4o5UtHCJWyaUJXn/uJW5jAZ2xCo2n9RblREuaHOnQHKw+eBpQn1kC1VHHYJaEWi3w==}';
 
   final Set<SoftphoneSipServiceListener> _listeners =
       <SoftphoneSipServiceListener>{};
