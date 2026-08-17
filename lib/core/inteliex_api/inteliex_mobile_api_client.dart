@@ -90,7 +90,19 @@ class InteliexMobileApiClient {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
       },
-      body: jsonEncode({'user': user, 'password': account.password}),
+      body: jsonEncode({
+        'user': user,
+        'password': account.password,
+        // Backend auth/login handler'i body'deki fcmtoken'i gorunce
+        // FCM cihaz anahtarini device_tokens tablosuna yazar (tek cagrida
+        // kayit). Ayrica asagidaki /devices cagrisi da tamamlayici kalir.
+        'fcmtoken': token,
+        'device_info': {
+          'platform': platform,
+          'device_id': deviceId,
+          'app_version': appVersion,
+        },
+      }),
     );
     if (loginResponse.statusCode < 200 || loginResponse.statusCode >= 300) {
       throw InteliexMobileApiException(
