@@ -48,6 +48,15 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <!-- QR ile kurulum (claim provisioning) deeplink'i:
+                 inteliexphone://provision?... URI'lerini bu aktiviteye yonlendirir.
+                 MAIN/LAUNCHER filtresinden ayri tutuldu; uygulama girisini bozmaz. -->
+            <intent-filter android:autoVerify="false">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="inteliexphone" android:host="provision"/>
+            </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../app/app_state_scope.dart';
 import '../../../core/models/sip_account.dart';
 import '../../../services/sip/softphone_controller.dart';
+import '../../provisioning/presentation/claim_provisioning_flow.dart';
 
 class AccountsPage extends StatelessWidget {
   const AccountsPage({super.key});
@@ -30,6 +31,15 @@ class AccountsPage extends StatelessWidget {
                   style: theme.textTheme.headlineMedium,
                 ),
               ),
+              OutlinedButton.icon(
+                onPressed: () => ClaimProvisioningFlow.startFromCamera(
+                  context,
+                  controller,
+                ),
+                icon: const Icon(Icons.qr_code_scanner_rounded),
+                label: const Text('QR ile Kur'),
+              ),
+              const SizedBox(width: 8),
               FilledButton.icon(
                 onPressed: () => _showAccountSheet(context, controller),
                 icon: const Icon(Icons.add_rounded),
@@ -822,6 +832,18 @@ class _OnboardingView extends StatelessWidget {
               ),
               const SizedBox(height: 24),
               _OnboardingCard(
+                icon: Icons.qr_code_scanner_rounded,
+                title: 'QR ile Kur',
+                description:
+                    'Panelde olusturulan kurulum QR kodunu okutun; SIP hesabiniz otomatik eklenir.',
+                onTap: () => ClaimProvisioningFlow.startFromCamera(
+                  context,
+                  controller,
+                ),
+                primary: true,
+              ),
+              const SizedBox(height: 12),
+              _OnboardingCard(
                 icon: Icons.verified_user_outlined,
                 title: 'Inteliex ile giriş',
                 description:
@@ -831,7 +853,6 @@ class _OnboardingView extends StatelessWidget {
                   controller,
                   initialMode: _AccountFormMode.inteliex,
                 ),
-                primary: true,
               ),
               const SizedBox(height: 12),
               _OnboardingCard(

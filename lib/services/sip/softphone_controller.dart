@@ -14,6 +14,7 @@ import '../../core/models/sip_account.dart';
 import '../../core/storage/softphone_persistence.dart';
 import '../../platform/voip/create_voip_platform_bridge.dart';
 import '../../platform/voip/voip_platform_bridge.dart';
+import '../provisioning/claim_provisioning.dart';
 import '../remote_diagnostics_service.dart';
 import 'abto_softphone_service.dart';
 import 'create_softphone_register_claim_service.dart';
@@ -438,6 +439,83 @@ class SoftphoneController extends ChangeNotifier
       unawaited(refreshContactDirectory());
     }
     return true;
+  }
+
+  /// QR / deeplink ile gelen [ClaimConfig]'ten SIP hesabi ekler.
+  ///
+  /// Mobil ABTO SDK WebSocket desteklemedigi icin transport HER ZAMAN UDP'dir.
+  /// Sinyalizasyon adresi olarak config'in proxy'si (host:port) veya
+  /// domain:sip_port kullanilir. addAccount sonrasi mevcut register + push
+  /// zinciri (_syncSipAccounts / _checkRegisterPrecondition) otomatik tetiklenir.
+  ///
+  /// Basarisizsa [ArgumentError] atar (cagiran katman kullaniciya gosterir).
+  Future<void> provisionFromClaim(ClaimConfig cfg) async {
+    if (!cfg.isValid) {
+      throw ArgumentError(
+        'Sunucudan gelen SIP bilgileri eksik (kullanici / sifre / domain).',
+      );
+    }
+
+    final signaling = cfg.signalingAddress;
+    if (signaling.isEmpty) {
+      throw ArgumentError(
+        'Baglanti adresi olusturulamadi (domain / proxy bos).',
+      );
+    }
+
+    final displayName = cfg.name.trim().isNotEmpty
+        ? cfg.name.trim()
+        : (cfg.user.trim().isNotEmpty ? cfg.user.trim() : cfg.ext.trim());
+
+    final username = cfg.user.trim().isNotEmpty ? cfg.user.trim() : cfg.ext.trim();
+    // ext ile user farkli ise auth user olarak user'i kullan; yoksa ext.
+    final authUser = username;
+
+    final added = await addAccount(
+      displayName: displayName,
+      username: username,
+      authorizationUser: authUser,
+      password: cfg.secret.trim(),
+      domain: cfg.domain.trim(),
+      signalingAddress: signaling,
+      transport: SipTransport.udp,
+      // UDP'de TLS yok; gecersiz sertifika izni anlamsizdir.
+      allowBadCertificate: false,
+      // proxy verildiyse addAccount signalingAddress zaten ayni; ekstra
+      // outbound proxy'yi de dolduralim ki UDP INVITE'lari proxy'ye gitsin.
+      outboundProxy: cfg.proxy.trim(),
+    );
+
+    if (!added) {
+      // addAccount statusLine'i zaten set etti; cagirana bir istisna dondur.
+      throw ArgumentError(
+        _statusLine.isNotEmpty
+            ? _statusLine
+            : 'Hesap eklenemedi. Bilgileri kontrol edin.',
+      );
+    }
+  }
+
+  /// Claim istegi icin cihaz adini uretir (device= parametresi).
+  /// Native uretici/model bilgisi varsa onu, yoksa sabit "mobil" doner.
+  Future<String> resolveProvisionDeviceName() async {
+    try {
+      const channel = MethodChannel('inteliex_softphone/foreground');
+      final manufacturer =
+          (await channel.invokeMethod<String>('getDeviceManufacturer'))?.trim();
+      if (manufacturer != null && manufacturer.isNotEmpty) {
+        return manufacturer;
+      }
+    } catch (_) {
+      // Native kanal yoksa ya da hata olursa sabit ada dus.
+    }
+    try {
+      final id = await _deviceIdentityService.getOrCreateDeviceId();
+      if (id.trim().isNotEmpty) {
+        return 'mobil-${id.trim()}';
+      }
+    } catch (_) {}
+    return 'mobil';
   }
 
   Future<bool> updateAccount({

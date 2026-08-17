@@ -20,6 +20,21 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
+	<!-- QR ile kurulum (claim provisioning) deeplink semasi:
+	     inteliexphone://provision?... URI'lerini uygulamaya yonlendirir. -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.sesdata.inteliex.provision</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>inteliexphone</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
