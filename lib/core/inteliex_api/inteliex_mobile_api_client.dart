@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
+import 'package:http/io_client.dart';
 
 import '../models/contact_entry.dart';
 import '../models/sip_account.dart';
@@ -64,6 +65,20 @@ class InteliexMobileApiClient {
   final http.Client _httpClient;
   final bool _ownsClient;
 
+  /// IP + self-signed sertifikali kurulumlar icin ayri istemci. API artik her
+  /// zaman HTTPS kullaniyor; hesapta "gecersiz sertifikaya izin ver" isaretliyse
+  /// dogrulama atlanir. Yalnizca ihtiyac duyulunca olusturulur.
+  http.Client? _insecureClient;
+
+  http.Client _clientFor(bool allowBadCertificate) {
+    if (!allowBadCertificate) {
+      return _httpClient;
+    }
+    return _insecureClient ??= IOClient(
+      HttpClient()..badCertificateCallback = (_, __, ___) => true,
+    );
+  }
+
   Future<InteliexDeviceRegistrationResult> registerPushDevice({
     required SipAccount account,
     required String fcmToken,
@@ -84,7 +99,8 @@ class InteliexMobileApiClient {
     final user = account.authorizationUser.trim().isNotEmpty
         ? account.authorizationUser.trim()
         : account.username.trim();
-    final loginResponse = await _httpClient.post(
+    final apiClient = _clientFor(account.allowBadCertificate);
+    final loginResponse = await apiClient.post(
       endpoint.replace(queryParameters: const {'_path': 'auth/login'}),
       headers: const {
         'Content-Type': 'application/json',
@@ -123,7 +139,7 @@ class InteliexMobileApiClient {
       );
     }
 
-    final deviceResponse = await _httpClient.post(
+    final deviceResponse = await apiClient.post(
       endpoint.replace(queryParameters: const {'_path': 'devices'}),
       headers: {
         'Content-Type': 'application/json',
@@ -173,19 +189,25 @@ class InteliexMobileApiClient {
       fcmToken: fcmToken,
     );
 
-    return fetchDirectory(endpoint: endpoint, auth: auth);
+    return fetchDirectory(
+      endpoint: endpoint,
+      auth: auth,
+      allowBadCertificate: account.allowBadCertificate,
+    );
   }
 
   Future<InteliexMobileApiDirectoryData> fetchDirectory({
     required Uri endpoint,
     required InteliexMobileApiAuth auth,
     int recordPerPage = inteliexMobileApiDefaultRecordPerPage,
+    bool allowBadCertificate = false,
   }) async {
     final results = await Future.wait([
       _fetchPaginated(
         endpoint: endpoint,
         auth: auth,
         recordPerPage: recordPerPage,
+        allowBadCertificate: allowBadCertificate,
         requestBuilder: ({required offset, required recordPerPage}) {
           return InteliexExtListRequest(
             offset: offset,
@@ -198,6 +220,7 @@ class InteliexMobileApiClient {
         endpoint: endpoint,
         auth: auth,
         recordPerPage: recordPerPage,
+        allowBadCertificate: allowBadCertificate,
         requestBuilder: ({required offset, required recordPerPage}) {
           return InteliexPhoneBookRequest(
             offset: offset,
@@ -210,6 +233,7 @@ class InteliexMobileApiClient {
         endpoint: endpoint,
         auth: auth,
         recordPerPage: recordPerPage,
+        allowBadCertificate: allowBadCertificate,
         requestBuilder: ({required offset, required recordPerPage}) {
           return InteliexPersonalPhoneBookRequest(
             offset: offset,
@@ -247,6 +271,8 @@ class InteliexMobileApiClient {
     if (_ownsClient) {
       _httpClient.close();
     }
+    _insecureClient?.close();
+    _insecureClient = null;
   }
 
   Future<List<TItem>> _fetchPaginated<
@@ -259,6 +285,7 @@ class InteliexMobileApiClient {
       required int recordPerPage,
     }) requestBuilder,
     required TResponse Function(Map<String, dynamic> json) parser,
+    bool allowBadCertificate = false,
   }) async {
     final firstPage = await _post(
       endpoint: endpoint,
@@ -267,6 +294,7 @@ class InteliexMobileApiClient {
         request: requestBuilder(offset: 0, recordPerPage: recordPerPage),
       ),
       parser: parser,
+      allowBadCertificate: allowBadCertificate,
     );
 
     final mergedResults = <TItem>[...firstPage.results];
@@ -283,6 +311,7 @@ class InteliexMobileApiClient {
           ),
         ),
         parser: parser,
+        allowBadCertificate: allowBadCertificate,
       );
       mergedResults.addAll(nextPage.results);
     }
@@ -295,8 +324,9 @@ class InteliexMobileApiClient {
     required InteliexMobileApiRequestEnvelope<InteliexMobileApiRequestData>
         body,
     required TResponse Function(Map<String, dynamic> json) parser,
+    bool allowBadCertificate = false,
   }) async {
-    final response = await _httpClient.post(
+    final response = await _clientFor(allowBadCertificate).post(
       endpoint,
       headers: const {'Content-Type': 'application/json'},
       body: jsonEncode(body.toJson()),
@@ -347,7 +377,40 @@ class InteliexMobileApiClient {
   }
 }
 
+/// Hesabin API taban adresi (QR/claim `api` alani). Bos ise null doner.
+Uri? inteliexApiBaseUriFromAccount(SipAccount account) {
+  final raw = account.apiBaseUrl.trim();
+  if (raw.isEmpty) {
+    return null;
+  }
+  final parsed = Uri.tryParse(raw.contains('://') ? raw : 'https://$raw');
+  if (parsed == null || parsed.host.trim().isEmpty) {
+    return null;
+  }
+  return parsed;
+}
+
+Uri _endpointOnBase(Uri base, String path, {Map<String, String>? query}) {
+  return Uri(
+    scheme: base.scheme.isEmpty ? 'https' : base.scheme,
+    host: base.host,
+    port: base.hasPort ? base.port : null,
+    path: path,
+    queryParameters: query,
+  );
+}
+
 Uri? inteliexMobileApiEndpointFromAccount(SipAccount account) {
+  // 1) QR/claim ile gelen API taban adresi her zaman onceliklidir.
+  final apiBase = inteliexApiBaseUriFromAccount(account);
+  if (apiBase != null) {
+    return _endpointOnBase(
+      apiBase,
+      '/asteradmin/inteliex-mobile-api.php',
+      query: const {'request_type': inteliexMobileApiRequestType},
+    );
+  }
+
   final websocketUrl = account.websocketUrl.trim();
   if (websocketUrl.isNotEmpty) {
     final parsedWebsocketUrl = Uri.tryParse(websocketUrl);
@@ -358,9 +421,12 @@ Uri? inteliexMobileApiEndpointFromAccount(SipAccount account) {
       }
 
       if (parsedWebsocketUrl.host.trim().isNotEmpty) {
-        final scheme = parsedWebsocketUrl.scheme == 'wss' ? 'https' : 'http';
+        // 2026-08-19: eskiden ws/udp icin 'http' uretiliyordu. Panel 80 portunda
+        // /asteradmin ve /api yollarini disariya kapatiyor (301 redirect veya
+        // localhost-only 403) -> POST govdesi kayboluyor, rehber ve FCM push
+        // kaydi sessizce basarisiz oluyordu. API her zaman HTTPS uzerinden.
         return _buildEndpoint(
-          scheme: scheme,
+          scheme: 'https',
           host: parsedWebsocketUrl.host,
         );
       }
@@ -374,9 +440,7 @@ Uri? inteliexMobileApiEndpointFromAccount(SipAccount account) {
 
   final parsedDomain = domain.contains('://')
       ? Uri.tryParse(domain)
-      : Uri.tryParse(
-          '${account.transport == SipTransport.wss ? 'https' : 'http'}://$domain',
-        );
+      : Uri.tryParse('https://$domain');
   if (parsedDomain == null) {
     return null;
   }
@@ -394,22 +458,27 @@ Uri? inteliexMobileApiEndpointFromAccount(SipAccount account) {
   }
 
   return _buildEndpoint(
-    scheme: parsedDomain.scheme == 'https' ? 'https' : 'http',
+    scheme: parsedDomain.scheme == 'http' ? 'http' : 'https',
     host: host,
   );
 }
 
 Uri? inteliexApiV2EndpointFromAccount(SipAccount account) {
+  final apiBase = inteliexApiBaseUriFromAccount(account);
+  if (apiBase != null) {
+    return _endpointOnBase(apiBase, '/api/v2/index.php');
+  }
+
   final legacyEndpoint = inteliexMobileApiEndpointFromAccount(account);
   if (legacyEndpoint == null) return null;
-  final host = legacyEndpoint.host;
-  final isIpAddress = InternetAddress.tryParse(host) != null;
+  // Panel HTTP'yi HTTPS'e 301 ile yonlendiriyor; POST govdesi bu yonlendirmede
+  // kayboldugu icin (ve 80 portunda /api disariya kapali oldugu icin) API v2'ye
+  // her zaman HTTPS ile gidilir. IP + self-signed kurulumlarda hesabin
+  // "gecersiz sertifikaya izin ver" secenegi devreye girer.
   return Uri(
-    // Sesdata gibi SIP'i UDP/5060 ile sunan kurulumlar web API'yi HTTP'den
-    // HTTPS'e 301 ile yonlendiriyor. POST govdesi bu yonlendirmede GET'e
-    // donusebildigi icin alan adlarinda API v2'ye dogrudan HTTPS ile git.
-    scheme: isIpAddress ? legacyEndpoint.scheme : 'https',
-    host: host,
+    scheme: 'https',
+    host: legacyEndpoint.host,
+    port: legacyEndpoint.hasPort ? legacyEndpoint.port : null,
     path: '/api/v2/index.php',
   );
 }

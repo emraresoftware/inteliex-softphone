@@ -48,8 +48,12 @@ class InteliexContactDirectoryProvider implements ContactDirectoryProvider {
         personalContacts: directory.personalContacts,
       );
     } on InteliexMobileApiException catch (error) {
+      // Sahada teshis icin HTTP kodu mesaja eklenir (401 = panel oturum kapisi,
+      // 403 = sunucu bu yolu disariya kapatmis, 301 = HTTP->HTTPS yonlendirmesi).
       throw ContactDirectoryException(
-        error.message,
+        error.statusCode == null
+            ? error.message
+            : '${error.message} (HTTP ${error.statusCode})',
         failure: _mapFailure(error.failure),
       );
     }

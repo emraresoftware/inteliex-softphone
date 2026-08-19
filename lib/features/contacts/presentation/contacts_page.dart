@@ -43,6 +43,7 @@ class _ContactsPageState extends State<ContactsPage>
       extensionContacts: controller.extensionContacts,
       sharedContacts: controller.sharedContacts,
       personalContacts: controller.personalContacts,
+      deviceContacts: controller.deviceContacts,
       filter: _selectedFilter,
       query: _searchQuery,
     );
@@ -125,6 +126,31 @@ class _ContactsPageState extends State<ContactsPage>
             ],
           ),
           const SizedBox(height: 8),
+          // Telefonun kendi rehberi: tamamen opsiyonel, kullanici acmadan izin
+          // istenmez. Kayitlar yalnizca uygulama icinde gosterilir.
+          SwitchListTile.adaptive(
+            contentPadding: EdgeInsets.zero,
+            dense: true,
+            value: controller.deviceContactsEnabled,
+            onChanged: controller.isLoadingDeviceContacts
+                ? null
+                : (value) async {
+                    await controller.setDeviceContactsEnabled(value);
+                  },
+            title: const Text('Telefon rehberini de goster'),
+            subtitle: Text(
+              controller.deviceContactsEnabled
+                  ? '${controller.deviceContacts.length} cihaz kaydi'
+                  : 'Cihazinizdaki kisiler icin izin istenir',
+            ),
+            secondary: controller.isLoadingDeviceContacts
+                ? const SizedBox(
+                    width: 18,
+                    height: 18,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                : const Icon(Icons.contact_phone_outlined),
+          ),
           Text(
             _buildResultsSummary(visibleContactCount),
             style: theme.textTheme.bodySmall,
@@ -132,7 +158,10 @@ class _ContactsPageState extends State<ContactsPage>
           const SizedBox(height: 8),
           Expanded(
             child: RefreshIndicator(
-              onRefresh: controller.refreshContactDirectory,
+              onRefresh: () async {
+                await controller.refreshContactDirectory();
+                await controller.refreshDeviceContacts();
+              },
               child: ListView(
                 physics: const AlwaysScrollableScrollPhysics(),
                 children: [

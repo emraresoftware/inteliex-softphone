@@ -29,6 +29,10 @@ class MainActivity : FlutterActivity() {
     private var incomingCallWakeLock: PowerManager.WakeLock? = null
     private var proximityWakeLock: PowerManager.WakeLock? = null
 
+    /// tel:/sip: intent'i ile gelen numara; Flutter tarafi hazir olunca
+    /// `consumePendingDialNumber` ile bir kez okunur.
+    private var pendingDialNumber: String? = null
+
     companion object {
         private const val REQUEST_SETUP_PERMISSIONS = 2100
         private const val REQUEST_MICROPHONE_PERMISSION = 2102
@@ -82,6 +86,26 @@ class MainActivity : FlutterActivity() {
         }
 
         intent?.let { handleAbtoCallIntent(it) }
+        intent?.let { handleDialIntent(it) }
+    }
+
+    /// Telefonun "bununla ara" secenegi / tel: baglantisi ile gelen numarayi
+    /// yakalar. Cagriyi baslatmaz; numara tuslama ekraninda hazir gelir.
+    private fun handleDialIntent(intent: Intent) {
+        val action = intent.action ?: return
+        if (action != Intent.ACTION_VIEW &&
+            action != Intent.ACTION_DIAL &&
+            action != Intent.ACTION_CALL
+        ) {
+            return
+        }
+        val data = intent.data ?: return
+        val scheme = data.scheme?.lowercase() ?: return
+        if (scheme != "tel" && scheme != "sip" && scheme != "sips") return
+        val raw = data.schemeSpecificPart ?: return
+        val number = Uri.decode(raw).substringBefore('@').trim()
+        if (number.isEmpty()) return
+        pendingDialNumber = number
     }
 
     override fun onDestroy() {
@@ -101,6 +125,7 @@ class MainActivity : FlutterActivity() {
         super.onNewIntent(intent)
         setIntent(intent)
         handleAbtoCallIntent(intent)
+        handleDialIntent(intent)
     }
 
     private fun handleAbtoCallIntent(intent: Intent) {
@@ -222,6 +247,23 @@ class MainActivity : FlutterActivity() {
                 "stop" -> {
                     SipForegroundService.stop(applicationContext)
                     result.success(true)
+                }
+                // 2026-08-19: gelen çağrıda telefon çalmıyordu — ABTO bildirim
+                // kanalı sessiz oluşturuluyor ve kanal sesi sonradan
+                // değiştirilemiyor. Zil sesini uygulama kendisi çalar.
+                "startRingtone" -> {
+                    IncomingCallRinger.start(applicationContext)
+                    result.success(true)
+                }
+                "stopRingtone" -> {
+                    IncomingCallRinger.stop()
+                    result.success(true)
+                }
+                // tel:/sip: intent'i ile gelen numara (bir kez okunur).
+                "consumePendingDialNumber" -> {
+                    val number = pendingDialNumber
+                    pendingDialNumber = null
+                    result.success(number)
                 }
                 "getFcmToken" -> {
                     val cached = PushTokenStore.getToken(applicationContext)

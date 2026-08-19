@@ -42,6 +42,26 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
       details: const <String, Object?>{'state': 'started'},
     ));
     unawaited(_reportPushDiagnostics());
+    // AppStateScope'a ilk frame'den once erisilmemeli.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      unawaited(_consumePendingDialNumber());
+    });
+  }
+
+  /// Telefonun "bununla ara" secenegi / tel: baglantisi ile uygulama acildiysa
+  /// numarayi tuslama ekranina getirir. Cagriyi kullanici baslatir.
+  Future<void> _consumePendingDialNumber() async {
+    if (kIsWeb || !Platform.isAndroid) return;
+    try {
+      const channel = MethodChannel('inteliex_softphone/foreground');
+      final number =
+          (await channel.invokeMethod<String>('consumePendingDialNumber'))
+              ?.trim();
+      if (number == null || number.isEmpty || !mounted) return;
+      AppStateScope.of(context).fillDialedNumber(number);
+    } catch (error) {
+      debugPrint('Gelen numara alinamadi: $error');
+    }
   }
 
   @override
@@ -53,6 +73,7 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
     if (state == AppLifecycleState.resumed) {
       unawaited(RemoteDiagnosticsService.instance.flush());
       unawaited(_reportPushDiagnostics());
+      unawaited(_consumePendingDialNumber());
     }
   }
 

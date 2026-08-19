@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import '../../core/directory/contact_directory_provider.dart';
+import '../../core/directory/device_contacts_service.dart';
 import '../../core/directory/inteliex_contact_directory_provider.dart';
 import '../../core/inteliex_api/inteliex_mobile_api_client.dart';
 import '../../core/models/active_call.dart';
@@ -20,6 +21,7 @@ import 'abto_softphone_service.dart';
 import 'create_softphone_register_claim_service.dart';
 import 'sip_device_identity_service.dart';
 import 'create_softphone_sip_service.dart';
+import 'incoming_call_ringtone.dart';
 import 'sip_foreground_service.dart';
 import 'sip_push_token_service.dart';
 import 'softphone_register_claim_service.dart';
@@ -106,6 +108,7 @@ class SoftphoneController extends ChangeNotifier
     unawaited(_initializeSipService());
     unawaited(_syncPlatformRegistration());
     unawaited(refreshContactDirectory());
+    unawaited(_restoreDeviceContacts());
   }
 
   static Future<SoftphoneController> bootstrap({
@@ -169,6 +172,11 @@ class SoftphoneController extends ChangeNotifier
   final List<ContactEntry> _extensionContacts = <ContactEntry>[];
   final List<ContactEntry> _sharedContacts = <ContactEntry>[];
   final List<ContactEntry> _personalContacts = <ContactEntry>[];
+  /// Telefonun kendi rehberi — kullanici acikca acarsa doldurulur.
+  final List<ContactEntry> _deviceContacts = <ContactEntry>[];
+  final DeviceContactsService _deviceContactsService = DeviceContactsService();
+  bool _deviceContactsEnabled = false;
+  bool _isLoadingDeviceContacts = false;
   final List<ContactEntry> _contacts;
   final List<CallLogEntry> _callLogs;
   final ContactDirectoryProvider _directoryProvider;
@@ -198,6 +206,9 @@ class SoftphoneController extends ChangeNotifier
   List<ContactEntry> get sharedContacts => List.unmodifiable(_sharedContacts);
   List<ContactEntry> get personalContacts =>
       List.unmodifiable(_personalContacts);
+  List<ContactEntry> get deviceContacts => List.unmodifiable(_deviceContacts);
+  bool get deviceContactsEnabled => _deviceContactsEnabled;
+  bool get isLoadingDeviceContacts => _isLoadingDeviceContacts;
   List<ContactEntry> get contacts => List.unmodifiable(_contacts);
   List<CallLogEntry> get callLogs => List.unmodifiable(_callLogs);
   ActiveCall? get activeCall => _activeCall;
@@ -294,6 +305,64 @@ class SoftphoneController extends ChangeNotifier
     notifyListeners();
   }
 
+  /// Uygulama acilirken kullanicinin onceki "telefon rehberi" tercihini uygular.
+  Future<void> _restoreDeviceContacts() async {
+    final enabled = await _deviceContactsService.isEnabled();
+    if (!enabled) {
+      return;
+    }
+    _deviceContactsEnabled = true;
+    notifyListeners();
+    await refreshDeviceContacts();
+  }
+
+  /// Telefonun kendi rehberini acar/kapatir. Acildiginda izin istenir;
+  /// kullanici reddederse secenek kapali kalir (uygulama akisi bozulmaz).
+  Future<bool> setDeviceContactsEnabled(bool enabled) async {
+    if (!enabled) {
+      _deviceContactsEnabled = false;
+      _deviceContacts.clear();
+      await _deviceContactsService.setEnabled(false);
+      notifyListeners();
+      return false;
+    }
+
+    final granted = await _deviceContactsService.requestPermission();
+    if (!granted) {
+      _deviceContactsEnabled = false;
+      await _deviceContactsService.setEnabled(false);
+      _statusLine = 'Telefon rehberi izni verilmedi.';
+      notifyListeners();
+      return false;
+    }
+
+    _deviceContactsEnabled = true;
+    await _deviceContactsService.setEnabled(true);
+    notifyListeners();
+    await refreshDeviceContacts();
+    return true;
+  }
+
+  Future<void> refreshDeviceContacts() async {
+    if (!_deviceContactsEnabled || _isLoadingDeviceContacts) {
+      return;
+    }
+    _isLoadingDeviceContacts = true;
+    notifyListeners();
+    try {
+      final entries = await _deviceContactsService.fetchContacts();
+      _deviceContacts
+        ..clear()
+        ..addAll(entries);
+      _statusLine = entries.isEmpty
+          ? 'Telefon rehberinde kayit bulunamadi.'
+          : '${entries.length} telefon rehberi kaydi yuklendi.';
+    } finally {
+      _isLoadingDeviceContacts = false;
+      notifyListeners();
+    }
+  }
+
   Future<void> refreshContactDirectory() async {
     final selected = selectedAccount;
     if (!_canLoadDirectory(selected)) {
@@ -339,8 +408,8 @@ class SoftphoneController extends ChangeNotifier
         directoryStatus:
             'Sunucu rehberi yuklenemedi. Ornek kayitlar gosteriliyor.',
       );
-      _statusLine = _directoryFailureMessage(error.failure);
-    } catch (_) {
+      _statusLine = '${_directoryFailureMessage(error.failure)} ${error.message}';
+    } catch (error) {
       if (!_isSameSelectedAccount(account.id)) {
         return;
       }
@@ -349,7 +418,7 @@ class SoftphoneController extends ChangeNotifier
         directoryStatus:
             'Sunucu rehberi yuklenemedi. Ornek kayitlar gosteriliyor.',
       );
-      _statusLine = 'Sunucu rehberine baglanilamadi.';
+      _statusLine = 'Sunucu rehberine baglanilamadi: $error';
     } finally {
       if (_isSameSelectedAccount(account.id)) {
         _isLoadingDirectory = false;
@@ -369,6 +438,7 @@ class SoftphoneController extends ChangeNotifier
     bool allowBadCertificate = false,
     String outboundProxy = '',
     String stunServer = '',
+    String apiBaseUrl = '',
     int registrationExpireSeconds = SipAccount.defaultRegistrationExpireSeconds,
   }) async {
     final trimmedDisplayName = displayName.trim();
@@ -422,6 +492,7 @@ class SoftphoneController extends ChangeNotifier
         isPrimary: shouldBePrimary,
         outboundProxy: trimmedOutboundProxy,
         stunServer: trimmedStunServer,
+        apiBaseUrl: apiBaseUrl.trim(),
         registrationExpireSeconds: normalizedExpire,
       ),
     );
@@ -484,6 +555,10 @@ class SoftphoneController extends ChangeNotifier
       // proxy verildiyse addAccount signalingAddress zaten ayni; ekstra
       // outbound proxy'yi de dolduralim ki UDP INVITE'lari proxy'ye gitsin.
       outboundProxy: cfg.proxy.trim(),
+      // 2026-08-19: santralin verdigi API taban adresi (https://<FQDN>) hesapta
+      // saklanir; rehber ve FCM push kaydi bu adrese gider. Bos ise domain'den
+      // https ile turetilir.
+      apiBaseUrl: cfg.api.trim(),
     );
 
     if (!added) {
@@ -530,6 +605,7 @@ class SoftphoneController extends ChangeNotifier
     bool allowBadCertificate = false,
     String outboundProxy = '',
     String stunServer = '',
+    String apiBaseUrl = '',
     int registrationExpireSeconds = SipAccount.defaultRegistrationExpireSeconds,
   }) async {
     final currentAccount = _findAccount(accountId);
@@ -591,6 +667,7 @@ class SoftphoneController extends ChangeNotifier
         allowBadCertificate: allowBadCertificate,
         outboundProxy: trimmedOutboundProxy,
         stunServer: trimmedStunServer,
+        apiBaseUrl: apiBaseUrl.trim(),
         registrationExpireSeconds: normalizedExpire,
       ),
     );
@@ -775,6 +852,8 @@ class SoftphoneController extends ChangeNotifier
   }
 
   void answerCall() {
+    // Kullanici cevapladi/reddetti: zil sesini hemen kes (event beklemeden).
+    unawaited(IncomingCallRingtone.stop());
     final call = _activeCall;
     if (call == null) {
       return;
@@ -801,6 +880,7 @@ class SoftphoneController extends ChangeNotifier
   }
 
   void declineCall() {
+    unawaited(IncomingCallRingtone.stop());
     if (_activeCall == null) {
       return;
     }
@@ -1080,12 +1160,14 @@ class SoftphoneController extends ChangeNotifier
     switch (update.type) {
       case SoftphoneCallEventType.incomingRinging:
       case SoftphoneCallEventType.outgoingRinging:
+        // Gelen cagrida zil sesi _beginServiceManagedCall icinde baslatilir.
         _beginServiceManagedCall(update);
         break;
       case SoftphoneCallEventType.progressing:
         _statusLine = '${update.remoteIdentity} caliyor...';
         break;
       case SoftphoneCallEventType.connected:
+        unawaited(IncomingCallRingtone.stop());
         _markServiceCallConnected(update);
         break;
       case SoftphoneCallEventType.mutedChanged:
@@ -1096,6 +1178,7 @@ class SoftphoneController extends ChangeNotifier
         break;
       case SoftphoneCallEventType.ended:
       case SoftphoneCallEventType.failed:
+        unawaited(IncomingCallRingtone.stop());
         _finishServiceCall(update);
         break;
     }
@@ -1690,6 +1773,9 @@ class SoftphoneController extends ChangeNotifier
 
     if (update.direction == SoftphoneCallDirection.incoming) {
       _statusLine = '${update.remoteIdentity} numarasindan gelen cagri var.';
+      // Zil sesini uygulama calar: ABTO bildirim kanali sessiz olusturuluyor
+      // ve Android 8+'da kanal sesi sonradan degistirilemiyor.
+      unawaited(IncomingCallRingtone.start());
       unawaited(
         _platformBridge.reportIncomingCall(
           callId: update.callId,

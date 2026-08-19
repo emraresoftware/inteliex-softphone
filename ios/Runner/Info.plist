@@ -41,6 +41,8 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSContactsUsageDescription</key>
+	<string>Telefon rehberinizdeki kisileri uygulama rehberinde gosterebilmek icin erisim gereklidir.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Sesli SIP aramalari yapabilmek icin mikrofon erisimi gereklidir.</string>
 	<key>NSCameraUsageDescription</key>

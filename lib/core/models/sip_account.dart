@@ -55,6 +55,7 @@ class SipAccount {
     this.isPrimary = false,
     this.outboundProxy = '',
     this.stunServer = '',
+    this.apiBaseUrl = '',
     this.registrationExpireSeconds = defaultRegistrationExpireSeconds,
   });
 
@@ -81,6 +82,12 @@ class SipAccount {
   /// Opsiyonel STUN sunucusu (örn. `stun:stun.l.google.com:19302`).
   final String stunServer;
 
+  /// Panel/REST API taban adresi (örn. `https://pbx.ornek.com`).
+  /// QR/claim provisioning'de santralden `api` alanı ile gelir. Boş ise
+  /// adres `domain` alanından türetilir (bkz. inteliex_mobile_api_client.dart).
+  /// Rehber (inteliex-mobile-api.php) ve FCM push kaydı (api/v2) bu adresi kullanır.
+  final String apiBaseUrl;
+
   /// REGISTER yenileme aralığı (saniye).
   final int registrationExpireSeconds;
 
@@ -101,6 +108,7 @@ class SipAccount {
       'isPrimary': isPrimary,
       'outboundProxy': outboundProxy,
       'stunServer': stunServer,
+      'apiBaseUrl': apiBaseUrl,
       'registrationExpireSeconds': registrationExpireSeconds,
     };
   }
@@ -141,6 +149,10 @@ class SipAccount {
       json,
       const ['stunServer', 'stun_server', 'stun'],
     );
+    final apiBaseUrl = _readLegacyString(
+      json,
+      const ['apiBaseUrl', 'api_base_url', 'apiUrl', 'api'],
+    );
     final rawExpire = json['registrationExpireSeconds'] ??
         json['registration_expire_seconds'] ??
         json['expireSeconds'] ??
@@ -164,6 +176,7 @@ class SipAccount {
       isPrimary: json['isPrimary'] == true,
       outboundProxy: outboundProxy,
       stunServer: stunServer,
+      apiBaseUrl: apiBaseUrl,
       registrationExpireSeconds: _clampExpireSeconds(expireSeconds),
     );
   }
@@ -182,6 +195,7 @@ class SipAccount {
     bool? isPrimary,
     String? outboundProxy,
     String? stunServer,
+    String? apiBaseUrl,
     int? registrationExpireSeconds,
   }) {
     return SipAccount(
@@ -198,6 +212,7 @@ class SipAccount {
       isPrimary: isPrimary ?? this.isPrimary,
       outboundProxy: outboundProxy ?? this.outboundProxy,
       stunServer: stunServer ?? this.stunServer,
+      apiBaseUrl: apiBaseUrl ?? this.apiBaseUrl,
       registrationExpireSeconds:
           registrationExpireSeconds ?? this.registrationExpireSeconds,
     );

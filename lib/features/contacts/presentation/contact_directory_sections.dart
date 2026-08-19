@@ -5,6 +5,7 @@ enum ContactDirectoryFilter {
   extensions,
   shared,
   personal,
+  device,
 }
 
 extension ContactDirectoryFilterLabel on ContactDirectoryFilter {
@@ -14,6 +15,7 @@ extension ContactDirectoryFilterLabel on ContactDirectoryFilter {
       ContactDirectoryFilter.extensions => 'Dahililer',
       ContactDirectoryFilter.shared => 'Genel Rehber',
       ContactDirectoryFilter.personal => 'Kisisel Rehber',
+      ContactDirectoryFilter.device => 'Telefon',
     };
   }
 }
@@ -33,6 +35,7 @@ List<ContactDirectorySection> buildContactDirectorySections({
   required List<ContactEntry> sharedContacts,
   required List<ContactEntry> personalContacts,
   required ContactDirectoryFilter filter,
+  List<ContactEntry> deviceContacts = const <ContactEntry>[],
   String query = '',
 }) {
   final normalizedQuery = query.trim().toLowerCase();
@@ -41,6 +44,10 @@ List<ContactDirectorySection> buildContactDirectorySections({
         _ContactSource('Dahililer', extensionContacts),
         _ContactSource('Genel Rehber', sharedContacts),
         _ContactSource('Kisisel Rehber', personalContacts),
+        _ContactSource('Telefon Rehberi', deviceContacts),
+      ],
+    ContactDirectoryFilter.device => <_ContactSource>[
+        _ContactSource('Telefon Rehberi', deviceContacts),
       ],
     ContactDirectoryFilter.extensions => <_ContactSource>[
         _ContactSource('Dahililer', extensionContacts),

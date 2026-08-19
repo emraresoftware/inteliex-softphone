@@ -48,6 +48,53 @@ void main() {
       );
     });
 
+    test('prefers the api base url provisioned by QR/claim', () {
+      const account = SipAccount(
+        id: 'account-1',
+        displayName: 'Mobil',
+        username: '2000',
+        authorizationUser: '2000',
+        password: 'secret',
+        domain: 'pbx.example.com',
+        websocketUrl: 'pbx.example.com:5062',
+        transport: SipTransport.udp,
+        apiBaseUrl: 'https://pbx.example.com',
+        registrationStatus: RegistrationStatus.disconnected,
+      );
+
+      expect(
+        inteliexMobileApiEndpointFromAccount(account),
+        Uri.parse(
+          'https://pbx.example.com/asteradmin/inteliex-mobile-api.php?request_type=$inteliexMobileApiRequestType',
+        ),
+      );
+      expect(
+        inteliexApiV2EndpointFromAccount(account),
+        Uri.parse('https://pbx.example.com/api/v2/index.php'),
+      );
+    });
+
+    test('uses https for udp accounts without an api base url', () {
+      const account = SipAccount(
+        id: 'account-1',
+        displayName: 'Mobil',
+        username: '2000',
+        authorizationUser: '2000',
+        password: 'secret',
+        domain: 'pbx.example.com',
+        websocketUrl: 'pbx.example.com:5062',
+        transport: SipTransport.udp,
+        registrationStatus: RegistrationStatus.disconnected,
+      );
+
+      expect(
+        inteliexMobileApiEndpointFromAccount(account),
+        Uri.parse(
+          'https://pbx.example.com/asteradmin/inteliex-mobile-api.php?request_type=$inteliexMobileApiRequestType',
+        ),
+      );
+    });
+
     test('keeps direct api path if account already contains it', () {
       const account = SipAccount(
         id: 'account-1',

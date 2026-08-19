@@ -307,6 +307,7 @@ class _AccountSheetState extends State<_AccountSheet> {
   late final TextEditingController _signalingAddressController;
   late final TextEditingController _outboundProxyController;
   late final TextEditingController _stunServerController;
+  late final TextEditingController _apiBaseUrlController;
   late final TextEditingController _expireSecondsController;
   late final TextEditingController _inteliexServerController;
 
@@ -366,12 +367,16 @@ class _AccountSheetState extends State<_AccountSheet> {
     _stunServerController = TextEditingController(
       text: initialAccount?.stunServer ?? '',
     );
+    _apiBaseUrlController = TextEditingController(
+      text: initialAccount?.apiBaseUrl ?? '',
+    );
     _expireSecondsController = TextEditingController(
       text: (initialAccount?.registrationExpireSeconds ??
               SipAccount.defaultRegistrationExpireSeconds)
           .toString(),
     );
-    _isAdvancedExpanded = (initialAccount?.outboundProxy.isNotEmpty ?? false) ||
+    _isAdvancedExpanded = (initialAccount?.apiBaseUrl.isNotEmpty ?? false) ||
+        (initialAccount?.outboundProxy.isNotEmpty ?? false) ||
         (initialAccount?.stunServer.isNotEmpty ?? false) ||
         (initialAccount != null &&
             initialAccount.registrationExpireSeconds !=
@@ -394,6 +399,7 @@ class _AccountSheetState extends State<_AccountSheet> {
     _signalingAddressController.dispose();
     _outboundProxyController.dispose();
     _stunServerController.dispose();
+    _apiBaseUrlController.dispose();
     _expireSecondsController.dispose();
     _inteliexServerController.dispose();
     super.dispose();
@@ -634,6 +640,18 @@ class _AccountSheetState extends State<_AccountSheet> {
             ),
             const SizedBox(height: 12),
             TextField(
+              controller: _apiBaseUrlController,
+              keyboardType: TextInputType.url,
+              decoration: const InputDecoration(
+                labelText: 'API adresi (rehber / bildirim)',
+                hintText: 'https://pbx.ornek.com',
+                helperText:
+                    'Bos birakilirsa domain uzerinden https ile denenir. '
+                    'QR ile kurulan hesaplarda santral otomatik doldurur.',
+              ),
+            ),
+            const SizedBox(height: 12),
+            TextField(
               controller: _expireSecondsController,
               keyboardType: TextInputType.number,
               decoration: InputDecoration(
@@ -689,6 +707,7 @@ class _AccountSheetState extends State<_AccountSheet> {
               _transport == SipTransport.wss && _allowBadCertificate,
           outboundProxy: _outboundProxyController.text,
           stunServer: _stunServerController.text,
+          apiBaseUrl: _apiBaseUrlController.text,
           registrationExpireSeconds: expireSeconds,
         );
       } else {
@@ -704,6 +723,7 @@ class _AccountSheetState extends State<_AccountSheet> {
               _transport == SipTransport.wss && _allowBadCertificate,
           outboundProxy: _outboundProxyController.text,
           stunServer: _stunServerController.text,
+          apiBaseUrl: _apiBaseUrlController.text,
           registrationExpireSeconds: expireSeconds,
         );
       }
